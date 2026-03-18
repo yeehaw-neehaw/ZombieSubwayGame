@@ -1,3 +1,15 @@
+/****************************************************************************
+* File Name: PlayerMovement.c
+* Author: Michael Chiodo
+* DigiPen Email: michael.chiodo@digipen.edu
+* Course: Game Projects
+*
+* Description: A basic script for shooting bullets from the players location
+* towards the mouse. Gets the player transform as location for instantiating
+* then gets the mouse position and calculates the proper rotation from that.
+*
+****************************************************************************/
+
 using UnityEngine;
 
 public class PlayerFire : MonoBehaviour

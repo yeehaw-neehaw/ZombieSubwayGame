@@ -1,3 +1,14 @@
+/****************************************************************************
+* File Name: PlayerMovement.c
+* Author: Michael Chiodo
+* DigiPen Email: michael.chiodo@digipen.edu
+* Course: Game Projects
+*
+* Description: A basic script for controlling player movement using directional
+* input. Does not currently account for vector movement.
+*
+****************************************************************************/
+
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
