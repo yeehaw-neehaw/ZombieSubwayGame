@@ -18,7 +18,7 @@ public class PlayerFire : MonoBehaviour
     void Update()
     {
         mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
-        direction = mousePos - transform.position;
+        direction = mousePos - firePoint.position;
         rotation = transform.position - mousePos;
         if (Input.GetButtonDown("Fire1"))
         {
