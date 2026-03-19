@@ -4,7 +4,7 @@
 * DigiPen Email: michael.chiodo@digipen.edu
 * Course: Game Projects
 *
-* Description: A basic script for controlling player movement using directional
+* Description: Controlling player movement using directional
 * input. Does not currently account for vector movement.
 *
 ****************************************************************************/
@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         MyRb = GetComponent<Rigidbody2D>();
+        //Stops the object being moved from spinning all over the place
         MyRb.freezeRotation = true;
     }
 
@@ -31,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        //Conducts the actual movement of the gameObject
         MyRb.MovePosition(MyRb.position + MovementInput * MoveSpeed * Time.fixedDeltaTime);
     }
 }
