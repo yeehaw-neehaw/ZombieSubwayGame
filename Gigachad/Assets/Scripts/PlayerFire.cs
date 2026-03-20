@@ -5,9 +5,7 @@
 * Course: Game Projects
 *
 * Description: Shoots bullets from the players location
-* towards the mouse. Gets the player transform as location 
-* for instantiating then gets the mouse position and calculates
-* the proper rotation from that.
+* towards the mouse.
 *
 ****************************************************************************/
 
@@ -17,39 +15,32 @@ public class PlayerFire : MonoBehaviour
 {
     //Defining vars
     public GameObject bulletPrefab;
-    //The transform from which bullets will be firing
-    public Transform firePoint;
     public float bulletSpeed = .1f;
-    private Camera mainCam;
-    //Vectors for calculating fire direction
-    private Vector3 mousePos;
-    private Vector3 direction;
-    private Vector3 rotation;
+    public float cooldown = 0.3f;
+    private float timer = 0;
 
-    void Start()
-    {
-        mainCam = Camera.main;
-    }
-
+    // Update is called once per frame
     void Update()
     {
-        //Finding the mouse position based on the camera
-        mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
-        //direction is where the bullet has to go, rotation is what point around the firing transform that the projectile should come from
-        direction = mousePos - firePoint.position;
-        rotation = transform.position - mousePos;
-        if (Input.GetButtonDown("Fire1"))
+        if (timer < cooldown)
         {
-            //Calling a function to fire
-            Fire();
+            timer += Time.deltaTime;
+        }
+        else if (Input.GetMouseButton(0))
+        {
+            //calculate direction and fire
+            Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            mousePos.z = 0;
+            Fire((mousePos - transform.position).normalized);
+            timer = 0;
         }
     }
 
-    void Fire()
+    void Fire(Vector3 direction)
     {
-        //Instantiates the bullet, gets its rb, and sets velocity
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.Euler(rotation.x, rotation.y, 0));
-        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        rb.linearVelocity = new Vector2(direction.x, direction.y) * bulletSpeed;
+        //create a clone of the prefab and set values
+        Vector3 spawnPos = transform.position + direction;
+        GameObject bullet = Instantiate(bulletPrefab, spawnPos, Quaternion.LookRotation(Vector3.forward, direction));
+        bullet.GetComponent<Rigidbody2D>().linearVelocity = direction * bulletSpeed;
     }
 }
