@@ -10,17 +10,13 @@
 
 using UnityEngine;
 
-public class CameraFollpw : MonoBehaviour
+public class CameraFollow : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public Transform playerPos;
 
     // Update is called once per frame
     void Update()
     {
-        
+        transform.position = new Vector3(playerPos.position.x, playerPos.position.y, -5);
     }
 }
