@@ -324,6 +324,7 @@ GameObject:
   - component: {fileID: 832012470}
   - component: {fileID: 832012469}
   - component: {fileID: 832012472}
+  - component: {fileID: 832012473}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -449,6 +450,20 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!114 &832012473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832012468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11c1c6b5e06a2124689acfb537d2a7f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TicketPrefab: {fileID: 9200789215188688333, guid: 7f146ff94d36c1441a3530f19410fa1a, type: 3}
+  TimerMax: 5
 --- !u!1 &1263069889
 GameObject:
   m_ObjectHideFlags: 0
@@ -955,6 +970,10 @@ PrefabInstance:
     - target: {fileID: 5604905270729558800, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
       propertyPath: m_Name
       value: Player-Placeholder
+      objectReference: {fileID: 0}
+    - target: {fileID: 5604905270729558800, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7620836234728062645, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
       propertyPath: m_LocalPosition.x
