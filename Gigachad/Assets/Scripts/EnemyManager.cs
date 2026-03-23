@@ -18,6 +18,8 @@ public class EnemyFollow : MonoBehaviour
     private Vector3 direction;
     private Rigidbody2D myRb;
     public float followSpeed = 0.5f;
+    public float enemyHealth = 4f;
+    public float playerDamage = 2f;
 
     // Update is called once per frame
     void Update()
@@ -31,7 +33,11 @@ public class EnemyFollow : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Projectile")) // when enemy collides with bullet
         {
-            Destroy(gameObject); // enemy disappears
+            enemyHealth -= playerDamage; // enemy health goes down
+            if (enemyHealth <= 0)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }
