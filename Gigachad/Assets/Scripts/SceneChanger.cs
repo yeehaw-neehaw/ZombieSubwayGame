@@ -12,7 +12,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
-    public void StartGame(string sceneName) // applies to the start button in the intro menu
+    public void ChangeScene(string sceneName) // applies to the start button in the intro menu
     {
         SceneManager.LoadScene(sceneName);
     }

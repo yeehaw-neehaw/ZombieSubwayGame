@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro Graphic.unity
     guid: 5ca0dc000477d884b81a5520282432b3
   - enabled: 1
-    path: Assets/Scenes/PlayerTwiddling.unity
+    path: Assets/Scenes/Twiddling.unity
     guid: 7a35f85b6cd1b364a8615b449ebdd57f
   - enabled: 1
     path: Assets/Scenes/EnemyTwiddling.unity
