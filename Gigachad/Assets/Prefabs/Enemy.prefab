@@ -50,6 +50,8 @@ MonoBehaviour:
   playerPos: {fileID: 7620836234728062645, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
   selfPos: {fileID: 352729547915455042}
   followSpeed: 0.5
+  enemyHealth: 4
+  playerDamage: 2
 --- !u!212 &365732580253870198
 SpriteRenderer:
   m_ObjectHideFlags: 0
