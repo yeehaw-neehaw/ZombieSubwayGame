@@ -17,8 +17,8 @@ public class EnemySpawning : MonoBehaviour
     private float countdown = 1f;
     private int randomInt;
     public GameObject enemyPrefab;
-    public float levelTimer = 50f;
-    public float levelCountdown = 0f;
+    public static float levelTimer = 50f;
+    public static float levelCountdown = 0f;
     // Update is called once per frame
     void Update()
     {
