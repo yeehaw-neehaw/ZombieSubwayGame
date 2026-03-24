@@ -18,13 +18,10 @@ public class PlayerFire : MonoBehaviour
     public float bulletSpeed = .1f;
     public float cooldown = 0.3f;
     private float timer = 0;
-    public int spreadMod = 5;
-    public int spreadAmount;
 
     // Update is called once per frame
     void Update()
     {
-        spreadAmount = Random.Range(-spreadMod, spreadMod);
         if (timer < cooldown)
         {
             timer += Time.deltaTime;
@@ -34,7 +31,7 @@ public class PlayerFire : MonoBehaviour
             //calculate direction and fire
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             mousePos.z = 0;
-            Fire((mousePos - new Vector3(transform.position.x - spreadAmount, transform.position.y, 0)).normalized);
+            Fire((mousePos - new Vector3(transform.position.x, transform.position.y, 0)).normalized);
             timer = 0;
         }
     }

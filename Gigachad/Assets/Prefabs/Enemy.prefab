@@ -47,7 +47,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9edebb48d3ff3c7449f9478073e75964, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPos: {fileID: 7620836234728062645, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
   selfPos: {fileID: 352729547915455042}
   followSpeed: 0.5
   enemyHealth: 4

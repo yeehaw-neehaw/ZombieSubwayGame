@@ -13,8 +13,7 @@ using UnityEngine;
 
 public class EnemyFollow : MonoBehaviour
 {
-    public Transform playerPos;
-    public Transform selfPos;
+    public static Transform playerPos;
     private Vector3 direction;
     private Rigidbody2D myRb;
     public float followSpeed = 0.5f;
@@ -24,8 +23,13 @@ public class EnemyFollow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (playerPos == null)
+        {
+            playerPos = GameObject.FindAnyObjectByType<PlayerMovement>().gameObject.transform;
+        }
+
         myRb = gameObject.GetComponent<Rigidbody2D>();
-        direction = playerPos.position - selfPos.position;
+        direction = playerPos.position - transform.position;
         myRb.linearVelocity = direction * followSpeed;
     }
 
