@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealthBar : MonoBehaviour
 {
@@ -30,7 +31,9 @@ public class PlayerHealthBar : MonoBehaviour
         }
         if (currentHealth <= 0)
         {
-            Time.timeScale = 0;
+            // Time.timeScale = 0;
+            SceneManager.LoadScene("Game Over");
+
         }
     }
     void OnCollisionEnter2D(Collision2D collision)
