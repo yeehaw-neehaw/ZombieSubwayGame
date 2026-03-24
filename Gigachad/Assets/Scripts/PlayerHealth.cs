@@ -16,15 +16,10 @@ public class PlayerHealthBar : MonoBehaviour
         healthBar.maxValue = maxHealth;
         healthBar.value = currentHealth;
     }
-    void OnCollisionEnter2D(Collision2D collision)
+
+    void Update()
     {
-        if (collision.gameObject.CompareTag("Enemy") && !iFrames)
-        {
-            currentHealth -= 0.1f;
-            healthBar.value = currentHealth;
-            iFrames = true;
-        }
-        else if (iFrames && timer < healthCooldown)
+        if (iFrames && timer < healthCooldown)
         {
             timer += Time.deltaTime;
         }
@@ -32,6 +27,19 @@ public class PlayerHealthBar : MonoBehaviour
         {
             timer = 0;
             iFrames = false;
+        }
+        if (currentHealth <= 0)
+        {
+            Time.timeScale = 0;
+        }
+    }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy") && !iFrames)
+        {
+            currentHealth -= 0.1f;
+            healthBar.value = currentHealth;
+            iFrames = true;
         }
     }
 }
