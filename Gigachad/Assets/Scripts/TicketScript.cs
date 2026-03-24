@@ -19,6 +19,8 @@ public class TicketScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Player")) // collides with player
         {
             Destroy(Ticket); // ticket disappears
+            TicketSpawner.TicketSpawned = false;
+            TicketSpawner.TicketsCollected += 1;
         }
     }
 
