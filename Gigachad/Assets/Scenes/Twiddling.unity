@@ -899,6 +899,10 @@ PrefabInstance:
       propertyPath: firePoint
       value: 
       objectReference: {fileID: 2128689773}
+    - target: {fileID: -3742872688841138357, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
+      propertyPath: levelTimer
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 5604905270729558800, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
       propertyPath: m_Name
       value: Player-Placeholder
