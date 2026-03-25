@@ -1,3 +1,14 @@
+/****************************************************************************
+* File Name: PlayerHealth.c
+* Author: Michael Chiodo
+* DigiPen Email: michael.chiodo@digipen.edu
+* Course: Game Projects
+*
+* Description: Controls a slider, that being the health bar of the player.
+* Decreases on contact with enemies, and when it reaches 0, go to game over scene.
+*
+****************************************************************************/
+
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
