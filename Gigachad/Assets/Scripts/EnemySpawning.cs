@@ -28,7 +28,7 @@ public class EnemySpawning : MonoBehaviour
     void Update()
     {
         levelCountdown += Time.deltaTime;
-        randomInt = Random.Range(-12, 12);
+        randomInt = Random.Range(-10, 10);
         if (countdown >= timer && levelCountdown < levelTimer)
         {
             //Instantiates a new enemy at a set y coordinate

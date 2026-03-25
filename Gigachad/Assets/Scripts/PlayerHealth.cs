@@ -32,7 +32,7 @@ public class PlayerHealthBar : MonoBehaviour
         if (currentHealth <= 0)
         {
             // Time.timeScale = 0;
-            SceneManager.LoadScene("Game Over");
+            SceneManager.LoadScene("Game Over"); // Game over screen loaded upon 0 health
 
         }
     }
