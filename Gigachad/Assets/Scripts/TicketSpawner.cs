@@ -14,8 +14,8 @@ public class TicketSpawner : MonoBehaviour
 {
     public GameObject TicketPrefab;
     public static bool TicketSpawned = false;
-    private float TimerMax = 3f; // TIMERMAX seconds elapse before a ticket will spawn
-    private float TimerCounter = 0f; // the actual timer
+    private float CooldownMax = 3f; // TIMERMAX seconds elapse before a ticket will spawn
+    private float SpawnCooldown = 0f; // the actual timer
     public static int TicketsCollected = 0;
     public int TicketsNeeded = 5;
     public int TicketsCreated = 0;
@@ -23,13 +23,16 @@ public class TicketSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ((TimerCounter < TimerMax) && !TicketSpawned) // if the timer has not yet reached TIMERMAX seconds
+        if ((SpawnCooldown < CooldownMax) && !TicketSpawned) // if the timer has not yet reached TIMERMAX seconds
         {
-            TimerCounter += Time.deltaTime; // update timer
+            SpawnCooldown += Time.deltaTime; // update timer
         }
-        else if (!TicketSpawned && (TimerCounter >= TimerMax) && TicketsCreated < TicketsNeeded) // if the timer has reached TIMERMAX and a ticket does not already exist
+        else if (!TicketSpawned && (SpawnCooldown >= CooldownMax) 
+            && TicketsCreated < TicketsNeeded
+            && !EnemySpawning.NoMoreTickets) 
+            // if a ticket does not already exist + cooldown done + 
         {
-            TimerCounter = 0; // reset timer
+            SpawnCooldown = 0; // reset timer
             switch (UnityEngine.Random.Range(1, 9)) // randomly pick 1-8, instantiate a ticket in one of 8 spots
             {
                 case 1:

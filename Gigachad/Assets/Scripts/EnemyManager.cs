@@ -11,7 +11,7 @@
 
 using UnityEngine;
 
-public class EnemyFollow : MonoBehaviour
+public class EnemyManager : MonoBehaviour
 {
     public static Transform playerPos;
     private Vector3 direction;

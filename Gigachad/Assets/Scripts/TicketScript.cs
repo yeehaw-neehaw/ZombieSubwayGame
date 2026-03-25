@@ -4,15 +4,14 @@
 * DigiPen Email: neha.sankarkumar@digipen.edu
 * Course: Video Game Programming (Game Projects)
 *
-* Description: This code switches scenes upon a button being clicked. 
+* Description: This script manages individual tickets. Manages collection, 
+* despawning after a timer (in EnemySpawning.cs), picking them up, etc
 ****************************************************************************/
 using UnityEngine;
 
 public class TicketScript : MonoBehaviour
 {
     public GameObject Ticket;
-    private float TimerMax = 20f; // TIMERMAX seconds elapse before a ticket will spawn
-    private float TimerCounter = 0f; // the actual timer
 
     void OnCollisionEnter2D(Collision2D collision) // when the ticket collides
     {
@@ -26,17 +25,9 @@ public class TicketScript : MonoBehaviour
 
     void Update()
     {
-        if (EnemySpawning.levelCountdown >= EnemySpawning.levelTimer)
+        if (EnemySpawning.NoMoreTickets)
         {
-            if (TimerCounter < TimerMax) // if the timer has not yet reached TIMERMAX seconds
-            {
-                TimerCounter += Time.deltaTime; // update timer
-            }
-            else
-            {
-                Destroy(Ticket);
-            }
+            Destroy(Ticket);
         }
-
     }
 }
