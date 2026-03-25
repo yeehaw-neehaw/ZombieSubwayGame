@@ -32,6 +32,7 @@ public class PlayerFire : MonoBehaviour
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             mousePos.z = 0;
             Fire((mousePos - new Vector3(transform.position.x, transform.position.y, 0)).normalized);
+            // AudioManager.PlaySound("gunShoot");
             timer = 0;
         }
     }
