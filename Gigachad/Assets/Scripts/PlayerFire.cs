@@ -15,14 +15,27 @@ public class PlayerFire : MonoBehaviour
 {
     //Defining vars
     public GameObject bulletPrefab;
+    private int maxbullets = 14;
+    private int currentbullets = 14;
     public float bulletSpeed = .1f;
     public float cooldown = 0.3f;
     private float timer = 0;
+    public float relodTime = 2.5f;
+    private float reloadElapsedTime = 0;
 
     // Update is called once per frame
     void Update()
     {
-        if (timer < cooldown)
+        if(currentbullets <= 0)
+        {
+            reloadElapsedTime += Time.deltaTime;
+            if (reloadElapsedTime >= relodTime)
+            {
+                currentbullets = maxbullets;
+                reloadElapsedTime = 0;
+            }
+        }
+        else if (timer < cooldown)
         {
             timer += Time.deltaTime;
         }
@@ -34,6 +47,7 @@ public class PlayerFire : MonoBehaviour
             Fire((mousePos - new Vector3(transform.position.x, transform.position.y, 0)).normalized);
             // AudioManager.PlaySound("gunShoot");
             timer = 0;
+            currentbullets--;
         }
     }
 
