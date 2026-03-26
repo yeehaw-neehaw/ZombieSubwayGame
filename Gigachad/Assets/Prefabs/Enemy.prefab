@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 365732580253870198}
   - component: {fileID: 4410290495822272712}
   - component: {fileID: 5221563675017030431}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -47,7 +47,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9edebb48d3ff3c7449f9478073e75964, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selfPos: {fileID: 352729547915455042}
   followSpeed: 0.5
   enemyHealth: 4
   playerDamage: 2
