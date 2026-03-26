@@ -19,6 +19,7 @@ public class EnemyManager : MonoBehaviour
     public float followSpeed = 0.5f;
     public float enemyHealth = 4f;
     public float playerDamage = 2f;
+    public GameObject walletPrefab;
 
     // Update is called once per frame
     void Update()
@@ -40,6 +41,16 @@ public class EnemyManager : MonoBehaviour
             enemyHealth -= playerDamage; // enemy health goes down
             if (enemyHealth <= 0)
             {
+                if ((UnityEngine.Random.Range(1,9) == 4) || (WalletManager.WalletPity >= 10)) // 1/8 chance OR if pity reached
+                {
+                    Instantiate(walletPrefab, gameObject.transform.position, Quaternion.identity); // spawn wallet
+                    WalletManager.WalletPity = 0; // reset pity
+                }
+                else // if no wallet spawned,
+                {
+                    WalletManager.WalletPity += 1; // increase pity
+                }
+                
                 Destroy(gameObject);
             }
         }
