@@ -1,17 +1,27 @@
+/****************************************************************************
+* File Name: ProjectileDeleter.c
+* Author: Michael Chiodo
+* DigiPen Email: michael.chiodo@digipen.edu
+* Course: Game Projects
+*
+* Description: Decrements the ricochet power of a bullet every time it hits certain things.
+*
+****************************************************************************/
+
 using UnityEngine;
 
 public class ProjectileDeleter : MonoBehaviour
 {
-    public int piercePower = 1;
+    public int ricochetPower = 1;
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Wall") || collision.gameObject.CompareTag("Player"))
         {
-            if (piercePower <= 0)
+            if (ricochetPower <= 0)
             {
                 Destroy(gameObject);
             }
-            piercePower -= 1;
+            ricochetPower -= 1;
         }
     }
 }
