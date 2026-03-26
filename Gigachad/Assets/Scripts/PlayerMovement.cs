@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D MyRb;
     private Vector2 MovementInput;
-    public float MoveSpeed = 5f;
+    private float MoveSpeed = PlayerStats.PlayerMovementSpeed;
 
     void Start()
     {

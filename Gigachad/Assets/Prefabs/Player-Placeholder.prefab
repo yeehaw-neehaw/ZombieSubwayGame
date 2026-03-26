@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 423182125475506940}
   - component: {fileID: 3789548384239843073}
   - component: {fileID: 7460263969328762942}
+  - component: {fileID: 5077612496905213656}
   m_Layer: 6
   m_Name: Player-Placeholder
   m_TagString: Player
@@ -86,7 +87,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054ede35aa57e924eb0b48a39bbc31c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 5
 --- !u!114 &-6543718195929317761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102,6 +102,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8150901988116664889, guid: 977c8306fc3c7da48a07eebeb53e1e4a, type: 3}
   bulletSpeed: 10
   cooldown: 0.3
+  relodTime: 2.5
 --- !u!212 &4600614398391169739
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -327,5 +328,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bc73dc39d2a9d6443ac4a2a84bb1b1bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5077612496905213656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5604905270729558800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54f5f25f8c0c369489987859ff00f764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

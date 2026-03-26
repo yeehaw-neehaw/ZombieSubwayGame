@@ -3,17 +3,8 @@ using UnityEngine;
 public class PlayerStats : MonoBehaviour
 {
     public static int PlayerCash = 0;
-
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public static float ReloadSpeed = 2.5f;
+    public static float PlayerMovementSpeed = 5f;
+    public static float ShootingSpeed = .1f;
+    public static float BulletDamage = 2f;
 }

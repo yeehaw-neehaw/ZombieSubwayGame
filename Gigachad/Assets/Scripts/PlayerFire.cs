@@ -17,10 +17,10 @@ public class PlayerFire : MonoBehaviour
     public GameObject bulletPrefab;
     private int maxbullets = 14;
     private int currentbullets = 14;
-    public float bulletSpeed = .1f;
+    public float bulletSpeed = PlayerStats.ShootingSpeed;
     public float cooldown = 0.3f;
     private float timer = 0;
-    public float relodTime = 2.5f;
+    public float reloadTime = PlayerStats.ReloadSpeed;
     private float reloadElapsedTime = 0;
 
     // Update is called once per frame
@@ -29,7 +29,7 @@ public class PlayerFire : MonoBehaviour
         if(currentbullets <= 0)
         {
             reloadElapsedTime += Time.deltaTime;
-            if (reloadElapsedTime >= relodTime)
+            if (reloadElapsedTime >= reloadTime)
             {
                 currentbullets = maxbullets;
                 reloadElapsedTime = 0;
