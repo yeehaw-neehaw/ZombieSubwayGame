@@ -12,7 +12,7 @@ using UnityEngine;
 
 public class ProjectileDeleter : MonoBehaviour
 {
-    public int ricochetPower = 1;
+    public int ricochetPower = PlayerStats.RicochetLevel;
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Wall") || collision.gameObject.CompareTag("Player"))

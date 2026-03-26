@@ -7,4 +7,5 @@ public class PlayerStats : MonoBehaviour
     public static float PlayerMovementSpeed = 5f;
     public static float ShootingSpeed = .1f;
     public static float BulletDamage = 2f;
+    public static int RicochetLevel = 1;
 }
