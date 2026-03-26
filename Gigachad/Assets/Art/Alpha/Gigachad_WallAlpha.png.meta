@@ -116,10 +116,10 @@ TextureImporter:
       name: Gigachad_WallAlpha_0
       rect:
         serializedVersion: 2
-        x: 63
-        y: 1743
-        width: 209
-        height: 169
+        x: 61
+        y: 1700
+        width: 210
+        height: 210
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,10 +138,10 @@ TextureImporter:
       name: Gigachad_WallAlpha_2
       rect:
         serializedVersion: 2
-        x: 63
-        y: 1493
-        width: 209
-        height: 250
+        x: 62
+        y: 1456
+        width: 210
+        height: 210
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,9 +161,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 63
-        y: 1243
+        y: 1244
         width: 210
-        height: 250
+        height: 210
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: Gigachad_WallAlpha_8
       rect:
         serializedVersion: 2
-        x: 64
-        y: 745
-        width: 208
-        height: 250
+        x: 61
+        y: 785
+        width: 210
+        height: 210
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,10 +226,10 @@ TextureImporter:
       name: Gigachad_WallAlpha_10
       rect:
         serializedVersion: 2
-        x: 62
-        y: 497
+        x: 59
+        y: 574
         width: 210
-        height: 248
+        height: 210
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
