@@ -87,7 +87,6 @@ public class PassengerClicked : MonoBehaviour
     }
     void OnXClick()
     {
-        Debug.Log("You clicked the X");
         Upgrader.gameObject.SetActive(false);
         Text1.gameObject.SetActive(false);
         Background1.gameObject.SetActive(false);
