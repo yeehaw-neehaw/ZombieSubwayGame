@@ -20,6 +20,16 @@ public class TicketSpawner : MonoBehaviour
     public int TicketsNeeded = 5;
     public int TicketsCreated = 0;
 
+    [Header("Spawn Spots")]
+    [SerializeField] private Transform spawn1;
+    [SerializeField] private Transform spawn2;
+    [SerializeField] private Transform spawn3;
+    [SerializeField] private Transform spawn4;
+    [SerializeField] private Transform spawn5;
+    [SerializeField] private Transform spawn6;
+    [SerializeField] private Transform spawn7;
+    [SerializeField] private Transform spawn8;
+
     // Update is called once per frame
     void Update()
     {
@@ -36,28 +46,28 @@ public class TicketSpawner : MonoBehaviour
             switch (UnityEngine.Random.Range(1, 9)) // randomly pick 1-8, instantiate a ticket in one of 8 spots
             {
                 case 1:
-                    Instantiate(TicketPrefab, new Vector3(9, 3, 0), Quaternion.identity);
+                    Instantiate(TicketPrefab,spawn1.position, Quaternion.identity);
                     break;
                 case 2:
-                    Instantiate(TicketPrefab, new Vector3(4, 3, 0), Quaternion.identity);
+                    Instantiate(TicketPrefab, spawn2.position, Quaternion.identity);
                     break;
                 case 3:
-                    Instantiate(TicketPrefab, new Vector3(-4, 3, 0), Quaternion.identity);
+                    Instantiate(TicketPrefab, spawn3.position, Quaternion.identity);
                     break;
                 case 4:
-                    Instantiate(TicketPrefab, new Vector3(-9, 3, 0), Quaternion.identity);
+                    Instantiate(TicketPrefab, spawn4.position, Quaternion.identity);
                     break;
                 case 5:
-                    Instantiate(TicketPrefab, new Vector3(-9, -3, 0), Quaternion.identity);
+                    Instantiate(TicketPrefab, spawn5.position, Quaternion.identity);
                     break;
                 case 6:
-                    Instantiate(TicketPrefab, new Vector3(-4, -3, 0), Quaternion.identity);
+                    Instantiate(TicketPrefab, spawn6.position, Quaternion.identity);
                     break;
                 case 7:
-                    Instantiate(TicketPrefab, new Vector3(4, -3, 0), Quaternion.identity);
+                    Instantiate(TicketPrefab, spawn7.position, Quaternion.identity);
                     break;
                 case 8:
-                    Instantiate(TicketPrefab, new Vector3(4, -3, 0), Quaternion.identity);
+                    Instantiate(TicketPrefab, spawn8.position, Quaternion.identity);
                     break;
             }
             TicketsCreated += 1;
