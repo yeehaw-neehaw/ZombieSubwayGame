@@ -17,7 +17,7 @@ public class TicketSpawner : MonoBehaviour
     private float CooldownMax = 3f; // TIMERMAX seconds elapse before a ticket will spawn
     private float SpawnCooldown = 0f; // the actual timer
     public static int TicketsCollected = 0;
-    public int TicketsNeeded = 5;
+    public static int TicketsNeeded = 6;
     public int TicketsCreated = 0;
 
     [Header("Spawn Spots")]
@@ -40,7 +40,7 @@ public class TicketSpawner : MonoBehaviour
         else if (!TicketSpawned && (SpawnCooldown >= CooldownMax) 
             && TicketsCreated < TicketsNeeded
             && !EnemySpawning.NoMoreTickets) 
-            // if a ticket does not already exist + cooldown done + 
+            // if a ticket does not already exist + cooldown done + player still needs tickets + round isnt terminated
         {
             SpawnCooldown = 0; // reset timer
             switch (UnityEngine.Random.Range(1, 9)) // randomly pick 1-8, instantiate a ticket in one of 8 spots
