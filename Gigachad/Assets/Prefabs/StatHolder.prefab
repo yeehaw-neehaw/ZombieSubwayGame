@@ -44,3 +44,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54f5f25f8c0c369489987859ff00f764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CashCounter: {fileID: 797288090661511480, guid: 865f1a8a72038c14fa6c1eaf27582b8e, type: 3}
