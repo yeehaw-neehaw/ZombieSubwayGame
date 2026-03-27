@@ -5,7 +5,7 @@ public class PassengerClicked : MonoBehaviour
 {
     public GameObject Text1, Background1, Broke1;
     public Button Upgrader, xOut;
-    private static bool clicked = false;
+    public static bool clicked = false;
     void Start()
     {
         Upgrader.gameObject.SetActive(false);
@@ -81,6 +81,7 @@ public class PassengerClicked : MonoBehaviour
         {
             increment/decrement one of the upgrade variables
         }*/
+        Debug.Log("You currently have money: " + PlayerStats.PlayerCash);
         if (PlayerStats.PlayerCash < 5)
         {
             Broke1.gameObject.SetActive(true);
@@ -89,6 +90,7 @@ public class PassengerClicked : MonoBehaviour
         {
             PlayerStats.BulletDamage += 1;
             PlayerStats.PlayerCash -= 5;
+            Debug.Log("Current Damage: " + PlayerStats.BulletDamage);
         }
         if (gameObject.name == "Passenger2" && PlayerStats.PlayerCash > 5)
         {

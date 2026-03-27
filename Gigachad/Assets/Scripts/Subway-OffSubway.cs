@@ -10,7 +10,7 @@ public class SubwayOffSubway : MonoBehaviour
         {
             SceneManager.LoadScene("On Subway");
         }
-        if (gameObject.name == "ToStation")
+        if (gameObject.name == "ToStation" && !PassengerClicked.clicked)
         {
             SceneManager.LoadScene("Level Designer Type Level 1");
         }
