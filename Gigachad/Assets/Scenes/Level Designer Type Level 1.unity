@@ -9779,15 +9779,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1755029862296537036, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -147.5
+      value: -148.9
       objectReference: {fileID: 0}
     - target: {fileID: 1755029862296537036, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -10
+      value: -10.7
       objectReference: {fileID: 0}
     - target: {fileID: 2861967186934996840, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
       propertyPath: m_Name
       value: HealthBarCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109901214502807080, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6931162
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109901214502807080, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109901214502807080, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8413374312843074405, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
       propertyPath: m_AnchorMax.x
@@ -9796,6 +9808,14 @@ PrefabInstance:
     - target: {fileID: 8413374312843074405, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413374312843074405, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -6.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413374312843074405, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -5.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
