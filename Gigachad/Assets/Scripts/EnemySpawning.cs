@@ -28,11 +28,11 @@ public class EnemySpawning : MonoBehaviour
     void Update()
     {
         levelCountdown += Time.deltaTime;
-        randomInt = Random.Range(-10, 10);
+        randomInt = Random.Range(-16, 17);
         if (countdown >= timer && levelCountdown < levelTimer)
         {
             //Instantiates a new enemy at a set y coordinate
-            GameObject enemy = Instantiate(enemyPrefab, new Vector3(randomInt, -5, 0), Quaternion.Euler(0, 0, 0));
+            GameObject enemy = Instantiate(enemyPrefab, new Vector3(randomInt, -4, 0), Quaternion.Euler(0, 0, 0));
             countdown = 0f;
         }
         else if (countdown < timer)
