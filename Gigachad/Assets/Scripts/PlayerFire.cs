@@ -22,6 +22,7 @@ public class PlayerFire : MonoBehaviour
     private float timer = 0;
     public float reloadTime = PlayerStats.ReloadSpeed;
     private float reloadElapsedTime = 0;
+    public AudioSource shootingSound;
 
     // Update is called once per frame
     void Update()
@@ -41,6 +42,7 @@ public class PlayerFire : MonoBehaviour
         }
         else if (Input.GetMouseButton(0))
         {
+            shootingSound.Play();
             //calculate direction and fire
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             mousePos.z = 0;
