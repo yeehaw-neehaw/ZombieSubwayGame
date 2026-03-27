@@ -24,6 +24,12 @@ public class EnemySpawning : MonoBehaviour
     private float TicketTimerMax = 20f; // TIMERMAX seconds elapse before a ticket will spawn
     private float TicketTimerCounter = 0f; // the actual timer for TicketTimerMax
     public static bool NoMoreTickets = false;
+    public GameObject winText;
+
+    void Start()
+    {
+        winText.gameObject.SetActive(false);
+    }
     // Update is called once per frame
     void Update()
     {
@@ -49,6 +55,8 @@ public class EnemySpawning : MonoBehaviour
             else
             {
                 NoMoreTickets = true;
+                Debug.Log("winText should be active");
+                winText.gameObject.SetActive(true);
             }
         }
     }
