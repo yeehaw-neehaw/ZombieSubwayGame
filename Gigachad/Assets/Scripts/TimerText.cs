@@ -29,7 +29,7 @@ public class TimerText : MonoBehaviour
             ticketCountdown -= Time.deltaTime;
             roundedCountdown = Mathf.RoundToInt(ticketCountdown);
             VisualCountdown.color = Color.red;
-            VisualCountdown.text = "F1ND THEM F4ST1!! " + roundedCountdown.ToString();
+            VisualCountdown.text = "F1ND THEM F4ST!! " + roundedCountdown.ToString();
         }
         
     }
