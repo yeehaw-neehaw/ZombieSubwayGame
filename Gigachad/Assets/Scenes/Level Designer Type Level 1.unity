@@ -721,6 +721,10 @@ PrefabInstance:
       propertyPath: maxHealth
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -6543718195929317761, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
+      propertyPath: ammoVisual
+      value: 
+      objectReference: {fileID: 1665545813}
     - target: {fileID: -3742872688841138357, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
       propertyPath: winText
       value: 
@@ -15306,6 +15310,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1665545813 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2538782636604876372, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+  m_PrefabInstance: {fileID: 4346756020518179533}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1718238028
 GameObject:
   m_ObjectHideFlags: 0
@@ -17523,6 +17538,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HealthBarCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 1581233222141347362, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_Name
+      value: Find Tickets
+      objectReference: {fileID: 0}
     - target: {fileID: 4176124896457453118, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -17602,6 +17621,14 @@ PrefabInstance:
     - target: {fileID: 4176124896457453118, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4385117326058392145, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_Name
+      value: OBJECTIVES
+      objectReference: {fileID: 0}
+    - target: {fileID: 4600063097500257392, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_Name
+      value: Cash
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
