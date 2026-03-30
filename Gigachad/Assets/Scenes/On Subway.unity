@@ -3972,6 +3972,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3980498933188894140, guid: 2a0a247fe22b7d14ea6436381ee87e5c, type: 3}
+      propertyPath: gameObjects.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3980498933188894140, guid: 2a0a247fe22b7d14ea6436381ee87e5c, type: 3}
+      propertyPath: 'gameObjects.Array.data[0]'
+      value: 
+      objectReference: {fileID: 303275079}
+    - target: {fileID: 3980498933188894140, guid: 2a0a247fe22b7d14ea6436381ee87e5c, type: 3}
+      propertyPath: 'gameObjects.Array.data[1]'
+      value: 
+      objectReference: {fileID: 602518665}
+    - target: {fileID: 3980498933188894140, guid: 2a0a247fe22b7d14ea6436381ee87e5c, type: 3}
+      propertyPath: 'gameObjects.Array.data[2]'
+      value: 
+      objectReference: {fileID: 547293630}
+    - target: {fileID: 3980498933188894140, guid: 2a0a247fe22b7d14ea6436381ee87e5c, type: 3}
+      propertyPath: 'gameObjects.Array.data[3]'
+      value: 
+      objectReference: {fileID: 1670954967}
+    - target: {fileID: 3980498933188894140, guid: 2a0a247fe22b7d14ea6436381ee87e5c, type: 3}
+      propertyPath: 'gameObjects.Array.data[4]'
+      value: 
+      objectReference: {fileID: 1706535572}
+    - target: {fileID: 3980498933188894140, guid: 2a0a247fe22b7d14ea6436381ee87e5c, type: 3}
+      propertyPath: 'gameObjects.Array.data[5]'
+      value: 
+      objectReference: {fileID: 303275079}
+    - target: {fileID: 3980498933188894140, guid: 2a0a247fe22b7d14ea6436381ee87e5c, type: 3}
+      propertyPath: 'gameObjects.Array.data[6]'
+      value: 
+      objectReference: {fileID: 303275079}
+    - target: {fileID: 3980498933188894140, guid: 2a0a247fe22b7d14ea6436381ee87e5c, type: 3}
+      propertyPath: 'gameObjects.Array.data[7]'
+      value: 
+      objectReference: {fileID: 303275079}
     - target: {fileID: 8545783971256116244, guid: 2a0a247fe22b7d14ea6436381ee87e5c, type: 3}
       propertyPath: m_Name
       value: ToStation

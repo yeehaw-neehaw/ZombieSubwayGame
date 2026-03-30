@@ -19,7 +19,7 @@ public class TicketScript : MonoBehaviour
         {
             Destroy(Ticket); // ticket disappears
             TicketSpawner.TicketSpawned = false;
-            TicketSpawner.TicketsCollected += 1;
+            PlayerStats.TicketsCollected += 1;
         }
     }
 

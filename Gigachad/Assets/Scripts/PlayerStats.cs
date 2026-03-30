@@ -10,6 +10,8 @@ public class PlayerStats : MonoBehaviour
     public static float ShootingSpeed = .1f;
     public static float BulletDamage = 2f;
     public static int RicochetLevel = 1;
+    public static int TicketsCollected = 0;
+    public static int PassengerCount = 5;
 
     private void Awake()
     {

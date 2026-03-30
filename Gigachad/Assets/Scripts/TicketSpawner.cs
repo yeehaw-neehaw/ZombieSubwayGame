@@ -17,7 +17,7 @@ public class TicketSpawner : MonoBehaviour
     public static bool TicketSpawned = false;
     private float CooldownMax = 3f; // TIMERMAX seconds elapse before a ticket will spawn
     private float SpawnCooldown = 0f; // the actual timer
-    public static int TicketsCollected = 0;
+    public static int TicketsCollected = PlayerStats.TicketsCollected;
     public static int TicketsNeeded = 6;
     public int TicketsCreated = 0;
     public GameObject winText;
@@ -40,6 +40,7 @@ public class TicketSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        TicketsCollected = PlayerStats.TicketsCollected;
         if ((SpawnCooldown < CooldownMax) && !TicketSpawned) // if the timer has not yet reached TIMERMAX seconds
         {
             SpawnCooldown += Time.deltaTime; // update timer
