@@ -9,6 +9,7 @@
 *
 ****************************************************************************/
 
+using TMPro;
 using UnityEngine;
 
 public class PlayerFire : MonoBehaviour
@@ -23,11 +24,14 @@ public class PlayerFire : MonoBehaviour
     public float reloadTime = PlayerStats.ReloadSpeed;
     private float reloadElapsedTime = 0;
     public AudioSource shootingSound;
+    public TMP_Text ammoVisual;
 
     // Update is called once per frame
     void Update()
     {
-        if(currentbullets <= 0)
+        ammoVisual.text = currentbullets.ToString() + "/" + maxbullets.ToString();
+
+        if (currentbullets <= 0)
         {
             reloadElapsedTime += Time.deltaTime;
             if (reloadElapsedTime >= reloadTime)
