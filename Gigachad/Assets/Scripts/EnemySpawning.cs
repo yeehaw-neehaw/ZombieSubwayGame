@@ -21,7 +21,7 @@ public class EnemySpawning : MonoBehaviour
     public GameObject enemyPrefab;
     public float levelTimer = 50f;
     public float levelCountdown = 0f;
-    private float TicketTimerMax = 20f; // TIMERMAX seconds elapse before a ticket will spawn
+    private float TicketTimerMax = 30f; // TIMERMAX seconds elapse before a ticket will spawn
     private float TicketTimerCounter = 0f; // the actual timer for TicketTimerMax
     public static bool NoMoreTickets = false;
 
