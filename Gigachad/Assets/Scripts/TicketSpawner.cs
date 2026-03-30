@@ -8,6 +8,7 @@
 * in one of eight set locations.
 ****************************************************************************/
 using System;
+using UnityEditor.Rendering.LookDev;
 using UnityEngine;
 
 public class TicketSpawner : MonoBehaviour
@@ -19,6 +20,7 @@ public class TicketSpawner : MonoBehaviour
     public static int TicketsCollected = 0;
     public static int TicketsNeeded = 6;
     public int TicketsCreated = 0;
+    public GameObject winText;
 
     [Header("Spawn Spots")]
     [SerializeField] private Transform spawn1;
@@ -29,6 +31,11 @@ public class TicketSpawner : MonoBehaviour
     [SerializeField] private Transform spawn6;
     [SerializeField] private Transform spawn7;
     [SerializeField] private Transform spawn8;
+
+    void Start()
+    {
+        winText.gameObject.SetActive(false);
+    }
 
     // Update is called once per frame
     void Update()
@@ -74,8 +81,10 @@ public class TicketSpawner : MonoBehaviour
 
             TicketSpawned = true; // the current ticket HAS spawned -- prevents infinite cloning
         }
-        
-        
+        if (TicketsCollected >= TicketsNeeded)
+        {
+            winText.gameObject.SetActive(true);
+        }
     }
 
     void SpawnTicket()
