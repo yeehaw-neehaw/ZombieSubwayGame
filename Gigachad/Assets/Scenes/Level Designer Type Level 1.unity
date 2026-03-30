@@ -219,7 +219,7 @@ GameObject:
   - component: {fileID: 95099505}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -410,7 +410,7 @@ GameObject:
   - component: {fileID: 158544198}
   m_Layer: 0
   m_Name: Gigachad_TrainAssestAlpha_0 (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -543,7 +543,7 @@ GameObject:
   - component: {fileID: 218967993}
   m_Layer: 0
   m_Name: Gigachad_SideBarrierAsset_Trans_0 (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -716,11 +716,15 @@ PrefabInstance:
     - target: {fileID: -6798345304761649743, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
       propertyPath: healthBar
       value: 
-      objectReference: {fileID: 1378244214}
+      objectReference: {fileID: 2222653868790390498}
     - target: {fileID: -6798345304761649743, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
       propertyPath: maxHealth
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -3742872688841138357, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
+      propertyPath: winText
+      value: 
+      objectReference: {fileID: 1618005968}
     - target: {fileID: -3742872688841138357, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -862,7 +866,7 @@ GameObject:
   - component: {fileID: 289814713}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (13)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1026,7 +1030,7 @@ GameObject:
   - component: {fileID: 308143385}
   m_Layer: 0
   m_Name: Gigachad_SideBarrierAsset_Trans_0 (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1114,7 +1118,7 @@ GameObject:
   - component: {fileID: 312094451}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (28)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1248,7 +1252,7 @@ GameObject:
   - component: {fileID: 379862129}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1381,7 +1385,7 @@ GameObject:
   - component: {fileID: 404997373}
   m_Layer: 0
   m_Name: Gigachad_SideBarrierAsset_Trans_0 (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1469,7 +1473,7 @@ GameObject:
   - component: {fileID: 479274982}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (20)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1689,7 +1693,7 @@ GameObject:
   - component: {fileID: 505711619}
   m_Layer: 0
   m_Name: Gigachad_SideBarrierAsset_Trans_0 (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1777,7 +1781,7 @@ GameObject:
   - component: {fileID: 532009500}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (6)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1998,7 +2002,7 @@ GameObject:
   - component: {fileID: 545919759}
   m_Layer: 0
   m_Name: Gigachad_TrainAssestAlpha_0 (5)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2283,7 +2287,7 @@ GameObject:
   - component: {fileID: 608911924}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (26)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2503,7 +2507,7 @@ GameObject:
   - component: {fileID: 681781393}
   m_Layer: 0
   m_Name: Gigachad_SideBarrierAsset_Trans_0 (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2591,7 +2595,7 @@ GameObject:
   - component: {fileID: 692901235}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (29)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2755,7 +2759,7 @@ GameObject:
   - component: {fileID: 739819510}
   m_Layer: 0
   m_Name: Gigachad_SideBarrierAsset_Trans_0 (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2843,7 +2847,7 @@ GameObject:
   - component: {fileID: 754915404}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (15)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2977,7 +2981,7 @@ GameObject:
   - component: {fileID: 769675921}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (34)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3110,7 +3114,7 @@ GameObject:
   - component: {fileID: 779299133}
   m_Layer: 0
   m_Name: Gigachad_SideBarrierAsset_Trans_0 (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3198,7 +3202,7 @@ GameObject:
   - component: {fileID: 784199151}
   m_Layer: 0
   m_Name: Gigachad_TrainAssestAlpha_0 (6)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3419,7 +3423,7 @@ GameObject:
   - component: {fileID: 828834012}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (12)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3758,7 +3762,7 @@ GameObject:
   - component: {fileID: 878610860}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (31)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3923,7 +3927,7 @@ GameObject:
   - component: {fileID: 923277906}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (19)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4088,7 +4092,7 @@ GameObject:
   - component: {fileID: 945316022}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (33)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4222,7 +4226,7 @@ GameObject:
   - component: {fileID: 969189011}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (23)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4355,7 +4359,7 @@ GameObject:
   - component: {fileID: 973142840}
   m_Layer: 0
   m_Name: Gigachad_SideBarrierAsset_Trans_0 (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4442,7 +4446,7 @@ GameObject:
   - component: {fileID: 977764923}
   m_Layer: 0
   m_Name: Gigachad_SideBarrierAsset_Trans_0 (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4529,7 +4533,7 @@ GameObject:
   - component: {fileID: 1021018564}
   m_Layer: 0
   m_Name: Gigachad_SideBarrierAsset_Trans_0 (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4617,7 +4621,7 @@ GameObject:
   - component: {fileID: 1038259589}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4751,7 +4755,7 @@ GameObject:
   - component: {fileID: 1092117058}
   m_Layer: 0
   m_Name: Gigachad_TrainAssestAlpha_0 (4)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4884,7 +4888,7 @@ GameObject:
   - component: {fileID: 1104393756}
   m_Layer: 0
   m_Name: Gigachad_SideBarrierAsset_Trans_0 (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4972,7 +4976,7 @@ GameObject:
   - component: {fileID: 1169118466}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (17)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5106,7 +5110,7 @@ GameObject:
   - component: {fileID: 1175432265}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (25)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5239,7 +5243,7 @@ GameObject:
   - component: {fileID: 1207824660}
   m_Layer: 0
   m_Name: Gigachad_SideBarrierAsset_Trans_0 (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5327,7 +5331,7 @@ GameObject:
   - component: {fileID: 1215097683}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (22)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5461,7 +5465,7 @@ GameObject:
   - component: {fileID: 1222672178}
   m_Layer: 0
   m_Name: Gigachad_TrainAssestAlpha_0 (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5595,7 +5599,7 @@ GameObject:
   - component: {fileID: 1258368772}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5729,7 +5733,7 @@ GameObject:
   - component: {fileID: 1264395522}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (10)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6084,7 +6088,7 @@ GameObject:
   - component: {fileID: 1302720614}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (18)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6581,17 +6585,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1378244214 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2222653867308227562, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-  m_PrefabInstance: {fileID: 1751647496}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1402574273
 GameObject:
   m_ObjectHideFlags: 0
@@ -13774,7 +13767,7 @@ GameObject:
   - component: {fileID: 1407365903}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13908,7 +13901,7 @@ GameObject:
   - component: {fileID: 1407587955}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (27)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14042,7 +14035,7 @@ GameObject:
   - component: {fileID: 1408425514}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (4)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14176,7 +14169,7 @@ GameObject:
   - component: {fileID: 1474840762}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (30)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14310,7 +14303,7 @@ GameObject:
   - component: {fileID: 1505984649}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (14)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15174,143 +15167,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 582596971}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1618005968
+--- !u!1 &1618005968 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 6791698672817318608, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+  m_PrefabInstance: {fileID: 4346756020518179533}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1618005969}
-  - component: {fileID: 1618005971}
-  - component: {fileID: 1618005970}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1618005969
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1618005968}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1751647497}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1618005970
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1618005968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: YOU WIN!
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_characterHorizontalScale: 1
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1618005971
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1618005968}
-  m_CullTransparentMesh: 1
 --- !u!1 &1654035241
 GameObject:
   m_ObjectHideFlags: 0
@@ -15324,7 +15185,7 @@ GameObject:
   - component: {fileID: 1654035243}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (11)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15545,7 +15406,7 @@ GameObject:
   - component: {fileID: 1740093700}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (21)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15666,191 +15527,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1001 &1751647496
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1439630683343530831, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_Pivot.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1439630683343530831, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_Pivot.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1439630683343530831, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1439630683343530831, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1439630683343530831, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1439630683343530831, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1439630683343530831, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1439630683343530831, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1439630683343530831, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1439630683343530831, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1439630683343530831, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1439630683343530831, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1439630683343530831, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1439630683343530831, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1439630683343530831, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1439630683343530831, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1439630683343530831, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1439630683343530831, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1439630683343530831, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1439630683343530831, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1598744228927954429, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1598744228927954429, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1598744228927954429, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1598744228927954429, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1598744228927954429, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -157.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1598744228927954429, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -16.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1755029862296537036, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1755029862296537036, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1755029862296537036, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1755029862296537036, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1755029862296537036, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -148.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1755029862296537036, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -10.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 2861967186934996840, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_Name
-      value: HealthBarCanvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 4189395420761398787, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_AdditionalShaderChannelsFlag
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 8109901214502807080, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_Color.b
-      value: 0.6931162
-      objectReference: {fileID: 0}
-    - target: {fileID: 8109901214502807080, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_Color.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8109901214502807080, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8413374312843074405, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8413374312843074405, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8413374312843074405, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -6.799988
-      objectReference: {fileID: 0}
-    - target: {fileID: 8413374312843074405, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -5.3999996
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 1439630683343530831, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1618005969}
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
---- !u!224 &1751647497 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 1439630683343530831, guid: 90a6d07ddeb0ae44c95ef74d82fab9fd, type: 3}
-  m_PrefabInstance: {fileID: 1751647496}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1801527072
 GameObject:
   m_ObjectHideFlags: 0
@@ -15910,7 +15586,7 @@ GameObject:
   - component: {fileID: 1811824478}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (8)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16044,7 +15720,7 @@ GameObject:
   - component: {fileID: 1840483650}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (35)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16281,6 +15957,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 283990268}
     - target: {fileID: 3530698155434863148, guid: 5c349ce84e6e7144c86c02e8998ca07f, type: 3}
+      propertyPath: winText
+      value: 
+      objectReference: {fileID: 1618005968}
+    - target: {fileID: 3530698155434863148, guid: 5c349ce84e6e7144c86c02e8998ca07f, type: 3}
       propertyPath: TicketsNeeded
       value: 7
       objectReference: {fileID: 0}
@@ -16393,7 +16073,7 @@ GameObject:
   - component: {fileID: 1961195979}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (9)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16526,7 +16206,7 @@ GameObject:
   - component: {fileID: 1965167675}
   m_Layer: 0
   m_Name: Gigachad_SideBarrierAsset_Trans_0 (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16614,7 +16294,7 @@ GameObject:
   - component: {fileID: 1971750757}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (24)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16748,7 +16428,7 @@ GameObject:
   - component: {fileID: 1985661824}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (16)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16882,7 +16562,7 @@ GameObject:
   - component: {fileID: 2003883128}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (32)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17180,7 +16860,7 @@ GameObject:
   - component: {fileID: 2023132089}
   m_Layer: 0
   m_Name: Gigachad_SideBarrierAsset_Trans_0 (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17268,7 +16948,7 @@ GameObject:
   - component: {fileID: 2031175966}
   m_Layer: 0
   m_Name: Gigachad_TrainAssestAlpha_0 (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17402,7 +17082,7 @@ GameObject:
   - component: {fileID: 2048198490}
   m_Layer: 0
   m_Name: GigaChad_SideChair_Trans_0 (5)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17536,7 +17216,7 @@ GameObject:
   - component: {fileID: 2073640478}
   m_Layer: 0
   m_Name: Gigachad_TrainAssestAlpha_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17669,7 +17349,7 @@ GameObject:
   - component: {fileID: 2092377160}
   m_Layer: 0
   m_Name: Gigachad_SideBarrierAsset_Trans_0 (7)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17812,13 +17492,129 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2222653868790390498 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 422776750940893553, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+  m_PrefabInstance: {fileID: 4346756020518179533}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &4346756020518179533
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 658449272861252556, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 658449272861252556, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 965899479757666500, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_Name
+      value: HealthBarCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176124896457453118, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176124896457453118, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176124896457453118, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176124896457453118, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176124896457453118, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176124896457453118, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176124896457453118, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176124896457453118, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176124896457453118, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176124896457453118, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176124896457453118, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176124896457453118, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176124896457453118, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176124896457453118, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176124896457453118, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176124896457453118, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176124896457453118, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176124896457453118, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176124896457453118, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176124896457453118, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1932551597}
   - {fileID: 230762224}
-  - {fileID: 1751647496}
+  - {fileID: 4346756020518179533}
   - {fileID: 1801527074}
   - {fileID: 1345402428}
   - {fileID: 582701997}
