@@ -16,10 +16,15 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D MyRb;
     private Vector2 MovementInput;
     private float MoveSpeed = PlayerStats.PlayerMovementSpeed;
+    private Animator anim;
+    private SpriteRenderer sr;
+    private bool updown = false; 
 
     void Start()
     {
         MyRb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        sr = GetComponent<SpriteRenderer>();
         //Stops the object being moved from spinning all over the place
         MyRb.freezeRotation = true;
     }
@@ -28,6 +33,26 @@ public class PlayerMovement : MonoBehaviour
     {
         MovementInput.x = Input.GetAxisRaw("Horizontal");
         MovementInput.y = Input.GetAxisRaw("Vertical");
+
+        anim.SetFloat("xVelocity", MovementInput.x);
+        anim.SetBool("updown", updown);
+        if (MovementInput.x < 0)
+        {
+            sr.flipX = true;
+        }
+        else
+        {
+            sr.flipX = false;
+        }
+        if (MovementInput.y < 0 || MovementInput.y > 0)
+        {
+            updown = true;
+            
+        }
+        else
+        {
+            updown = false;
+        }
     }
 
     void FixedUpdate()
