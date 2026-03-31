@@ -1,3 +1,13 @@
+/****************************************************************************
+* File Name: SubwayTimer.c
+* Author: Michael Chiodo
+* DigiPen Email: michael.chiodo@digipen.edu
+* Course: Game Projects
+*
+* Description: Controls the timer for getting on and off the subway.
+*
+****************************************************************************/
+
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;

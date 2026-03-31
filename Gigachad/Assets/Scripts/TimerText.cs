@@ -46,12 +46,14 @@ public class TimerText : MonoBehaviour
                 {
                     visualCountdown.color = Color.white;
                     visualCountdown.text = "GET 0N TH3 TR41N!!!"; // stop displaying countdown---guiding msg instead
+                    subwayDoorsOpen = true;
                 }
             }
             else // if player has all tickets needed
             {
                 visualCountdown.color = Color.green;
                 visualCountdown.text = "GET 0N TH3 TR41N!!!"; // stop displaying countdown---guiding msg instead
+                subwayDoorsOpen = true;
             }
             
         }

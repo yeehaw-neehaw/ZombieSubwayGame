@@ -18,12 +18,18 @@ public class SubwayOffSubway : MonoBehaviour
     public GameObject[] gameObjects;
     public bool hasDeleted = false;
     private int passengerDecrementer = 0;
-    void OnMouseDown()
+
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (gameObject.name == "ToSubway")
+        if (gameObject.name == "ToSubway" && TimerText.subwayDoorsOpen)
         {
             SceneManager.LoadScene("On Subway");
+            TimerText.subwayDoorsOpen = false;
         }
+    }
+
+    void OnMouseDown()
+    {
         if (gameObject.name == "ToStation1" && !PassengerClicked.clicked)
         {
             winText.gameObject.SetActive(false);
