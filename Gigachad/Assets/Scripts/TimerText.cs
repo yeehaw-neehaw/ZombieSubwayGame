@@ -40,7 +40,7 @@ public class TimerText : MonoBehaviour
             }
             else
             {
-                VisualCountdown.color = Color.green;
+                VisualCountdown.color = Color.white;
                 VisualCountdown.text = "GET 0N TH3 TR41N!!!";
             }
             
