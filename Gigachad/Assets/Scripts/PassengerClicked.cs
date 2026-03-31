@@ -1,3 +1,15 @@
+/****************************************************************************
+* File Name: PassengerClicked.c
+* Author: Michael Chiodo
+* DigiPen Email: michael.chiodo@digipen.edu
+* Course: Game Projects
+*
+* Description: Handles any clicking interaction with the passengers, that being
+* turning on and off the UI elements as well as incrementing/decrementing stat
+* variables
+* 
+****************************************************************************/
+
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,16 +20,19 @@ public class PassengerClicked : MonoBehaviour
     public static bool clicked = false;
     void Start()
     {
+        //Turning off all UI elements
         Upgrader.gameObject.SetActive(false);
         Text1.gameObject.SetActive(false);
         Background1.gameObject.SetActive(false);
         xOut.gameObject.SetActive(false);
         Broke1.gameObject.SetActive(false);
+        //Adding function calls when the buttons are clicked
         Upgrader.onClick.AddListener(OnButtonClick);
         xOut.onClick.AddListener(OnXClick);
     }
     private void OnMouseDown()
     {
+        //Checks for each different passenger in the case they are clicked
         if (gameObject.name == "Passenger1" && !clicked)
         {
             Upgrader.gameObject.SetActive(true);
@@ -115,6 +130,7 @@ public class PassengerClicked : MonoBehaviour
     }
     void OnXClick()
     {
+        //Closes the UI if the X button is pressed
         Upgrader.gameObject.SetActive(false);
         Text1.gameObject.SetActive(false);
         Background1.gameObject.SetActive(false);

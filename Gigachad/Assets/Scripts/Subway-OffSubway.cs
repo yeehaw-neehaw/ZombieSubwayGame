@@ -1,3 +1,14 @@
+/****************************************************************************
+* File Name: Subway-OffSubway.c
+* Author: Michael Chiodo
+* DigiPen Email: michael.chiodo@digipen.edu
+* Course: Game Projects
+*
+* Description: If certain game objects are clicked, load certain scenes, as well
+* as deleting passengers if the player did not collect all of the tickets.
+* 
+****************************************************************************/
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -13,16 +24,16 @@ public class SubwayOffSubway : MonoBehaviour
         {
             SceneManager.LoadScene("On Subway");
         }
-        if (gameObject.name == "ToStation" && !PassengerClicked.clicked)
+        if (gameObject.name == "ToStation1" && !PassengerClicked.clicked)
         {
             winText.gameObject.SetActive(false);
-            SceneManager.LoadScene("Level Designer Type Level 1");
+            SceneManager.LoadScene("Level Designer Type Level 2");
             hasDeleted = false;
         }
     }
     void Update()
     {
-        if (gameObject.name == "ToStation" && !hasDeleted)
+        if (gameObject.name == "ToStation1" && !hasDeleted)
         {
             if (PlayerStats.TicketsCollected < PlayerStats.PassengerCount)
             {
