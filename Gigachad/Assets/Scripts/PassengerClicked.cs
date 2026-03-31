@@ -73,22 +73,6 @@ public class PassengerClicked : MonoBehaviour
             xOut.gameObject.SetActive(true);
             clicked = true;
         }
-        if (gameObject.name == "Passenger6" && !clicked)
-        {
-            Upgrader.gameObject.SetActive(true);
-            Text1.gameObject.SetActive(true);
-            Background1.gameObject.SetActive(true);
-            xOut.gameObject.SetActive(true);
-            clicked = true;
-        }
-        if (gameObject.name == "Passenger7" && !clicked)
-        {
-            Upgrader.gameObject.SetActive(true);
-            Text1.gameObject.SetActive(true);
-            Background1.gameObject.SetActive(true);
-            xOut.gameObject.SetActive(true);
-            clicked = true;
-        }
     }
     void OnButtonClick()
     {
