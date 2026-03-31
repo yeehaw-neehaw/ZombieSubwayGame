@@ -1,47 +1,57 @@
+/****************************************************************************
+* File Name: TimerText.cs
+* Author: Neha Sankarkumar
+* DigiPen Email: neha.sankarkumar@digipen.edu
+* Course: Game Projects
+*
+* Description: Manages the text in the UI which displays timers.
+*
+****************************************************************************/
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
 public class TimerText : MonoBehaviour
 {
-    public TMP_Text VisualCountdown;
-    private float levelCountdown = 50f;
-    private int roundedCountdown = 50;
-    private float ticketCountdown = 30f;
+    public TMP_Text visualCountdown; // the text
+    private float levelCountdown = 50f; // time until zombies stop spawning
+    private float ticketCountdown = 30f; // time until tickets stop spawning
+    private int roundedCountdown = 50; // rounded versiom of countdowns (50 is placeholder value)
+    public static bool subwayDoorsOpen = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        VisualCountdown = GetComponent<TMP_Text>();
+        visualCountdown = GetComponent<TMP_Text>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (levelCountdown >= 0)
+        if (levelCountdown >= 0) // if level's yet to end (zombies still spawning)
         {
-            levelCountdown -= Time.deltaTime;
-            roundedCountdown = Mathf.RoundToInt(levelCountdown);
-            VisualCountdown.text = "W4RD TH3M 0FF FOR " + roundedCountdown.ToString();
+            levelCountdown -= Time.deltaTime; // decrease timer
+            roundedCountdown = Mathf.RoundToInt(levelCountdown); // round timer
+            visualCountdown.text = "W4RD TH3M 0FF FOR " + roundedCountdown.ToString(); // display rounded value
         }
-        else
+        else // if level ends (zombies STOP spawning)
         {
-            if (TicketSpawner.TicketsCollected < TicketSpawner.TicketsNeeded)
+            if (TicketSpawner.TicketsCollected < TicketSpawner.TicketsNeeded) // if the player still needs tickets
             {
-                ticketCountdown -= Time.deltaTime;
-                roundedCountdown = Mathf.RoundToInt(ticketCountdown);
-                VisualCountdown.color = Color.red;
-                VisualCountdown.text = "F1ND THEM F4ST!! " + roundedCountdown.ToString();
-                if (ticketCountdown <= 0)
+                ticketCountdown -= Time.deltaTime; //  decrease TICKET timer countdown
+                roundedCountdown = Mathf.RoundToInt(ticketCountdown); // round countdown
+                visualCountdown.color = Color.red; // the text is now RED!! URGENCY
+                visualCountdown.text = "F1ND THEM F4ST!! " + roundedCountdown.ToString(); // show ticket countdown
+                if (ticketCountdown <= 0) // if the ticket countdown is over (not all tix collected)
                 {
-                    VisualCountdown.color = Color.green;
-                    VisualCountdown.text = "GET 0N TH3 TR41N!!!";
+                    visualCountdown.color = Color.white;
+                    visualCountdown.text = "GET 0N TH3 TR41N!!!"; // stop displaying countdown---guiding msg instead
                 }
             }
-            else
+            else // if player has all tickets needed
             {
-                VisualCountdown.color = Color.white;
-                VisualCountdown.text = "GET 0N TH3 TR41N!!!";
+                visualCountdown.color = Color.green;
+                visualCountdown.text = "GET 0N TH3 TR41N!!!"; // stop displaying countdown---guiding msg instead
             }
             
         }
