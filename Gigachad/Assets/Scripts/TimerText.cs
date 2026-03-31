@@ -26,10 +26,24 @@ public class TimerText : MonoBehaviour
         }
         else
         {
-            ticketCountdown -= Time.deltaTime;
-            roundedCountdown = Mathf.RoundToInt(ticketCountdown);
-            VisualCountdown.color = Color.red;
-            VisualCountdown.text = "F1ND THEM F4ST!! " + roundedCountdown.ToString();
+            if (TicketSpawner.TicketsCollected < TicketSpawner.TicketsNeeded)
+            {
+                ticketCountdown -= Time.deltaTime;
+                roundedCountdown = Mathf.RoundToInt(ticketCountdown);
+                VisualCountdown.color = Color.red;
+                VisualCountdown.text = "F1ND THEM F4ST!! " + roundedCountdown.ToString();
+                if (ticketCountdown <= 0)
+                {
+                    VisualCountdown.color = Color.green;
+                    VisualCountdown.text = "GET 0N TH3 TR41N!!!";
+                }
+            }
+            else
+            {
+                VisualCountdown.color = Color.white;
+                VisualCountdown.text = "GET 0N TH3 TR41N!!!";
+            }
+            
         }
         
     }
