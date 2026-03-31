@@ -1,3 +1,14 @@
+/****************************************************************************
+* File Name: PlayerStats.c
+* Author: Michael Chiodo & Neha Sankarkumar
+* DigiPen Email: michael.chiodo@digipen.edu, neha.sankarkumar@digipen.edu
+* Course: Game Projects
+*
+* Description: Manages and maintains all of the upgrade variables across 
+* scenes.
+* 
+****************************************************************************/
+
 using UnityEngine;
 using TMPro;
 
@@ -15,6 +26,7 @@ public class PlayerStats : MonoBehaviour
 
     private void Awake()
     {
+        //Makes sure there aren't duplicates as well as telling the game to not destroy this object
         if (Instance == null)
         {
             Instance = this;
