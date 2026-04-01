@@ -16,8 +16,8 @@ public class PlayerFire : MonoBehaviour
 {
     //Defining vars
     public GameObject bulletPrefab;
-    private int maxbullets = 14;
-    private int currentbullets = 14;
+    private int maxbullets = 20;
+    private int currentbullets = 20;
     public float bulletSpeed = PlayerStats.ShootingSpeed;
     public float cooldown = 0.3f;
     private float timer = 0;
