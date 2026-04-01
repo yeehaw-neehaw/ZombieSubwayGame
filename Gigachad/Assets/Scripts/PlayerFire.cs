@@ -21,7 +21,7 @@ public class PlayerFire : MonoBehaviour
     public float bulletSpeed = PlayerStats.ShootingSpeed;
     public float cooldown = 0.3f;
     private float timer = 0;
-    public float reloadTime = PlayerStats.ReloadSpeed;
+    private float reloadTime = PlayerStats.ReloadSpeed;
     private float reloadElapsedTime = 0;
     public AudioSource shootingSound;
     public TMP_Text ammoVisual;
