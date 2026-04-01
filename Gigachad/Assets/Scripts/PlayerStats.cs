@@ -23,6 +23,7 @@ public class PlayerStats : MonoBehaviour
     public static int RicochetLevel = 1;
     public static int TicketsCollected = 0;
     public static int PassengerCount = 5;
+    public static int CurrentLevel = 1;
 
     private void Awake()
     {

@@ -25,6 +25,7 @@ public class SubwayOffSubway : MonoBehaviour
         {
             SceneManager.LoadScene("On Subway");
             TimerText.subwayDoorsOpen = false;
+            PlayerStats.CurrentLevel += 1;
         }
     }
 
@@ -33,7 +34,22 @@ public class SubwayOffSubway : MonoBehaviour
         if (gameObject.name == "ToStation1" && !PassengerClicked.clicked)
         {
             winText.gameObject.SetActive(false);
-            SceneManager.LoadScene("Level Designer Type Level 2");
+            if (PlayerStats.CurrentLevel == 2)
+            {
+                SceneManager.LoadScene("Level Designer Type Level 2");
+            }
+            else if (PlayerStats.CurrentLevel == 3)
+            {
+                SceneManager.LoadScene("Level Designer Type Level 3");
+            }
+            else if (PlayerStats.CurrentLevel == 4)
+            {
+                SceneManager.LoadScene("Level Designer Type Level 4");
+            }
+            else if (PlayerStats.CurrentLevel == 5)
+            {
+                SceneManager.LoadScene("Level Designer Type Level 5");
+            }
             hasDeleted = false;
         }
     }
