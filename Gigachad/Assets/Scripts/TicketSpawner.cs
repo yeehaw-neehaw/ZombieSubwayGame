@@ -8,21 +8,20 @@
 * in one of eight set locations.
 ****************************************************************************/
 using System;
-
 using UnityEngine;
 
 public class TicketSpawner : MonoBehaviour
 {
     public GameObject TicketPrefab;
-    public static bool TicketSpawned = false;
+    public static bool TicketSpawned = false; // prevents tickets from spawning when one exists already
     private float CooldownMax = 3f; // TIMERMAX seconds elapse before a ticket will spawn
     private float SpawnCooldown = 0f; // the actual timer
-    public static int TicketsCollected = PlayerStats.TicketsCollected;
-    public static int TicketsNeeded = 6;
-    public int TicketsCreated = 0;
+    public static int TicketsCollected = PlayerStats.TicketsCollected; // amt of tix player has collected
+    public static int TicketsNeeded = 6; // tickets needed for every passenger on train
+    public int TicketsCreated = 0; // how many tickets have already been made
     public GameObject winText;
 
-    [Header("Spawn Spots")]
+    [Header("Spawn Spots")] // 8 spawn points placed in unity editor
     [SerializeField] private Transform spawn1;
     [SerializeField] private Transform spawn2;
     [SerializeField] private Transform spawn3;
@@ -41,14 +40,15 @@ public class TicketSpawner : MonoBehaviour
     void Update()
     {
         TicketsCollected = PlayerStats.TicketsCollected;
-        if ((SpawnCooldown < CooldownMax) && !TicketSpawned) // if the timer has not yet reached TIMERMAX seconds
+        if ((SpawnCooldown < CooldownMax) && !TicketSpawned) // if the cooldown timer has not yet reached TIMERMAX seconds
         {
             SpawnCooldown += Time.deltaTime; // update timer
         }
-        else if (!TicketSpawned && (SpawnCooldown >= CooldownMax) 
+        else if (!TicketSpawned && (SpawnCooldown >= CooldownMax)
             && TicketsCreated < TicketsNeeded
             && !EnemySpawning.NoMoreTickets) 
-            // if a ticket does not already exist + cooldown done + player still needs tickets + round isnt terminated
+            // if a ticket does not already exist + cooldown done
+            // + player still needs tickets + round isnt terminated
         {
             SpawnCooldown = 0; // reset timer
             switch (UnityEngine.Random.Range(1, 9)) // randomly pick 1-8, instantiate a ticket in one of 8 spots
@@ -78,44 +78,13 @@ public class TicketSpawner : MonoBehaviour
                     Instantiate(TicketPrefab, spawn8.position, Quaternion.identity);
                     break;
             }
-            TicketsCreated += 1;
-
+            TicketsCreated += 1; // more tix created
             TicketSpawned = true; // the current ticket HAS spawned -- prevents infinite cloning
         }
+
         if (TicketsCollected >= TicketsNeeded)
         {
             winText.gameObject.SetActive(true);
-        }
-    }
-
-    void SpawnTicket()
-    {
-        switch (UnityEngine.Random.Range(1, 9)) // randomly pick 1-8, instantiate a ticket in one of 8 spots
-        {
-            case 1:
-                Instantiate(TicketPrefab, new Vector3(9, 3, 0), Quaternion.identity);
-                break;
-            case 2:
-                Instantiate(TicketPrefab, new Vector3(4, 3, 0), Quaternion.identity);
-                break;
-            case 3:
-                Instantiate(TicketPrefab, new Vector3(-4, 3, 0), Quaternion.identity);
-                break;
-            case 4:
-                Instantiate(TicketPrefab, new Vector3(-9, 3, 0), Quaternion.identity);
-                break;
-            case 5:
-                Instantiate(TicketPrefab, new Vector3(-9, -3, 0), Quaternion.identity);
-                break;
-            case 6:
-                Instantiate(TicketPrefab, new Vector3(-4, -3, 0), Quaternion.identity);
-                break;
-            case 7:
-                Instantiate(TicketPrefab, new Vector3(4, -3, 0), Quaternion.identity);
-                break;
-            case 8:
-                Instantiate(TicketPrefab, new Vector3(4, -3, 0), Quaternion.identity);
-                break;
         }
     }
 }

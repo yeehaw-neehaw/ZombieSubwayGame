@@ -23,7 +23,7 @@ public class EnemySpawning : MonoBehaviour
     public float levelCountdown = 0f;
     private float TicketTimerMax = 30f; // TIMERMAX seconds elapse before a ticket will spawn
     private float TicketTimerCounter = 0f; // the actual timer for TicketTimerMax
-    public static bool NoMoreTickets = false;
+    public static bool NoMoreTickets = false; // tickets cant spawn (all collected OR level ended)
 
     // Update is called once per frame
     void Update()

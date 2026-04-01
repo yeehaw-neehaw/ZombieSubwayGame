@@ -22,7 +22,6 @@ public class TicketScript : MonoBehaviour
             PlayerStats.TicketsCollected += 1;
         }
     }
-
     void Update()
     {
         if (EnemySpawning.NoMoreTickets)

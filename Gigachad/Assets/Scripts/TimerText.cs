@@ -4,7 +4,7 @@
 * DigiPen Email: neha.sankarkumar@digipen.edu
 * Course: Game Projects
 *
-* Description: Manages the text in the UI which displays timers.
+* Description: Manages the text in the UI which displays level timers.
 *
 ****************************************************************************/
 using UnityEngine;
@@ -16,7 +16,7 @@ public class TimerText : MonoBehaviour
     public TMP_Text visualCountdown; // the text
     private float levelCountdown = 50f; // time until zombies stop spawning
     private float ticketCountdown = 30f; // time until tickets stop spawning
-    private int roundedCountdown = 50; // rounded versiom of countdowns (50 is placeholder value)
+    private int roundedCountdown = 50; // rounded (int) version of countdowns
     public static bool subwayDoorsOpen = false;
 
     // Start is called before the first frame update
