@@ -19,7 +19,7 @@ public class TicketSpawner : MonoBehaviour
     public static int TicketsCollected = PlayerStats.TicketsCollected; // amt of tix player has collected
     public static int TicketsNeeded = 6; // tickets needed for every passenger on train
     public int TicketsCreated = 0; // how many tickets have already been made
-    public GameObject winText;
+    public GameObject winText; // !! need be removed
 
     [Header("Spawn Spots")] // 8 spawn points placed in unity editor
     [SerializeField] private Transform spawn1;
@@ -33,7 +33,7 @@ public class TicketSpawner : MonoBehaviour
 
     void Start()
     {
-        winText.gameObject.SetActive(false);
+        winText.gameObject.SetActive(false); // !! need be removed
     }
 
     // Update is called once per frame
@@ -84,7 +84,7 @@ public class TicketSpawner : MonoBehaviour
 
         if (TicketsCollected >= TicketsNeeded)
         {
-            winText.gameObject.SetActive(true);
+            winText.gameObject.SetActive(true); // !! need be removed
         }
     }
 }
