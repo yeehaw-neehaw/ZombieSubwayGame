@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 82128093}
   m_Layer: 0
   m_Name: GigaChad_PlasticBag_Trans_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -642,7 +642,7 @@ GameObject:
   - component: {fileID: 225948372}
   m_Layer: 0
   m_Name: GigaChad_BananaPeel_Trans_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -733,6 +733,10 @@ PrefabInstance:
       propertyPath: ammoVisual
       value: 
       objectReference: {fileID: 1665545813}
+    - target: {fileID: -3742872688841138357, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
+      propertyPath: spawnY
+      value: -5.2
+      objectReference: {fileID: 0}
     - target: {fileID: 5604905270729558800, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
       propertyPath: m_Name
       value: Player-Placeholder
@@ -1912,7 +1916,7 @@ GameObject:
   - component: {fileID: 545225803}
   m_Layer: 0
   m_Name: GigaChad_Water4_Trans_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2418,7 +2422,7 @@ GameObject:
   - component: {fileID: 622016835}
   m_Layer: 0
   m_Name: GigaChad_Soda_Trans_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3333,7 +3337,7 @@ GameObject:
   - component: {fileID: 801227457}
   m_Layer: 0
   m_Name: GigaChad_Wrapper_Trans_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3554,7 +3558,7 @@ GameObject:
   - component: {fileID: 831886148}
   m_Layer: 0
   m_Name: GigaChad_Water3_Trans_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3641,7 +3645,7 @@ GameObject:
   - component: {fileID: 844317681}
   m_Layer: 0
   m_Name: GigaChad_Paper_Trans_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5864,7 +5868,7 @@ GameObject:
   - component: {fileID: 1271137872}
   m_Layer: 0
   m_Name: GigaChad_FlipPhone_Trans_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5952,7 +5956,7 @@ GameObject:
   - component: {fileID: 1271163028}
   m_Layer: 0
   m_Name: GigaChad_TrashCan_Basic_Trans_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15090,7 +15094,7 @@ GameObject:
   - component: {fileID: 1577385289}
   m_Layer: 0
   m_Name: GigaChad_Water2_Trans_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15327,7 +15331,7 @@ GameObject:
   - component: {fileID: 1718238029}
   m_Layer: 0
   m_Name: GigaChad_Apple_Trans_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15994,7 +15998,7 @@ GameObject:
   - component: {fileID: 1955032375}
   m_Layer: 0
   m_Name: GigaChad_Water1_Trans_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16705,7 +16709,7 @@ GameObject:
   - component: {fileID: 2007073157}
   m_Layer: 0
   m_Name: GigaChad_TrashCan_WithTag_Trans_0
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
