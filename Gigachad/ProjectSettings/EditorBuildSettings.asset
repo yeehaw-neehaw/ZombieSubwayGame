@@ -29,5 +29,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level Designer Type Level 2.unity
     guid: dda92107204c688439bfdd70bd925326
+  - enabled: 1
+    path: Assets/Scenes/Level Designer Type Level 3.unity
+    guid: d0f20286c18a1ce47b614f4d83830e85
+  - enabled: 1
+    path: Assets/Scenes/Level Designer Type Level 4.unity
+    guid: ead73c52086c46e469651062a441297c
+  - enabled: 1
+    path: Assets/Scenes/Level Designer Type Level 5.unity
+    guid: 4a13c930a7f733d419a82018e6f9c0b7
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
