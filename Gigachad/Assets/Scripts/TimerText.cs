@@ -14,8 +14,8 @@ using TMPro;
 public class TimerText : MonoBehaviour
 {
     public TMP_Text visualCountdown; // the text
-    private float levelCountdown = 1f; // time until zombies stop spawning
-    private float ticketCountdown = 1f; // time until tickets stop spawning
+    private float levelCountdown = 50f; // time until zombies stop spawning
+    private float ticketCountdown = 30f; // time until tickets stop spawning
     private int roundedCountdown = 50; // rounded (int) version of countdowns
     public static bool subwayDoorsOpen = false;
 
