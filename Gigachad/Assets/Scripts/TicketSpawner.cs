@@ -17,7 +17,7 @@ public class TicketSpawner : MonoBehaviour
     private float CooldownMax = 3f; // TIMERMAX seconds elapse before a ticket will spawn
     private float SpawnCooldown = 0f; // the actual timer
     public static int TicketsCollected = PlayerStats.TicketsCollected; // amt of tix player has collected
-    public static int TicketsNeeded = 6; // tickets needed for every passenger on train
+    public static int TicketsNeeded = PlayerStats.TicketsNeeded; // tickets needed for every passenger on train
     public int TicketsCreated = 0; // how many tickets have already been made
     public GameObject winText; // !! need be removed
 

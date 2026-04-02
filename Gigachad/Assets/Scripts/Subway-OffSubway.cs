@@ -34,6 +34,7 @@ public class SubwayOffSubway : MonoBehaviour
         if (gameObject.name == "ToStation1" && !PassengerClicked.clicked)
         {
             winText.gameObject.SetActive(false);
+            PlayerStats.TicketsCollected = 0;
             if (PlayerStats.CurrentLevel == 2)
             {
                 SceneManager.LoadScene("Level Designer Type Level 2");

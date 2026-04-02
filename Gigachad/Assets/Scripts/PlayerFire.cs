@@ -18,8 +18,8 @@ public class PlayerFire : MonoBehaviour
     public GameObject bulletPrefab;
     private int maxbullets = 20;
     private int currentbullets = 20;
-    public float bulletSpeed = PlayerStats.ShootingSpeed;
-    public float cooldown = 0.3f;
+    public float bulletSpeed = 0.1f;
+    private float cooldown = PlayerStats.ShootingSpeed;
     private float timer = 0;
     private float reloadTime = PlayerStats.ReloadSpeed;
     private float reloadElapsedTime = 0;

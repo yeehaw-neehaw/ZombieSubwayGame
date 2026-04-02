@@ -80,37 +80,38 @@ public class PassengerClicked : MonoBehaviour
         {
             increment/decrement one of the upgrade variables
         }*/
-        Debug.Log("You currently have money: " + PlayerStats.PlayerCash);
+        
         if (PlayerStats.PlayerCash < 5)
         {
             Broke1.gameObject.SetActive(true);
         }
-        if (gameObject.name == "Passenger1" && PlayerStats.PlayerCash > 5)
+        if (gameObject.name == "Passenger1" && PlayerStats.PlayerCash >= 5)
         {
             PlayerStats.BulletDamage += 1;
             PlayerStats.PlayerCash -= 5;
             Debug.Log("Current Damage: " + PlayerStats.BulletDamage);
         }
-        if (gameObject.name == "Passenger2" && PlayerStats.PlayerCash > 5)
+        if (gameObject.name == "Passenger2" && PlayerStats.PlayerCash >= 5)
         {
             PlayerStats.ReloadSpeed -= 1;
             PlayerStats.PlayerCash -= 5;
         }
-        if (gameObject.name == "Passenger3" && PlayerStats.PlayerCash > 5)
+        if (gameObject.name == "Passenger3" && PlayerStats.PlayerCash >= 5)
         {
             PlayerStats.PlayerMovementSpeed += 1;
             PlayerStats.PlayerCash -= 5;
         }
-        if (gameObject.name == "Passenger4" && PlayerStats.PlayerCash > 5)
+        if (gameObject.name == "Passenger4" && PlayerStats.PlayerCash >= 5)
         {
-            PlayerStats.ShootingSpeed += 1;
+            PlayerStats.ShootingSpeed -= 0.03f;
             PlayerStats.PlayerCash -= 5;
         }
-        if (gameObject.name == "Passenger4" && PlayerStats.PlayerCash > 5)
+        if (gameObject.name == "Passenger5" && PlayerStats.PlayerCash >= 5)
         {
             PlayerStats.RicochetLevel += 1;
             PlayerStats.PlayerCash -= 5;
         }
+        Debug.Log("You currently have money: " + PlayerStats.PlayerCash);
     }
     void OnXClick()
     {
