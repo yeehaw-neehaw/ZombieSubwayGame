@@ -31,6 +31,7 @@ public class PlayerFire : MonoBehaviour
     {
         ammoVisual.text = currentbullets.ToString() + "/" + maxbullets.ToString();
 
+        //hello22
         if (currentbullets <= 0)
         {
             reloadElapsedTime += Time.deltaTime;
@@ -62,5 +63,6 @@ public class PlayerFire : MonoBehaviour
         Vector3 spawnPos = transform.position + direction;
         GameObject bullet = Instantiate(bulletPrefab, spawnPos, Quaternion.LookRotation(Vector3.forward, direction));
         bullet.GetComponent<Rigidbody2D>().linearVelocity = direction * bulletSpeed;
+        Destroy(bullet, 5);
     }
 }
