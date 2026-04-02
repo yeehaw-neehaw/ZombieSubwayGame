@@ -87,7 +87,7 @@ public class PassengerClicked : MonoBehaviour
         }
         if (gameObject.name == "Passenger1" && PlayerStats.PlayerCash >= 5)
         {
-            PlayerStats.BulletDamage += 1;
+            PlayerStats.BulletDamage += 2;
             PlayerStats.PlayerCash -= 5;
             Debug.Log("Current Damage: " + PlayerStats.BulletDamage);
         }
