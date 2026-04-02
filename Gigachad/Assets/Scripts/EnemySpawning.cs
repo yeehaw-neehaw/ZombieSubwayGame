@@ -15,7 +15,7 @@ using UnityEngine;
 
 public class EnemySpawning : MonoBehaviour
 {
-    public float timer = 1f;
+    public float timer = 3f;
     private float countdown = 1f;
     private int spawnX;
     private float spawnY;
