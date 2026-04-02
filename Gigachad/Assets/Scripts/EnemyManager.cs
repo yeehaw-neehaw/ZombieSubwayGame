@@ -17,9 +17,21 @@ public class EnemyManager : MonoBehaviour
     private Vector3 direction;
     private Rigidbody2D myRb;
     public float followSpeed = 0.5f;
-    public float enemyHealth = 4f;
-    public float playerDamage = PlayerStats.BulletDamage;
+    public float enemyHealth;
+    private float playerDamage = PlayerStats.BulletDamage;
     public GameObject walletPrefab;
+
+    void Start()
+    {
+        if (PlayerStats.CurrentLevel == 1)
+        {
+            enemyHealth = 4f;
+        }
+        else if (PlayerStats.CurrentLevel == 2)
+        {
+            enemyHealth = 6f;
+        }
+    }
 
     // Update is called once per frame
     void Update()
