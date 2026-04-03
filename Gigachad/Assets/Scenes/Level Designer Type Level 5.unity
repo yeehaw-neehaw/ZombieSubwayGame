@@ -9214,7 +9214,7 @@ GameObject:
   - component: {fileID: 1271163027}
   - component: {fileID: 1271163026}
   - component: {fileID: 1271163028}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GigaChad_TrashCan_Basic_Trans_0
   m_TagString: Wall
   m_Icon: {fileID: 0}
@@ -20360,7 +20360,7 @@ GameObject:
   - component: {fileID: 2007073156}
   - component: {fileID: 2007073155}
   - component: {fileID: 2007073157}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GigaChad_TrashCan_WithTag_Trans_0
   m_TagString: Wall
   m_Icon: {fileID: 0}
