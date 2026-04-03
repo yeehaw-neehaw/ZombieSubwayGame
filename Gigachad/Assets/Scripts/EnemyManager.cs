@@ -87,7 +87,7 @@ public class EnemyManager : MonoBehaviour
                 {
                     WalletManager.WalletPity += 1; // increase pity
                 }
-                
+                EnemySpawning.EnemiesAlive--;
                 Destroy(gameObject);
             }
         }
