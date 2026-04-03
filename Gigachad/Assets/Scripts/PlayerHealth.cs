@@ -18,9 +18,12 @@ public class PlayerHealthBar : MonoBehaviour
     public float maxHealth = 1;
     public float currentHealth;
     public Slider healthBar;
-    public float healthCooldown = 0.5f;
-    public float timer = 0;
+    public float damageCooldown = 0.5f;
+    public float damageTimer = 0;
+    public float iframeCooldown = 0.5f;
+    public float iframeTimer = 0;
     public bool iFrames = false;
+    private bool damaging = false;
 
     void Start()
     {
@@ -31,14 +34,23 @@ public class PlayerHealthBar : MonoBehaviour
 
     void Update()
     {
-        if (iFrames && timer < healthCooldown)
+        if (iFrames && iframeTimer < iframeCooldown)
         {
-            timer += Time.deltaTime;
+            iframeTimer += Time.deltaTime;
         }
-        else if (iFrames && timer > healthCooldown)
+        else if (iFrames && iframeTimer > iframeCooldown)
         {
-            timer = 0;
+            iframeTimer = 0;
             iFrames = false;
+        }
+        if (damageTimer < damageCooldown && damaging)
+        {
+            damageTimer += Time.deltaTime;
+        }
+        else if (damageTimer > damageCooldown && damaging)
+        {
+            currentHealth -= 0.1f;
+            damageTimer = 0;
         }
         if (currentHealth <= 0)
         {
@@ -53,7 +65,14 @@ public class PlayerHealthBar : MonoBehaviour
         {
             currentHealth -= 0.1f;
             healthBar.value = currentHealth;
-            iFrames = true;
+            damaging = true;
+        }
+    }
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            damaging = false;
         }
     }
 }
