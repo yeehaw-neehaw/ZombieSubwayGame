@@ -31,6 +31,18 @@ public class EnemyManager : MonoBehaviour
         {
             enemyHealth = 6f;
         }
+        else if (PlayerStats.CurrentLevel == 3)
+        {
+            enemyHealth = 8f;
+        }
+        else if (PlayerStats.CurrentLevel == 4)
+        {
+            enemyHealth = 10f;
+        }
+        else if (PlayerStats.CurrentLevel == 5)
+        {
+            enemyHealth = 10f;
+        }
     }
 
     // Update is called once per frame

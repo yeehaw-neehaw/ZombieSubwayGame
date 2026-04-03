@@ -21,7 +21,7 @@ public class SubwayOffSubway : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (gameObject.name == "ToSubway" && TimerText.subwayDoorsOpen)
+        if (gameObject.name == "ToSubway" && TimerText.subwayDoorsOpen && collision.gameObject.CompareTag("Player"))
         {
             SceneManager.LoadScene("On Subway");
             TimerText.subwayDoorsOpen = false;
