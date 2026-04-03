@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: 57fe3c0f612620041b158fea24796045
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4253182734591715784
+    second: Gigachad_Zombie_SpriteSheet_Alpha _0
+  - first:
+      213: 2881889589971080154
+    second: Gigachad_Zombie_SpriteSheet_Alpha _1
+  - first:
+      213: -5995864893993564986
+    second: Gigachad_Zombie_SpriteSheet_Alpha _2
+  - first:
+      213: -7680034003875774327
+    second: Gigachad_Zombie_SpriteSheet_Alpha _3
+  - first:
+      213: 4585010813680559128
+    second: Gigachad_Zombie_SpriteSheet_Alpha _4
+  - first:
+      213: -6818261003906487108
+    second: Gigachad_Zombie_SpriteSheet_Alpha _5
+  - first:
+      213: -6661605517417172183
+    second: Gigachad_Zombie_SpriteSheet_Alpha _6
+  - first:
+      213: 7486379909196409492
+    second: Gigachad_Zombie_SpriteSheet_Alpha _7
+  - first:
+      213: -3954533598820371831
+    second: Gigachad_Zombie_SpriteSheet_Alpha _8
+  - first:
+      213: 3110077435895702162
+    second: Gigachad_Zombie_SpriteSheet_Alpha _9
+  - first:
+      213: 4467237266774270899
+    second: Gigachad_Zombie_SpriteSheet_Alpha _10
+  - first:
+      213: 7986006141300187942
+    second: Gigachad_Zombie_SpriteSheet_Alpha _11
+  - first:
+      213: 8074552968405236681
+    second: Gigachad_Zombie_SpriteSheet_Alpha _12
+  - first:
+      213: -8856753360575918268
+    second: Gigachad_Zombie_SpriteSheet_Alpha _13
+  - first:
+      213: 4562988406946270539
+    second: Gigachad_Zombie_SpriteSheet_Alpha _14
+  - first:
+      213: 5983291400066230103
+    second: Gigachad_Zombie_SpriteSheet_Alpha _15
+  - first:
+      213: -929029998840217222
+    second: Gigachad_Zombie_SpriteSheet_Alpha _16
+  - first:
+      213: -3628142797758168123
+    second: Gigachad_Zombie_SpriteSheet_Alpha _17
+  - first:
+      213: 8458728620511214099
+    second: Gigachad_Zombie_SpriteSheet_Alpha _18
+  - first:
+      213: 3608566014770194550
+    second: Gigachad_Zombie_SpriteSheet_Alpha _19
+  - first:
+      213: -4987631476457564670
+    second: Gigachad_Zombie_SpriteSheet_Alpha _20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 125
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gigachad_Zombie_SpriteSheet_Alpha _0
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 2211
+        width: 321
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83616d356d8a9f4c0800000000000000
+      internalID: -4253182734591715784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_SpriteSheet_Alpha _1
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 2211
+        width: 321
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad35f1c20578ef720800000000000000
+      internalID: 2881889589971080154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_SpriteSheet_Alpha _2
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 2211
+        width: 321
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4474875a86acca0800000000000000
+      internalID: -5995864893993564986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_SpriteSheet_Alpha _3
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 2211
+        width: 321
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980401893c90b6590800000000000000
+      internalID: -7680034003875774327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_SpriteSheet_Alpha _4
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 2216
+        width: 308
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81421c8ea0b31af30800000000000000
+      internalID: 4585010813680559128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_SpriteSheet_Alpha _5
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1666
+        width: 308
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc614cddbba061a0800000000000000
+      internalID: -6818261003906487108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_SpriteSheet_Alpha _6
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1666
+        width: 308
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923319c93193d83a0800000000000000
+      internalID: -6661605517417172183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_SpriteSheet_Alpha _7
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 1666
+        width: 308
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ae545ecd6f4e760800000000000000
+      internalID: 7486379909196409492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_SpriteSheet_Alpha _8
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 1659
+        width: 291
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982f6f5d4acae19c0800000000000000
+      internalID: -3954533598820371831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_SpriteSheet_Alpha _9
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 1659
+        width: 291
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292658633f6392b20800000000000000
+      internalID: 3110077435895702162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_SpriteSheet_Alpha _10
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1109
+        width: 291
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3a77d20a0defd30800000000000000
+      internalID: 4467237266774270899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_SpriteSheet_Alpha _11
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 1109
+        width: 291
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623294a164ef3de60800000000000000
+      internalID: 7986006141300187942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_SpriteSheet_Alpha _12
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 1113
+        width: 304
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbbed9d4239e0070800000000000000
+      internalID: 8074552968405236681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_SpriteSheet_Alpha _13
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 1113
+        width: 304
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f00af5ebd761580800000000000000
+      internalID: -8856753360575918268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_SpriteSheet_Alpha _14
+      rect:
+        serializedVersion: 2
+        x: 2354
+        y: 1113
+        width: 304
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d0246c7cdf25f30800000000000000
+      internalID: 4562988406946270539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_SpriteSheet_Alpha _15
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 563
+        width: 304
+        height: 458
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757e898d3dbe80350800000000000000
+      internalID: 5983291400066230103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_SpriteSheet_Alpha _16
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 563
+        width: 297
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a718275632c6b13f0800000000000000
+      internalID: -929029998840217222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_SpriteSheet_Alpha _17
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 563
+        width: 297
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c38b31295f36adc0800000000000000
+      internalID: -3628142797758168123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_SpriteSheet_Alpha _18
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 563
+        width: 297
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a30053dd0736570800000000000000
+      internalID: 8458728620511214099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_SpriteSheet_Alpha _19
+      rect:
+        serializedVersion: 2
+        x: 2345
+        y: 563
+        width: 297
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678ace2eba3341230800000000000000
+      internalID: 3608566014770194550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_SpriteSheet_Alpha _20
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 16
+        width: 303
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2069037099f58cab0800000000000000
+      internalID: -4987631476457564670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gigachad_Zombie_SpriteSheet_Alpha _0: -4253182734591715784
+      Gigachad_Zombie_SpriteSheet_Alpha _1: 2881889589971080154
+      Gigachad_Zombie_SpriteSheet_Alpha _10: 4467237266774270899
+      Gigachad_Zombie_SpriteSheet_Alpha _11: 7986006141300187942
+      Gigachad_Zombie_SpriteSheet_Alpha _12: 8074552968405236681
+      Gigachad_Zombie_SpriteSheet_Alpha _13: -8856753360575918268
+      Gigachad_Zombie_SpriteSheet_Alpha _14: 4562988406946270539
+      Gigachad_Zombie_SpriteSheet_Alpha _15: 5983291400066230103
+      Gigachad_Zombie_SpriteSheet_Alpha _16: -929029998840217222
+      Gigachad_Zombie_SpriteSheet_Alpha _17: -3628142797758168123
+      Gigachad_Zombie_SpriteSheet_Alpha _18: 8458728620511214099
+      Gigachad_Zombie_SpriteSheet_Alpha _19: 3608566014770194550
+      Gigachad_Zombie_SpriteSheet_Alpha _2: -5995864893993564986
+      Gigachad_Zombie_SpriteSheet_Alpha _20: -4987631476457564670
+      Gigachad_Zombie_SpriteSheet_Alpha _3: -7680034003875774327
+      Gigachad_Zombie_SpriteSheet_Alpha _4: 4585010813680559128
+      Gigachad_Zombie_SpriteSheet_Alpha _5: -6818261003906487108
+      Gigachad_Zombie_SpriteSheet_Alpha _6: -6661605517417172183
+      Gigachad_Zombie_SpriteSheet_Alpha _7: 7486379909196409492
+      Gigachad_Zombie_SpriteSheet_Alpha _8: -3954533598820371831
+      Gigachad_Zombie_SpriteSheet_Alpha _9: 3110077435895702162
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

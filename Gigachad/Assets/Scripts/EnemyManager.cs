@@ -20,6 +20,8 @@ public class EnemyManager : MonoBehaviour
     public float enemyHealth;
     private float playerDamage = PlayerStats.BulletDamage;
     public GameObject walletPrefab;
+    Animator anim;
+    SpriteRenderer sr;
 
     void Start()
     {
@@ -43,6 +45,8 @@ public class EnemyManager : MonoBehaviour
         {
             enemyHealth = 10f;
         }
+        anim = GetComponent<Animator>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -56,6 +60,15 @@ public class EnemyManager : MonoBehaviour
         myRb = gameObject.GetComponent<Rigidbody2D>();
         direction = playerPos.position - transform.position;
         myRb.linearVelocity = direction * followSpeed;
+        anim.SetFloat("xVelocity",myRb.linearVelocity.x);
+        if (myRb.linearVelocity.x < 0)
+        {
+            sr.flipX = true;
+        }
+        else
+        {
+            sr.flipX = false;
+        }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
