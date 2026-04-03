@@ -18,6 +18,7 @@ public class ProjectileDeleter : MonoBehaviour
     void Start()
     {
         myRb = GetComponent<Rigidbody2D>();
+        SubwayOffSubway.hasDeleted = false;
     }
 
     void Update()
