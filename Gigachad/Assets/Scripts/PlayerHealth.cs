@@ -18,7 +18,7 @@ public class PlayerHealthBar : MonoBehaviour
     public float maxHealth = 1;
     public float currentHealth;
     public Slider healthBar;
-    public float damageCooldown = 0.5f;
+    public float damageCooldown = 1f;
     public float damageTimer = 0;
     public float iframeCooldown = 0.5f;
     public float iframeTimer = 0;
@@ -46,10 +46,13 @@ public class PlayerHealthBar : MonoBehaviour
         if (damageTimer < damageCooldown && damaging)
         {
             damageTimer += Time.deltaTime;
+            Debug.Log("Damage timer is incrementing and is currently: " + damageTimer);
         }
         else if (damageTimer > damageCooldown && damaging)
         {
+            Debug.Log("Damage should now be applied");
             currentHealth -= 0.1f;
+            healthBar.value = currentHealth;
             damageTimer = 0;
         }
         if (currentHealth <= 0)
@@ -61,7 +64,7 @@ public class PlayerHealthBar : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy") && !iFrames)
+        if (collision.gameObject.CompareTag("Enemy") && !iFrames && !damaging)
         {
             currentHealth -= 0.1f;
             healthBar.value = currentHealth;
