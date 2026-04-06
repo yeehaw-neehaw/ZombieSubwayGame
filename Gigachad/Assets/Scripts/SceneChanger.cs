@@ -16,4 +16,12 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+    public void TryAgainChanger(string sceneName)
+    {
+        SceneManager.LoadScene(sceneName + PlayerStats.CurrentLevel);
+    }
+    public void GameExit()
+    {
+        Application.Quit();
+    }
 }
