@@ -55,8 +55,10 @@ MonoBehaviour:
   maxHealth: 1
   currentHealth: 0
   healthBar: {fileID: 0}
-  healthCooldown: 0.5
-  timer: 0
+  damageCooldown: 1
+  damageTimer: 0
+  iframeCooldown: 0.5
+  iframeTimer: 0
   iFrames: 0
 --- !u!114 &-3742872688841138357
 MonoBehaviour:
@@ -100,8 +102,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 8150901988116664889, guid: 977c8306fc3c7da48a07eebeb53e1e4a, type: 3}
   bulletSpeed: 10
-  cooldown: 0.3
-  reloadTime: 2.5
   shootingSound: {fileID: -4232225683001757016}
   ammoVisual: {fileID: 0}
 --- !u!212 &4600614398391169739
