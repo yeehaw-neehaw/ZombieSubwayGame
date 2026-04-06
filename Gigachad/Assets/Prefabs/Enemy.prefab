@@ -51,6 +51,7 @@ MonoBehaviour:
   followSpeed: 0.5
   enemyHealth: 4
   walletPrefab: {fileID: 4284525326459919554, guid: 6737fa37a869cc044a31d145cd700a54, type: 3}
+  EnemyDeathAnim: {fileID: 3509352265000239849, guid: dbd851255d552124097ce88287a38b83, type: 3}
 --- !u!212 &365732580253870198
 SpriteRenderer:
   m_ObjectHideFlags: 0

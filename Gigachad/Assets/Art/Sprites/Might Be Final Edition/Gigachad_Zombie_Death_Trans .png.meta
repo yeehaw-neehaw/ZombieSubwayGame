@@ -1,0 +1,2719 @@
+fileFormatVersion: 2
+guid: 6315e463d21e61743b960c4c358cade8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5043161777947671161
+    second: Gigachad_Zombie_Death_Trans _0
+  - first:
+      213: -2062233782012025192
+    second: Gigachad_Zombie_Death_Trans _1
+  - first:
+      213: -7903006872954168500
+    second: Gigachad_Zombie_Death_Trans _2
+  - first:
+      213: -8716829833010506058
+    second: Gigachad_Zombie_Death_Trans _3
+  - first:
+      213: 5459634118104396704
+    second: Gigachad_Zombie_Death_Trans _4
+  - first:
+      213: -3045514070927902545
+    second: Gigachad_Zombie_Death_Trans _5
+  - first:
+      213: -1967426754608788148
+    second: Gigachad_Zombie_Death_Trans _6
+  - first:
+      213: -8053098946601131914
+    second: Gigachad_Zombie_Death_Trans _7
+  - first:
+      213: -4220357096533820757
+    second: Gigachad_Zombie_Death_Trans _8
+  - first:
+      213: 9014487852064499556
+    second: Gigachad_Zombie_Death_Trans _9
+  - first:
+      213: -6159366035636649311
+    second: Gigachad_Zombie_Death_Trans _10
+  - first:
+      213: -5501182099346085559
+    second: Gigachad_Zombie_Death_Trans _11
+  - first:
+      213: 7834840645989620092
+    second: Gigachad_Zombie_Death_Trans _12
+  - first:
+      213: -519020959626104959
+    second: Gigachad_Zombie_Death_Trans _13
+  - first:
+      213: 6186231298769969319
+    second: Gigachad_Zombie_Death_Trans _14
+  - first:
+      213: -5370249960956122779
+    second: Gigachad_Zombie_Death_Trans _15
+  - first:
+      213: 680463518376627780
+    second: Gigachad_Zombie_Death_Trans _16
+  - first:
+      213: -2368871681964072611
+    second: Gigachad_Zombie_Death_Trans _17
+  - first:
+      213: -5128516842637752381
+    second: Gigachad_Zombie_Death_Trans _18
+  - first:
+      213: -7738928828887876596
+    second: Gigachad_Zombie_Death_Trans _19
+  - first:
+      213: 3889488902085310333
+    second: Gigachad_Zombie_Death_Trans _20
+  - first:
+      213: -3079529002610701063
+    second: Gigachad_Zombie_Death_Trans _21
+  - first:
+      213: 1492080110149869847
+    second: Gigachad_Zombie_Death_Trans _22
+  - first:
+      213: -9081908769365734554
+    second: Gigachad_Zombie_Death_Trans _23
+  - first:
+      213: -784442509506206555
+    second: Gigachad_Zombie_Death_Trans _24
+  - first:
+      213: 1936923384149846362
+    second: Gigachad_Zombie_Death_Trans _25
+  - first:
+      213: 3818827887744129363
+    second: Gigachad_Zombie_Death_Trans _26
+  - first:
+      213: -7908863612094602708
+    second: Gigachad_Zombie_Death_Trans _27
+  - first:
+      213: -4376084980023928381
+    second: Gigachad_Zombie_Death_Trans _28
+  - first:
+      213: -8465154753599774597
+    second: Gigachad_Zombie_Death_Trans _29
+  - first:
+      213: -6634898370687499610
+    second: Gigachad_Zombie_Death_Trans _30
+  - first:
+      213: -5607392239532903019
+    second: Gigachad_Zombie_Death_Trans _31
+  - first:
+      213: -804486968792447085
+    second: Gigachad_Zombie_Death_Trans _32
+  - first:
+      213: 6598494230847736912
+    second: Gigachad_Zombie_Death_Trans _33
+  - first:
+      213: -8706518972484383228
+    second: Gigachad_Zombie_Death_Trans _34
+  - first:
+      213: 8690867266414807125
+    second: Gigachad_Zombie_Death_Trans _35
+  - first:
+      213: 5566528001676973543
+    second: Gigachad_Zombie_Death_Trans _36
+  - first:
+      213: 2147672928672499570
+    second: Gigachad_Zombie_Death_Trans _37
+  - first:
+      213: 197599918407159866
+    second: Gigachad_Zombie_Death_Trans _38
+  - first:
+      213: -2634151791556505215
+    second: Gigachad_Zombie_Death_Trans _39
+  - first:
+      213: -3561400615756258737
+    second: Gigachad_Zombie_Death_Trans _40
+  - first:
+      213: -5681364867269835973
+    second: Gigachad_Zombie_Death_Trans _41
+  - first:
+      213: 5346133787028200918
+    second: Gigachad_Zombie_Death_Trans _42
+  - first:
+      213: -1029225198297472231
+    second: Gigachad_Zombie_Death_Trans _43
+  - first:
+      213: 7265377714381700064
+    second: Gigachad_Zombie_Death_Trans _44
+  - first:
+      213: -2195949526081377903
+    second: Gigachad_Zombie_Death_Trans _45
+  - first:
+      213: -4560494457330720862
+    second: Gigachad_Zombie_Death_Trans _46
+  - first:
+      213: 8205426028079329026
+    second: Gigachad_Zombie_Death_Trans _47
+  - first:
+      213: -262955994387665756
+    second: Gigachad_Zombie_Death_Trans _48
+  - first:
+      213: 7298258147357170195
+    second: Gigachad_Zombie_Death_Trans _49
+  - first:
+      213: 8621379421645443560
+    second: Gigachad_Zombie_Death_Trans _50
+  - first:
+      213: -2138831516775697554
+    second: Gigachad_Zombie_Death_Trans _51
+  - first:
+      213: -5807249002486142583
+    second: Gigachad_Zombie_Death_Trans _52
+  - first:
+      213: -4368313849922067106
+    second: Gigachad_Zombie_Death_Trans _53
+  - first:
+      213: -1307152689607845365
+    second: Gigachad_Zombie_Death_Trans _54
+  - first:
+      213: -193645878975390997
+    second: Gigachad_Zombie_Death_Trans _55
+  - first:
+      213: 679662053248816803
+    second: Gigachad_Zombie_Death_Trans _56
+  - first:
+      213: -1418099525773649861
+    second: Gigachad_Zombie_Death_Trans _57
+  - first:
+      213: 220352829513640184
+    second: Gigachad_Zombie_Death_Trans _58
+  - first:
+      213: 4720637405142691570
+    second: Gigachad_Zombie_Death_Trans _59
+  - first:
+      213: -7093820566373713971
+    second: Gigachad_Zombie_Death_Trans _60
+  - first:
+      213: -3749604032350180649
+    second: Gigachad_Zombie_Death_Trans _61
+  - first:
+      213: 3327114990502890570
+    second: Gigachad_Zombie_Death_Trans _62
+  - first:
+      213: -4009291980552270492
+    second: Gigachad_Zombie_Death_Trans _63
+  - first:
+      213: 7695690413768791996
+    second: Gigachad_Zombie_Death_Trans _64
+  - first:
+      213: 6795110138030024473
+    second: Gigachad_Zombie_Death_Trans _65
+  - first:
+      213: -7901052833715657141
+    second: Gigachad_Zombie_Death_Trans _66
+  - first:
+      213: 314106394030520345
+    second: Gigachad_Zombie_Death_Trans _67
+  - first:
+      213: -6799023929756972935
+    second: Gigachad_Zombie_Death_Trans _68
+  - first:
+      213: -5960130075196268668
+    second: Gigachad_Zombie_Death_Trans _69
+  - first:
+      213: -8662906514198733414
+    second: Gigachad_Zombie_Death_Trans _70
+  - first:
+      213: -3658836367780317781
+    second: Gigachad_Zombie_Death_Trans _71
+  - first:
+      213: -7907104881909925748
+    second: Gigachad_Zombie_Death_Trans _72
+  - first:
+      213: -1890813954286831378
+    second: Gigachad_Zombie_Death_Trans _73
+  - first:
+      213: 4588627750044606123
+    second: Gigachad_Zombie_Death_Trans _74
+  - first:
+      213: 5621625667072506751
+    second: Gigachad_Zombie_Death_Trans _75
+  - first:
+      213: -176199785024009910
+    second: Gigachad_Zombie_Death_Trans _76
+  - first:
+      213: -4221629210089245173
+    second: Gigachad_Zombie_Death_Trans _77
+  - first:
+      213: -7964559088717127099
+    second: Gigachad_Zombie_Death_Trans _78
+  - first:
+      213: -8049116733325868273
+    second: Gigachad_Zombie_Death_Trans _79
+  - first:
+      213: -762166520295427524
+    second: Gigachad_Zombie_Death_Trans _80
+  - first:
+      213: -5892353303696074055
+    second: Gigachad_Zombie_Death_Trans _81
+  - first:
+      213: 796312566303860849
+    second: Gigachad_Zombie_Death_Trans _82
+  - first:
+      213: 7221971304452406803
+    second: Gigachad_Zombie_Death_Trans _83
+  - first:
+      213: 6708265288889907985
+    second: Gigachad_Zombie_Death_Trans _84
+  - first:
+      213: -7665179401778197923
+    second: Gigachad_Zombie_Death_Trans _85
+  - first:
+      213: -6516698467582285649
+    second: Gigachad_Zombie_Death_Trans _86
+  - first:
+      213: -2046064856153422598
+    second: Gigachad_Zombie_Death_Trans _87
+  - first:
+      213: -1256640974038901270
+    second: Gigachad_Zombie_Death_Trans _88
+  - first:
+      213: -1344189044738759340
+    second: Gigachad_Zombie_Death_Trans _89
+  - first:
+      213: 8312144698827459348
+    second: Gigachad_Zombie_Death_Trans _90
+  - first:
+      213: 5790107087125471223
+    second: Gigachad_Zombie_Death_Trans _91
+  - first:
+      213: -596554120314508938
+    second: Gigachad_Zombie_Death_Trans _92
+  - first:
+      213: -1252426158943655935
+    second: Gigachad_Zombie_Death_Trans _93
+  - first:
+      213: -3869088774459640084
+    second: Gigachad_Zombie_Death_Trans _94
+  - first:
+      213: -4615837729751103793
+    second: Gigachad_Zombie_Death_Trans _95
+  - first:
+      213: -5592203462905609588
+    second: Gigachad_Zombie_Death_Trans _96
+  - first:
+      213: -8391047067316159476
+    second: Gigachad_Zombie_Death_Trans _97
+  - first:
+      213: -1946603396102864570
+    second: Gigachad_Zombie_Death_Trans _98
+  - first:
+      213: -4696605992449156243
+    second: Gigachad_Zombie_Death_Trans _99
+  - first:
+      213: -2721503830696034824
+    second: Gigachad_Zombie_Death_Trans _100
+  - first:
+      213: 624856823942013119
+    second: Gigachad_Zombie_Death_Trans _101
+  - first:
+      213: -5516660262677404162
+    second: Gigachad_Zombie_Death_Trans _102
+  - first:
+      213: 3749970522264609639
+    second: Gigachad_Zombie_Death_Trans _103
+  - first:
+      213: 8288657635230746882
+    second: Gigachad_Zombie_Death_Trans _104
+  - first:
+      213: 4917754339395206709
+    second: Gigachad_Zombie_Death_Trans _105
+  - first:
+      213: -7324423819107761563
+    second: Gigachad_Zombie_Death_Trans _106
+  - first:
+      213: 3605122007804166354
+    second: Gigachad_Zombie_Death_Trans _107
+  - first:
+      213: -403429859940934731
+    second: Gigachad_Zombie_Death_Trans _108
+  - first:
+      213: -3922308778228758560
+    second: Gigachad_Zombie_Death_Trans _109
+  - first:
+      213: 4770139789611634348
+    second: Gigachad_Zombie_Death_Trans _110
+  - first:
+      213: -4579806095324020913
+    second: Gigachad_Zombie_Death_Trans _111
+  - first:
+      213: -8973176539843630558
+    second: Gigachad_Zombie_Death_Trans _112
+  - first:
+      213: -2664666379554482659
+    second: Gigachad_Zombie_Death_Trans _113
+  - first:
+      213: 448654955665744959
+    second: Gigachad_Zombie_Death_Trans _114
+  - first:
+      213: 8082666313780160186
+    second: Gigachad_Zombie_Death_Trans _115
+  - first:
+      213: -8467763932451403550
+    second: Gigachad_Zombie_Death_Trans _116
+  - first:
+      213: -5282439297069089270
+    second: Gigachad_Zombie_Death_Trans _117
+  - first:
+      213: 1305223856634067077
+    second: Gigachad_Zombie_Death_Trans _118
+  - first:
+      213: -7386238924619381233
+    second: Gigachad_Zombie_Death_Trans _119
+  - first:
+      213: 3801016189450328317
+    second: Gigachad_Zombie_Death_Trans _120
+  - first:
+      213: 836525362676025002
+    second: Gigachad_Zombie_Death_Trans _121
+  - first:
+      213: -5040295317610855201
+    second: Gigachad_Zombie_Death_Trans _122
+  - first:
+      213: 4702115402794180580
+    second: Gigachad_Zombie_Death_Trans _123
+  - first:
+      213: -3556688151327173177
+    second: Gigachad_Zombie_Death_Trans _124
+  - first:
+      213: 7054793701597513112
+    second: Gigachad_Zombie_Death_Trans _125
+  - first:
+      213: 4481478164119340040
+    second: Gigachad_Zombie_Death_Trans _126
+  - first:
+      213: 7760388062876629678
+    second: Gigachad_Zombie_Death_Trans _127
+  - first:
+      213: -5186966219981069753
+    second: Gigachad_Zombie_Death_Trans _128
+  - first:
+      213: 1741516061982450240
+    second: Gigachad_Zombie_Death_Trans _129
+  - first:
+      213: 3901544399648217812
+    second: Gigachad_Zombie_Death_Trans _130
+  - first:
+      213: -3761589784325072081
+    second: Gigachad_Zombie_Death_Trans _131
+  - first:
+      213: 2931247177599183862
+    second: Gigachad_Zombie_Death_Trans _132
+  - first:
+      213: 8276109821137468442
+    second: Gigachad_Zombie_Death_Trans _133
+  - first:
+      213: 604060780341417054
+    second: Gigachad_Zombie_Death_Trans _134
+  - first:
+      213: -1488927920036942303
+    second: Gigachad_Zombie_Death_Trans _135
+  - first:
+      213: 6713596962922726642
+    second: Gigachad_Zombie_Death_Trans _136
+  - first:
+      213: 2002003765991379888
+    second: Gigachad_Zombie_Death_Trans _137
+  - first:
+      213: 5564526419471047437
+    second: Gigachad_Zombie_Death_Trans _138
+  - first:
+      213: 9134836926787823281
+    second: Gigachad_Zombie_Death_Trans _139
+  - first:
+      213: 7027329636581036218
+    second: Gigachad_Zombie_Death_Trans _140
+  - first:
+      213: -2574759418772907985
+    second: Gigachad_Zombie_Death_Trans _141
+  - first:
+      213: -7278669873279621872
+    second: Gigachad_Zombie_Death_Trans _142
+  - first:
+      213: -436296839224200358
+    second: Gigachad_Zombie_Death_Trans _143
+  - first:
+      213: -7484433909379966814
+    second: Gigachad_Zombie_Death_Trans _144
+  - first:
+      213: -3554418768571155013
+    second: Gigachad_Zombie_Death_Trans _145
+  - first:
+      213: -2731419275269966640
+    second: Gigachad_Zombie_Death_Trans _146
+  - first:
+      213: 8040274490386880956
+    second: Gigachad_Zombie_Death_Trans _147
+  - first:
+      213: -5305416533251028118
+    second: Gigachad_Zombie_Death_Trans _148
+  - first:
+      213: 4153542512607995155
+    second: Gigachad_Zombie_Death_Trans _149
+  - first:
+      213: 5100138303220291544
+    second: Gigachad_Zombie_Death_Trans _150
+  - first:
+      213: -471378221700834837
+    second: Gigachad_Zombie_Death_Trans _151
+  - first:
+      213: -2968384139604147463
+    second: Gigachad_Zombie_Death_Trans _152
+  - first:
+      213: -1848687467301968310
+    second: Gigachad_Zombie_Death_Trans _153
+  - first:
+      213: 2882613354570650389
+    second: Gigachad_Zombie_Death_Trans _154
+  - first:
+      213: -7625376990967602933
+    second: Gigachad_Zombie_Death_Trans _155
+  - first:
+      213: 7253850154760354508
+    second: Gigachad_Zombie_Death_Trans _156
+  - first:
+      213: -5324979760957725416
+    second: Gigachad_Zombie_Death_Trans _157
+  - first:
+      213: 2842943567105051600
+    second: Gigachad_Zombie_Death_Trans _158
+  - first:
+      213: 5741118221829210196
+    second: Gigachad_Zombie_Death_Trans _159
+  - first:
+      213: -1792502893184694055
+    second: Gigachad_Zombie_Death_Trans _160
+  - first:
+      213: -2920450770119799169
+    second: Gigachad_Zombie_Death_Trans _161
+  - first:
+      213: 3100879365467688399
+    second: Gigachad_Zombie_Death_Trans _162
+  - first:
+      213: 3036749520944714982
+    second: Gigachad_Zombie_Death_Trans _163
+  - first:
+      213: -2261399649262137981
+    second: Gigachad_Zombie_Death_Trans _164
+  - first:
+      213: -62855634735073923
+    second: Gigachad_Zombie_Death_Trans _165
+  - first:
+      213: -3580746770194691474
+    second: Gigachad_Zombie_Death_Trans _166
+  - first:
+      213: -3290491453985489929
+    second: Gigachad_Zombie_Death_Trans _167
+  - first:
+      213: 3545650599151763124
+    second: Gigachad_Zombie_Death_Trans _168
+  - first:
+      213: -644639560954793546
+    second: Gigachad_Zombie_Death_Trans _169
+  - first:
+      213: 6438148576725427731
+    second: Gigachad_Zombie_Death_Trans _170
+  - first:
+      213: -4063343710976234235
+    second: Gigachad_Zombie_Death_Trans _171
+  - first:
+      213: -8589353921720717968
+    second: Gigachad_Zombie_Death_Trans _172
+  - first:
+      213: 340562961992221083
+    second: Gigachad_Zombie_Death_Trans _173
+  - first:
+      213: -8000008437354969526
+    second: Gigachad_Zombie_Death_Trans _174
+  - first:
+      213: -6919326875686219818
+    second: Gigachad_Zombie_Death_Trans _175
+  - first:
+      213: 8516506370084945197
+    second: Gigachad_Zombie_Death_Trans _176
+  - first:
+      213: 2106293408233323624
+    second: Gigachad_Zombie_Death_Trans _177
+  - first:
+      213: 3894984871024029097
+    second: Gigachad_Zombie_Death_Trans _178
+  - first:
+      213: -5873645527019669607
+    second: Gigachad_Zombie_Death_Trans _179
+  - first:
+      213: 3120511679242395632
+    second: Gigachad_Zombie_Death_Trans _180
+  - first:
+      213: 7744177694515561812
+    second: Gigachad_Zombie_Death_Trans _181
+  - first:
+      213: 8728073610933510393
+    second: Gigachad_Zombie_Death_Trans _182
+  - first:
+      213: -3277604538958238984
+    second: Gigachad_Zombie_Death_Trans _183
+  - first:
+      213: 988307724146489572
+    second: Gigachad_Zombie_Death_Trans _184
+  - first:
+      213: -7945870549279900138
+    second: Gigachad_Zombie_Death_Trans _185
+  - first:
+      213: -562811286764714815
+    second: Gigachad_Zombie_Death_Trans _186
+  - first:
+      213: -8670966709412547586
+    second: Gigachad_Zombie_Death_Trans _187
+  - first:
+      213: -3783008027560462510
+    second: Gigachad_Zombie_Death_Trans _188
+  - first:
+      213: 3938814357436520638
+    second: Gigachad_Zombie_Death_Trans _189
+  - first:
+      213: -9022216225574944892
+    second: Gigachad_Zombie_Death_Trans _190
+  - first:
+      213: -8612800429876008614
+    second: Gigachad_Zombie_Death_Trans _191
+  - first:
+      213: -6922717397696716538
+    second: Gigachad_Zombie_Death_Trans _192
+  - first:
+      213: 5830303827698338309
+    second: Gigachad_Zombie_Death_Trans _193
+  - first:
+      213: 8753990762592730923
+    second: Gigachad_Zombie_Death_Trans _194
+  - first:
+      213: -5136720223971795306
+    second: Gigachad_Zombie_Death_Trans _195
+  - first:
+      213: 8809071485936169549
+    second: Gigachad_Zombie_Death_Trans _196
+  - first:
+      213: 1128359173809089174
+    second: Gigachad_Zombie_Death_Trans _197
+  - first:
+      213: -365696096723448657
+    second: Gigachad_Zombie_Death_Trans _198
+  - first:
+      213: -3836068028791238854
+    second: Gigachad_Zombie_Death_Trans _199
+  - first:
+      213: -4242662118986536556
+    second: Gigachad_Zombie_Death_Trans _200
+  - first:
+      213: 4609695883919356441
+    second: Gigachad_Zombie_Death_Trans _201
+  - first:
+      213: 7421163483546448408
+    second: Gigachad_Zombie_Death_Trans _202
+  - first:
+      213: -870990595917011897
+    second: Gigachad_Zombie_Death_Trans _203
+  - first:
+      213: 367652287962815968
+    second: Gigachad_Zombie_Death_Trans _204
+  - first:
+      213: 5611343469772241029
+    second: Gigachad_Zombie_Death_Trans _205
+  - first:
+      213: -3095459989467759634
+    second: Gigachad_Zombie_Death_Trans _206
+  - first:
+      213: -237190565599305504
+    second: Gigachad_Zombie_Death_Trans _207
+  - first:
+      213: -1845958384467370105
+    second: Gigachad_Zombie_Death_Trans _208
+  - first:
+      213: 7751243219206097329
+    second: Gigachad_Zombie_Death_Trans _209
+  - first:
+      213: 1987160448735581234
+    second: Gigachad_Zombie_Death_Trans _210
+  - first:
+      213: -1352711570579730338
+    second: Gigachad_Zombie_Death_Trans _211
+  - first:
+      213: 178030365002166607
+    second: Gigachad_Zombie_Death_Trans _212
+  - first:
+      213: 2413927697311855844
+    second: Gigachad_Zombie_Death_Trans _213
+  - first:
+      213: -6146362468987042280
+    second: Gigachad_Zombie_Death_Trans _214
+  - first:
+      213: -6331460097597619249
+    second: Gigachad_Zombie_Death_Trans _215
+  - first:
+      213: -4177695380430928554
+    second: Gigachad_Zombie_Death_Trans _216
+  - first:
+      213: 4838594316445956935
+    second: Gigachad_Zombie_Death_Trans _217
+  - first:
+      213: -4184888013106379929
+    second: Gigachad_Zombie_Death_Trans _218
+  - first:
+      213: -3725714426186256166
+    second: Gigachad_Zombie_Death_Trans _219
+  - first:
+      213: -966243445665801853
+    second: Gigachad_Zombie_Death_Trans _220
+  - first:
+      213: 3695002362628968507
+    second: Gigachad_Zombie_Death_Trans _221
+  - first:
+      213: -8687508410313506340
+    second: Gigachad_Zombie_Death_Trans _222
+  - first:
+      213: 2806432502808917387
+    second: Gigachad_Zombie_Death_Trans _223
+  - first:
+      213: 453176729578551261
+    second: Gigachad_Zombie_Death_Trans _224
+  - first:
+      213: 333235213408693788
+    second: Gigachad_Zombie_Death_Trans _225
+  - first:
+      213: -2752925241885257319
+    second: Gigachad_Zombie_Death_Trans _226
+  - first:
+      213: -7755462852677169594
+    second: Gigachad_Zombie_Death_Trans _227
+  - first:
+      213: 4801901049857274940
+    second: Gigachad_Zombie_Death_Trans _228
+  - first:
+      213: 1613045193610595783
+    second: Gigachad_Zombie_Death_Trans _229
+  - first:
+      213: 9056885673217344920
+    second: Gigachad_Zombie_Death_Trans _230
+  - first:
+      213: 242998705101292147
+    second: Gigachad_Zombie_Death_Trans _231
+  - first:
+      213: -2674784313180094
+    second: Gigachad_Zombie_Death_Trans _232
+  - first:
+      213: -7549780147042117244
+    second: Gigachad_Zombie_Death_Trans _233
+  - first:
+      213: 4567305558719919410
+    second: Gigachad_Zombie_Death_Trans _234
+  - first:
+      213: -7615832415952132049
+    second: Gigachad_Zombie_Death_Trans _235
+  - first:
+      213: 3363844447893511965
+    second: Gigachad_Zombie_Death_Trans _236
+  - first:
+      213: -9076485746730325765
+    second: Gigachad_Zombie_Death_Trans _237
+  - first:
+      213: 8193468300563569282
+    second: Gigachad_Zombie_Death_Trans _238
+  - first:
+      213: 765956488227246196
+    second: Gigachad_Zombie_Death_Trans _239
+  - first:
+      213: -5304069752906987211
+    second: Gigachad_Zombie_Death_Trans _240
+  - first:
+      213: -5695891532297181543
+    second: Gigachad_Zombie_Death_Trans _241
+  - first:
+      213: 7498670362617692798
+    second: Gigachad_Zombie_Death_Trans _242
+  - first:
+      213: 1367356967841233851
+    second: Gigachad_Zombie_Death_Trans _243
+  - first:
+      213: -7049363670860799042
+    second: Gigachad_Zombie_Death_Trans _244
+  - first:
+      213: -6681587902069171210
+    second: Gigachad_Zombie_Death_Trans _245
+  - first:
+      213: 7465234901655679126
+    second: Gigachad_Zombie_Death_Trans _246
+  - first:
+      213: -4297336340331451695
+    second: Gigachad_Zombie_Death_Trans _247
+  - first:
+      213: 6996596529734792910
+    second: Gigachad_Zombie_Death_Trans _248
+  - first:
+      213: 3660902646532987760
+    second: Gigachad_Zombie_Death_Trans _249
+  - first:
+      213: 1835574867739051199
+    second: Gigachad_Zombie_Death_Trans _250
+  - first:
+      213: 2500360866791014561
+    second: Gigachad_Zombie_Death_Trans _251
+  - first:
+      213: 7695461878138854415
+    second: Gigachad_Zombie_Death_Trans _252
+  - first:
+      213: -526666296799340832
+    second: Gigachad_Zombie_Death_Trans _253
+  - first:
+      213: -4811947965621899597
+    second: Gigachad_Zombie_Death_Trans _254
+  - first:
+      213: -2555963040761487621
+    second: Gigachad_Zombie_Death_Trans _255
+  - first:
+      213: -1726146118604355642
+    second: Gigachad_Zombie_Death_Trans _256
+  - first:
+      213: -4878460657943012466
+    second: Gigachad_Zombie_Death_Trans _257
+  - first:
+      213: -7116063082188720455
+    second: Gigachad_Zombie_Death_Trans _258
+  - first:
+      213: -2667050246278115148
+    second: Gigachad_Zombie_Death_Trans _259
+  - first:
+      213: -382319604496188561
+    second: Gigachad_Zombie_Death_Trans _260
+  - first:
+      213: -2458496579265513580
+    second: Gigachad_Zombie_Death_Trans _261
+  - first:
+      213: -7670120392139081177
+    second: Gigachad_Zombie_Death_Trans _262
+  - first:
+      213: 1851776397676772565
+    second: Gigachad_Zombie_Death_Trans _263
+  - first:
+      213: -8411531934597535810
+    second: Gigachad_Zombie_Death_Trans _264
+  - first:
+      213: -3401314255505444926
+    second: Gigachad_Zombie_Death_Trans _265
+  - first:
+      213: -7012383541996482441
+    second: Gigachad_Zombie_Death_Trans _266
+  - first:
+      213: -7317633808428552693
+    second: Gigachad_Zombie_Death_Trans _267
+  - first:
+      213: 3518728433559723188
+    second: Gigachad_Zombie_Death_Trans _268
+  - first:
+      213: -6652442392990259537
+    second: Gigachad_Zombie_Death_Trans _269
+  - first:
+      213: 505510355210862333
+    second: Gigachad_Zombie_Death_Trans _270
+  - first:
+      213: -3491195394801399139
+    second: Gigachad_Zombie_Death_Trans _271
+  - first:
+      213: -7237744342756864759
+    second: Gigachad_Zombie_Death_Trans _272
+  - first:
+      213: -7057891419129552558
+    second: Gigachad_Zombie_Death_Trans _273
+  - first:
+      213: 5704508410581639440
+    second: Gigachad_Zombie_Death_Trans _274
+  - first:
+      213: -834948069755798560
+    second: Gigachad_Zombie_Death_Trans _275
+  - first:
+      213: 5000954341250246972
+    second: Gigachad_Zombie_Death_Trans _276
+  - first:
+      213: 437134291639175354
+    second: Gigachad_Zombie_Death_Trans _277
+  - first:
+      213: 3640620992982087811
+    second: Gigachad_Zombie_Death_Trans _278
+  - first:
+      213: 6250892472735248326
+    second: Gigachad_Zombie_Death_Trans _279
+  - first:
+      213: 802085211554651074
+    second: Gigachad_Zombie_Death_Trans _280
+  - first:
+      213: -4513744219116289435
+    second: Gigachad_Zombie_Death_Trans _281
+  - first:
+      213: 3457057072621783886
+    second: Gigachad_Zombie_Death_Trans _282
+  - first:
+      213: -656326881386856376
+    second: Gigachad_Zombie_Death_Trans _283
+  - first:
+      213: -6547210569419632644
+    second: Gigachad_Zombie_Death_Trans _284
+  - first:
+      213: 4796288440498110288
+    second: Gigachad_Zombie_Death_Trans _285
+  - first:
+      213: 3244476912993479932
+    second: Gigachad_Zombie_Death_Trans _286
+  - first:
+      213: 2884315729391006633
+    second: Gigachad_Zombie_Death_Trans _287
+  - first:
+      213: 3441554369463339500
+    second: Gigachad_Zombie_Death_Trans _288
+  - first:
+      213: -4135292917845880558
+    second: Gigachad_Zombie_Death_Trans _289
+  - first:
+      213: 7345521738513475075
+    second: Gigachad_Zombie_Death_Trans _290
+  - first:
+      213: -3445329188495863193
+    second: Gigachad_Zombie_Death_Trans _291
+  - first:
+      213: -4068425589629042862
+    second: Gigachad_Zombie_Death_Trans _292
+  - first:
+      213: -6598093421419529967
+    second: Gigachad_Zombie_Death_Trans _293
+  - first:
+      213: 1383758537538291732
+    second: Gigachad_Zombie_Death_Trans _294
+  - first:
+      213: -1239534256288452991
+    second: Gigachad_Zombie_Death_Trans _295
+  - first:
+      213: -6860685914503397809
+    second: Gigachad_Zombie_Death_Trans _296
+  - first:
+      213: 8973358754568540627
+    second: Gigachad_Zombie_Death_Trans _297
+  - first:
+      213: 6529095368969820960
+    second: Gigachad_Zombie_Death_Trans _298
+  - first:
+      213: 1144077542411894957
+    second: Gigachad_Zombie_Death_Trans _299
+  - first:
+      213: -3311396021831585017
+    second: Gigachad_Zombie_Death_Trans _300
+  - first:
+      213: 233259576046172351
+    second: Gigachad_Zombie_Death_Trans _301
+  - first:
+      213: -3257673947165675763
+    second: Gigachad_Zombie_Death_Trans _302
+  - first:
+      213: 4810892343100584006
+    second: Gigachad_Zombie_Death_Trans _303
+  - first:
+      213: -7656736798566949118
+    second: Gigachad_Zombie_Death_Trans _304
+  - first:
+      213: -8191046680038750406
+    second: Gigachad_Zombie_Death_Trans _305
+  - first:
+      213: -5048391118752299266
+    second: Gigachad_Zombie_Death_Trans _306
+  - first:
+      213: 9173100935391936368
+    second: Gigachad_Zombie_Death_Trans _307
+  - first:
+      213: 1786064788588402217
+    second: Gigachad_Zombie_Death_Trans _308
+  - first:
+      213: -8684461631173436843
+    second: Gigachad_Zombie_Death_Trans _309
+  - first:
+      213: 5276436718417006065
+    second: Gigachad_Zombie_Death_Trans _310
+  - first:
+      213: 2096368408030938928
+    second: Gigachad_Zombie_Death_Trans _311
+  - first:
+      213: -607925938731593772
+    second: Gigachad_Zombie_Death_Trans _312
+  - first:
+      213: -6857451959083772561
+    second: Gigachad_Zombie_Death_Trans _313
+  - first:
+      213: 9103830404741207998
+    second: Gigachad_Zombie_Death_Trans _314
+  - first:
+      213: -480224081136468986
+    second: Gigachad_Zombie_Death_Trans _315
+  - first:
+      213: 5798891987765774791
+    second: Gigachad_Zombie_Death_Trans _316
+  - first:
+      213: 1869602831095441834
+    second: Gigachad_Zombie_Death_Trans _317
+  - first:
+      213: -7138992274268826320
+    second: Gigachad_Zombie_Death_Trans _318
+  - first:
+      213: -1181333830747824970
+    second: Gigachad_Zombie_Death_Trans _319
+  - first:
+      213: -5171052005038400454
+    second: Gigachad_Zombie_Death_Trans _320
+  - first:
+      213: 5634547780164122930
+    second: Gigachad_Zombie_Death_Trans _321
+  - first:
+      213: 2294308074280446101
+    second: Gigachad_Zombie_Death_Trans _322
+  - first:
+      213: 38859626103289929
+    second: Gigachad_Zombie_Death_Trans _323
+  - first:
+      213: -1494268536284146223
+    second: Gigachad_Zombie_Death_Trans _324
+  - first:
+      213: -3391822210678305050
+    second: Gigachad_Zombie_Death_Trans _325
+  - first:
+      213: -3032199758938799244
+    second: Gigachad_Zombie_Death_Trans _326
+  - first:
+      213: 5511528184964486389
+    second: Gigachad_Zombie_Death_Trans _327
+  - first:
+      213: -5021692834671515448
+    second: Gigachad_Zombie_Death_Trans _328
+  - first:
+      213: 3822951420119228377
+    second: Gigachad_Zombie_Death_Trans _329
+  - first:
+      213: 8064425513367385057
+    second: Gigachad_Zombie_Death_Trans _330
+  - first:
+      213: 2239543115853619834
+    second: Gigachad_Zombie_Death_Trans _331
+  - first:
+      213: 7731688314666639725
+    second: Gigachad_Zombie_Death_Trans _332
+  - first:
+      213: -2852383514984044757
+    second: Gigachad_Zombie_Death_Trans _333
+  - first:
+      213: 2860094389541373130
+    second: Gigachad_Zombie_Death_Trans _334
+  - first:
+      213: 3455236453760810743
+    second: Gigachad_Zombie_Death_Trans _335
+  - first:
+      213: -5480022757600740277
+    second: Gigachad_Zombie_Death_Trans _336
+  - first:
+      213: 2336515330434126754
+    second: Gigachad_Zombie_Death_Trans _337
+  - first:
+      213: -787981627611909399
+    second: Gigachad_Zombie_Death_Trans _338
+  - first:
+      213: -203875407021225866
+    second: Gigachad_Zombie_Death_Trans _339
+  - first:
+      213: 1909858777860790235
+    second: Gigachad_Zombie_Death_Trans _340
+  - first:
+      213: -236206008145337724
+    second: Gigachad_Zombie_Death_Trans _341
+  - first:
+      213: 908326722175416112
+    second: Gigachad_Zombie_Death_Trans _342
+  - first:
+      213: 1586284717936603936
+    second: Gigachad_Zombie_Death_Trans _343
+  - first:
+      213: -1095042199607901716
+    second: Gigachad_Zombie_Death_Trans _344
+  - first:
+      213: -5452095916680259255
+    second: Gigachad_Zombie_Death_Trans _345
+  - first:
+      213: 7710517309199403506
+    second: Gigachad_Zombie_Death_Trans _346
+  - first:
+      213: -9044623789568658299
+    second: Gigachad_Zombie_Death_Trans _347
+  - first:
+      213: -5685871117142513605
+    second: Gigachad_Zombie_Death_Trans _348
+  - first:
+      213: 964857585751506618
+    second: Gigachad_Zombie_Death_Trans _349
+  - first:
+      213: -4532235073049901478
+    second: Gigachad_Zombie_Death_Trans _350
+  - first:
+      213: -1201744664150810406
+    second: Gigachad_Zombie_Death_Trans _351
+  - first:
+      213: 5338595226227340299
+    second: Gigachad_Zombie_Death_Trans _352
+  - first:
+      213: 606261106454223975
+    second: Gigachad_Zombie_Death_Trans _353
+  - first:
+      213: -3566633139987490991
+    second: Gigachad_Zombie_Death_Trans _354
+  - first:
+      213: -2991595619070972246
+    second: Gigachad_Zombie_Death_Trans _355
+  - first:
+      213: -7258323026030792662
+    second: Gigachad_Zombie_Death_Trans _356
+  - first:
+      213: -3626106921554681165
+    second: Gigachad_Zombie_Death_Trans _357
+  - first:
+      213: 7667989231949076163
+    second: Gigachad_Zombie_Death_Trans _358
+  - first:
+      213: -7589159747067761835
+    second: Gigachad_Zombie_Death_Trans _359
+  - first:
+      213: 3345834555104772087
+    second: Gigachad_Zombie_Death_Trans _360
+  - first:
+      213: -5196614097818592597
+    second: Gigachad_Zombie_Death_Trans _361
+  - first:
+      213: 6532035098110980959
+    second: Gigachad_Zombie_Death_Trans _362
+  - first:
+      213: -4486394327586540415
+    second: Gigachad_Zombie_Death_Trans _363
+  - first:
+      213: 9216135603676925212
+    second: Gigachad_Zombie_Death_Trans _364
+  - first:
+      213: -2599824402859086630
+    second: Gigachad_Zombie_Death_Trans _365
+  - first:
+      213: -3368332929532910110
+    second: Gigachad_Zombie_Death_Trans _366
+  - first:
+      213: -6003489205728921304
+    second: Gigachad_Zombie_Death_Trans _367
+  - first:
+      213: -8510579738668554594
+    second: Gigachad_Zombie_Death_Trans _368
+  - first:
+      213: 6237864800661709543
+    second: Gigachad_Zombie_Death_Trans _369
+  - first:
+      213: -7245472853552314165
+    second: Gigachad_Zombie_Death_Trans _370
+  - first:
+      213: -4086345248120698206
+    second: Gigachad_Zombie_Death_Trans _371
+  - first:
+      213: -7929808340852065614
+    second: Gigachad_Zombie_Death_Trans _372
+  - first:
+      213: 5825901948319180488
+    second: Gigachad_Zombie_Death_Trans _373
+  - first:
+      213: -9170108820978099543
+    second: Gigachad_Zombie_Death_Trans _374
+  - first:
+      213: -3969805880495932901
+    second: Gigachad_Zombie_Death_Trans _375
+  - first:
+      213: -8066588278259551001
+    second: Gigachad_Zombie_Death_Trans _376
+  - first:
+      213: 5842958817124266416
+    second: Gigachad_Zombie_Death_Trans _377
+  - first:
+      213: -6148790286261549741
+    second: Gigachad_Zombie_Death_Trans _378
+  - first:
+      213: 3425828235841535908
+    second: Gigachad_Zombie_Death_Trans _379
+  - first:
+      213: 5690614272862815999
+    second: Gigachad_Zombie_Death_Trans _380
+  - first:
+      213: 5235206672973735576
+    second: Gigachad_Zombie_Death_Trans _381
+  - first:
+      213: -3337871529868312990
+    second: Gigachad_Zombie_Death_Trans _382
+  - first:
+      213: -8591437855202441684
+    second: Gigachad_Zombie_Death_Trans _383
+  - first:
+      213: -8114761566314120575
+    second: Gigachad_Zombie_Death_Trans _384
+  - first:
+      213: -1827912409486639737
+    second: Gigachad_Zombie_Death_Trans _385
+  - first:
+      213: -2605711514873564515
+    second: Gigachad_Zombie_Death_Trans _386
+  - first:
+      213: -9013794965096509671
+    second: Gigachad_Zombie_Death_Trans _387
+  - first:
+      213: -7930303988360222644
+    second: Gigachad_Zombie_Death_Trans _388
+  - first:
+      213: -5428094716156924908
+    second: Gigachad_Zombie_Death_Trans _389
+  - first:
+      213: -7921189496673169617
+    second: Gigachad_Zombie_Death_Trans _390
+  - first:
+      213: -2487987467232916142
+    second: Gigachad_Zombie_Death_Trans _391
+  - first:
+      213: 2821638158636862880
+    second: Gigachad_Zombie_Death_Trans _392
+  - first:
+      213: -730240237408337851
+    second: Gigachad_Zombie_Death_Trans _393
+  - first:
+      213: -6568194462463907425
+    second: Gigachad_Zombie_Death_Trans _394
+  - first:
+      213: 8410058299254754379
+    second: Gigachad_Zombie_Death_Trans _395
+  - first:
+      213: -69170745754607865
+    second: Gigachad_Zombie_Death_Trans _396
+  - first:
+      213: 3836809476467193390
+    second: Gigachad_Zombie_Death_Trans _397
+  - first:
+      213: -6119242660502307038
+    second: Gigachad_Zombie_Death_Trans _398
+  - first:
+      213: 9063109852471900035
+    second: Gigachad_Zombie_Death_Trans _399
+  - first:
+      213: 816212537617904536
+    second: Gigachad_Zombie_Death_Trans _400
+  - first:
+      213: 8079808326678970112
+    second: Gigachad_Zombie_Death_Trans _401
+  - first:
+      213: 3051918415201128430
+    second: Gigachad_Zombie_Death_Trans _402
+  - first:
+      213: 1027568387156858248
+    second: Gigachad_Zombie_Death_Trans _403
+  - first:
+      213: -1511260851746556664
+    second: Gigachad_Zombie_Death_Trans _404
+  - first:
+      213: -5033052750133645846
+    second: Gigachad_Zombie_Death_Trans _405
+  - first:
+      213: 8323472076736983653
+    second: Gigachad_Zombie_Death_Trans _406
+  - first:
+      213: 3046991578986017168
+    second: Gigachad_Zombie_Death_Trans _407
+  - first:
+      213: 8592924934240167577
+    second: Gigachad_Zombie_Death_Trans _408
+  - first:
+      213: 2195674646431288410
+    second: Gigachad_Zombie_Death_Trans _409
+  - first:
+      213: 3603237293754875089
+    second: Gigachad_Zombie_Death_Trans _410
+  - first:
+      213: 1510211603333899177
+    second: Gigachad_Zombie_Death_Trans _411
+  - first:
+      213: -761703598107934540
+    second: Gigachad_Zombie_Death_Trans _412
+  - first:
+      213: 7207809329226330575
+    second: Gigachad_Zombie_Death_Trans _413
+  - first:
+      213: 5587221885528213856
+    second: Gigachad_Zombie_Death_Trans _414
+  - first:
+      213: -5521132523040992969
+    second: Gigachad_Zombie_Death_Trans _415
+  - first:
+      213: -3369507663292218387
+    second: Gigachad_Zombie_Death_Trans _416
+  - first:
+      213: 4160310839987260835
+    second: Gigachad_Zombie_Death_Trans _417
+  - first:
+      213: -105000228861851738
+    second: Gigachad_Zombie_Death_Trans _418
+  - first:
+      213: 1679568360494871304
+    second: Gigachad_Zombie_Death_Trans _419
+  - first:
+      213: 7528412867547983983
+    second: Gigachad_Zombie_Death_Trans _420
+  - first:
+      213: 2742045539533331431
+    second: Gigachad_Zombie_Death_Trans _421
+  - first:
+      213: 8996876885891552736
+    second: Gigachad_Zombie_Death_Trans _422
+  - first:
+      213: -2411291612460834065
+    second: Gigachad_Zombie_Death_Trans _423
+  - first:
+      213: -2819421543971036739
+    second: Gigachad_Zombie_Death_Trans _424
+  - first:
+      213: 5163687177927558400
+    second: Gigachad_Zombie_Death_Trans _425
+  - first:
+      213: -1713966975645009351
+    second: Gigachad_Zombie_Death_Trans _426
+  - first:
+      213: 1309142106362952333
+    second: Gigachad_Zombie_Death_Trans _427
+  - first:
+      213: -6290611548966005851
+    second: Gigachad_Zombie_Death_Trans _428
+  - first:
+      213: -2312174471673064144
+    second: Gigachad_Zombie_Death_Trans _429
+  - first:
+      213: -4224757831753076886
+    second: Gigachad_Zombie_Death_Trans _430
+  - first:
+      213: -709280097057979153
+    second: Gigachad_Zombie_Death_Trans _431
+  - first:
+      213: -7632188082195352301
+    second: Gigachad_Zombie_Death_Trans _432
+  - first:
+      213: 7767800246073447264
+    second: Gigachad_Zombie_Death_Trans _433
+  - first:
+      213: 4427549230259230815
+    second: Gigachad_Zombie_Death_Trans _434
+  - first:
+      213: -6315865901629451166
+    second: Gigachad_Zombie_Death_Trans _435
+  - first:
+      213: 2732200574904586085
+    second: Gigachad_Zombie_Death_Trans _436
+  - first:
+      213: -1240496620812608860
+    second: Gigachad_Zombie_Death_Trans _437
+  - first:
+      213: -4376239741512513006
+    second: Gigachad_Zombie_Death_Trans _438
+  - first:
+      213: 1234360636116374793
+    second: Gigachad_Zombie_Death_Trans _439
+  - first:
+      213: -2331015999716611696
+    second: Gigachad_Zombie_Death_Trans _440
+  - first:
+      213: -1749532834246608071
+    second: Gigachad_Zombie_Death_Trans _441
+  - first:
+      213: -107708253906252091
+    second: Gigachad_Zombie_Death_Trans _442
+  - first:
+      213: -3304045473886585951
+    second: Gigachad_Zombie_Death_Trans _443
+  - first:
+      213: -7677687942702519065
+    second: Gigachad_Zombie_Death_Trans _444
+  - first:
+      213: -964679575128670203
+    second: Gigachad_Zombie_Death_Trans _445
+  - first:
+      213: 7859311274856523925
+    second: Gigachad_Zombie_Death_Trans _446
+  - first:
+      213: -4886182938688021397
+    second: Gigachad_Zombie_Death_Trans _447
+  - first:
+      213: -4001801910382947863
+    second: Gigachad_Zombie_Death_Trans _448
+  - first:
+      213: -3871034581868716195
+    second: Gigachad_Zombie_Death_Trans _449
+  - first:
+      213: 2070933772356902710
+    second: Gigachad_Zombie_Death_Trans _450
+  - first:
+      213: 3195921382158485541
+    second: Gigachad_Zombie_Death_Trans _451
+  - first:
+      213: 1364680490139521519
+    second: Gigachad_Zombie_Death_Trans _452
+  - first:
+      213: 5268543001149060108
+    second: Gigachad_Zombie_Death_Trans _453
+  - first:
+      213: 4317775825933092335
+    second: Gigachad_Zombie_Death_Trans _454
+  - first:
+      213: -3794878253024435718
+    second: Gigachad_Zombie_Death_Trans _455
+  - first:
+      213: 2720883109756089847
+    second: Gigachad_Zombie_Death_Trans _456
+  - first:
+      213: -2260715415421863043
+    second: Gigachad_Zombie_Death_Trans _457
+  - first:
+      213: 508067561792203406
+    second: Gigachad_Zombie_Death_Trans _458
+  - first:
+      213: -3252355261774244894
+    second: Gigachad_Zombie_Death_Trans _459
+  - first:
+      213: 1860515889242533985
+    second: Gigachad_Zombie_Death_Trans _460
+  - first:
+      213: -6898652708488157510
+    second: Gigachad_Zombie_Death_Trans _461
+  - first:
+      213: 7294774077291936103
+    second: Gigachad_Zombie_Death_Trans _462
+  - first:
+      213: 3775718657933174092
+    second: Gigachad_Zombie_Death_Trans _463
+  - first:
+      213: -629609237249613855
+    second: Gigachad_Zombie_Death_Trans _464
+  - first:
+      213: 8536069250044466805
+    second: Gigachad_Zombie_Death_Trans _465
+  - first:
+      213: -6296135128363337125
+    second: Gigachad_Zombie_Death_Trans _466
+  - first:
+      213: -2214535890784617612
+    second: Gigachad_Zombie_Death_Trans _467
+  - first:
+      213: -1475177363669978329
+    second: Gigachad_Zombie_Death_Trans _468
+  - first:
+      213: 3687643590433482976
+    second: Gigachad_Zombie_Death_Trans _469
+  - first:
+      213: 256173291236113757
+    second: Gigachad_Zombie_Death_Trans _470
+  - first:
+      213: -1691071469827215124
+    second: Gigachad_Zombie_Death_Trans _471
+  - first:
+      213: 5319778039955965511
+    second: Gigachad_Zombie_Death_Trans _472
+  - first:
+      213: -3359762728519597409
+    second: Gigachad_Zombie_Death_Trans _473
+  - first:
+      213: 7578173439410208718
+    second: Gigachad_Zombie_Death_Trans _474
+  - first:
+      213: 5889329978010396229
+    second: Gigachad_Zombie_Death_Trans _475
+  - first:
+      213: 2628791472635262408
+    second: Gigachad_Zombie_Death_Trans _476
+  - first:
+      213: -3336934000732520902
+    second: Gigachad_Zombie_Death_Trans _477
+  - first:
+      213: 9051041107938763709
+    second: Gigachad_Zombie_Death_Trans _478
+  - first:
+      213: 3265103656629677469
+    second: Gigachad_Zombie_Death_Trans _479
+  - first:
+      213: -7854900328535833012
+    second: Gigachad_Zombie_Death_Trans _480
+  - first:
+      213: 2233683802782150209
+    second: Gigachad_Zombie_Death_Trans _481
+  - first:
+      213: 7215045580653372692
+    second: Gigachad_Zombie_Death_Trans _482
+  - first:
+      213: 3944526883985282344
+    second: Gigachad_Zombie_Death_Trans _483
+  - first:
+      213: 1741695343732578477
+    second: Gigachad_Zombie_Death_Trans _484
+  - first:
+      213: 573690614019386160
+    second: Gigachad_Zombie_Death_Trans _485
+  - first:
+      213: 4584436598310800242
+    second: Gigachad_Zombie_Death_Trans _486
+  - first:
+      213: 2668512922476057381
+    second: Gigachad_Zombie_Death_Trans _487
+  - first:
+      213: 7596805722172487112
+    second: Gigachad_Zombie_Death_Trans _488
+  - first:
+      213: -1104973432723778473
+    second: Gigachad_Zombie_Death_Trans _489
+  - first:
+      213: 7132919646217710076
+    second: Gigachad_Zombie_Death_Trans _490
+  - first:
+      213: 8206727017693448974
+    second: Gigachad_Zombie_Death_Trans _491
+  - first:
+      213: -5513547980848081525
+    second: Gigachad_Zombie_Death_Trans _492
+  - first:
+      213: -5737231312411184816
+    second: Gigachad_Zombie_Death_Trans _493
+  - first:
+      213: 6343856473905915893
+    second: Gigachad_Zombie_Death_Trans _494
+  - first:
+      213: 3731993977986394826
+    second: Gigachad_Zombie_Death_Trans _495
+  - first:
+      213: 2558299284566150787
+    second: Gigachad_Zombie_Death_Trans _496
+  - first:
+      213: -6137188609792189411
+    second: Gigachad_Zombie_Death_Trans _497
+  - first:
+      213: 3847666387320501384
+    second: Gigachad_Zombie_Death_Trans _498
+  - first:
+      213: -5854060836003144399
+    second: Gigachad_Zombie_Death_Trans _499
+  - first:
+      213: 8466383622082627673
+    second: Gigachad_Zombie_Death_Trans _500
+  - first:
+      213: 8254711635817177873
+    second: Gigachad_Zombie_Death_Trans _501
+  - first:
+      213: -6220046016714451981
+    second: Gigachad_Zombie_Death_Trans _502
+  - first:
+      213: -2155159520322692826
+    second: Gigachad_Zombie_Death_Trans _503
+  - first:
+      213: -686468614419661999
+    second: Gigachad_Zombie_Death_Trans _504
+  - first:
+      213: 4330784975963762157
+    second: Gigachad_Zombie_Death_Trans _505
+  - first:
+      213: 1753681498565525040
+    second: Gigachad_Zombie_Death_Trans _506
+  - first:
+      213: -5953484234136243330
+    second: Gigachad_Zombie_Death_Trans _507
+  - first:
+      213: 2511305476415393336
+    second: Gigachad_Zombie_Death_Trans _508
+  - first:
+      213: -1749558494520891276
+    second: Gigachad_Zombie_Death_Trans _509
+  - first:
+      213: 2514542051429859282
+    second: Gigachad_Zombie_Death_Trans _510
+  - first:
+      213: 2759787446561947515
+    second: Gigachad_Zombie_Death_Trans _511
+  - first:
+      213: -1302932782030716755
+    second: Gigachad_Zombie_Death_Trans _512
+  - first:
+      213: -1920037890170136666
+    second: Gigachad_Zombie_Death_Trans _513
+  - first:
+      213: -5707240719838754281
+    second: Gigachad_Zombie_Death_Trans _514
+  - first:
+      213: -739503055110193437
+    second: Gigachad_Zombie_Death_Trans _515
+  - first:
+      213: -8067778022812777071
+    second: Gigachad_Zombie_Death_Trans _516
+  - first:
+      213: -3132055876096190737
+    second: Gigachad_Zombie_Death_Trans _517
+  - first:
+      213: 2816168046730967968
+    second: Gigachad_Zombie_Death_Trans _518
+  - first:
+      213: -6259029540418202045
+    second: Gigachad_Zombie_Death_Trans _519
+  - first:
+      213: -2524532858593974741
+    second: Gigachad_Zombie_Death_Trans _520
+  - first:
+      213: 2256714575531489493
+    second: Gigachad_Zombie_Death_Trans _521
+  - first:
+      213: 9054118763080491104
+    second: Gigachad_Zombie_Death_Trans _522
+  - first:
+      213: -646303176735582815
+    second: Gigachad_Zombie_Death_Trans _523
+  - first:
+      213: -3148702911883771900
+    second: Gigachad_Zombie_Death_Trans _524
+  - first:
+      213: -49976117383874159
+    second: Gigachad_Zombie_Death_Trans _525
+  - first:
+      213: 5652882079215753709
+    second: Gigachad_Zombie_Death_Trans _526
+  - first:
+      213: -3716022274873971996
+    second: Gigachad_Zombie_Death_Trans _527
+  - first:
+      213: 3958736625163935805
+    second: Gigachad_Zombie_Death_Trans _528
+  - first:
+      213: -8061071459277127681
+    second: Gigachad_Zombie_Death_Trans _529
+  - first:
+      213: -723534336980167291
+    second: Gigachad_Zombie_Death_Trans _530
+  - first:
+      213: 8446929969432083437
+    second: Gigachad_Zombie_Death_Trans _531
+  - first:
+      213: -1457446439340004152
+    second: Gigachad_Zombie_Death_Trans _532
+  - first:
+      213: -2165378852294666489
+    second: Gigachad_Zombie_Death_Trans _533
+  - first:
+      213: 5228004649974209485
+    second: Gigachad_Zombie_Death_Trans _534
+  - first:
+      213: -2106100600438800570
+    second: Gigachad_Zombie_Death_Trans _535
+  - first:
+      213: 3527394952366373912
+    second: Gigachad_Zombie_Death_Trans _536
+  - first:
+      213: 6823662819204738795
+    second: Gigachad_Zombie_Death_Trans _537
+  - first:
+      213: -355543707901185427
+    second: Gigachad_Zombie_Death_Trans _538
+  - first:
+      213: -135229464218292382
+    second: Gigachad_Zombie_Death_Trans _539
+  - first:
+      213: -5734295130179816451
+    second: Gigachad_Zombie_Death_Trans _540
+  - first:
+      213: -1323802431100110978
+    second: Gigachad_Zombie_Death_Trans _541
+  - first:
+      213: 8140567590996450134
+    second: Gigachad_Zombie_Death_Trans _542
+  - first:
+      213: 311925002813097129
+    second: Gigachad_Zombie_Death_Trans _543
+  - first:
+      213: 864849523005786437
+    second: Gigachad_Zombie_Death_Trans _544
+  - first:
+      213: -5901093896247759161
+    second: Gigachad_Zombie_Death_Trans _545
+  - first:
+      213: 3194568033338272173
+    second: Gigachad_Zombie_Death_Trans _546
+  - first:
+      213: 1563102038270541421
+    second: Gigachad_Zombie_Death_Trans _547
+  - first:
+      213: 4343235487371185766
+    second: Gigachad_Zombie_Death_Trans _548
+  - first:
+      213: 6673192458118393285
+    second: Gigachad_Zombie_Death_Trans _549
+  - first:
+      213: 8027989937731619180
+    second: Gigachad_Zombie_Death_Trans _550
+  - first:
+      213: 9125685882596347804
+    second: Gigachad_Zombie_Death_Trans _551
+  - first:
+      213: -6584284699791838035
+    second: Gigachad_Zombie_Death_Trans _552
+  - first:
+      213: -7075751292979798208
+    second: Gigachad_Zombie_Death_Trans _553
+  - first:
+      213: -1308478036655863246
+    second: Gigachad_Zombie_Death_Trans _554
+  - first:
+      213: 82090475860946929
+    second: Gigachad_Zombie_Death_Trans _555
+  - first:
+      213: 9063345842026199917
+    second: Gigachad_Zombie_Death_Trans _556
+  - first:
+      213: -4514243548806238246
+    second: Gigachad_Zombie_Death_Trans _557
+  - first:
+      213: 938298519219697048
+    second: Gigachad_Zombie_Death_Trans _558
+  - first:
+      213: -4023315639866592181
+    second: Gigachad_Zombie_Death_Trans _559
+  - first:
+      213: -3034869182922956863
+    second: Gigachad_Zombie_Death_Trans _560
+  - first:
+      213: -8416888550651572017
+    second: Gigachad_Zombie_Death_Trans _561
+  - first:
+      213: -1217585150261386634
+    second: Gigachad_Zombie_Death_Trans _562
+  - first:
+      213: -1757381836784659852
+    second: Gigachad_Zombie_Death_Trans _563
+  - first:
+      213: -1716957636529057149
+    second: Gigachad_Zombie_Death_Trans _564
+  - first:
+      213: 3302947594874295383
+    second: Gigachad_Zombie_Death_Trans _565
+  - first:
+      213: -4690042358039683867
+    second: Gigachad_Zombie_Death_Trans _566
+  - first:
+      213: -4503040438128380387
+    second: Gigachad_Zombie_Death_Trans _567
+  - first:
+      213: 5189764226763926687
+    second: Gigachad_Zombie_Death_Trans _568
+  - first:
+      213: -1603191006265675861
+    second: Gigachad_Zombie_Death_Trans _569
+  - first:
+      213: -1467797282724398242
+    second: Gigachad_Zombie_Death_Trans _570
+  - first:
+      213: 3636471481157032001
+    second: Gigachad_Zombie_Death_Trans _571
+  - first:
+      213: -2459012394610109266
+    second: Gigachad_Zombie_Death_Trans _572
+  - first:
+      213: 7523657118803957068
+    second: Gigachad_Zombie_Death_Trans _573
+  - first:
+      213: 5274189915994365864
+    second: Gigachad_Zombie_Death_Trans _574
+  - first:
+      213: -3064927777246710033
+    second: Gigachad_Zombie_Death_Trans _575
+  - first:
+      213: 9061592358728466443
+    second: Gigachad_Zombie_Death_Trans _576
+  - first:
+      213: -1588377595512322929
+    second: Gigachad_Zombie_Death_Trans _577
+  - first:
+      213: -9063637231089219625
+    second: Gigachad_Zombie_Death_Trans _578
+  - first:
+      213: -2124010883669027483
+    second: Gigachad_Zombie_Death_Trans _579
+  - first:
+      213: 898450581444274908
+    second: Gigachad_Zombie_Death_Trans _580
+  - first:
+      213: 758725722275220827
+    second: Gigachad_Zombie_Death_Trans _581
+  - first:
+      213: -6650117725583818825
+    second: Gigachad_Zombie_Death_Trans _582
+  - first:
+      213: -5134417818963443262
+    second: Gigachad_Zombie_Death_Trans _583
+  - first:
+      213: -2808484313655766260
+    second: Gigachad_Zombie_Death_Trans _584
+  - first:
+      213: 5150268798202041328
+    second: Gigachad_Zombie_Death_Trans _585
+  - first:
+      213: -4050665460830057490
+    second: Gigachad_Zombie_Death_Trans _586
+  - first:
+      213: -4111378711921986679
+    second: Gigachad_Zombie_Death_Trans _587
+  - first:
+      213: -1462432267136327844
+    second: Gigachad_Zombie_Death_Trans _588
+  - first:
+      213: -6719453664787565477
+    second: Gigachad_Zombie_Death_Trans _589
+  - first:
+      213: 8279342144027256939
+    second: Gigachad_Zombie_Death_Trans _590
+  - first:
+      213: 6093233906847021907
+    second: Gigachad_Zombie_Death_Trans _591
+  - first:
+      213: 2968444298992924478
+    second: Gigachad_Zombie_Death_Trans _592
+  - first:
+      213: -5892338103667418737
+    second: Gigachad_Zombie_Death_Trans _593
+  - first:
+      213: 6060418518039200767
+    second: Gigachad_Zombie_Death_Trans _594
+  - first:
+      213: 6779288940673319973
+    second: Gigachad_Zombie_Death_Trans _595
+  - first:
+      213: -8344759677396888062
+    second: Gigachad_Zombie_Death_Trans _596
+  - first:
+      213: 7928150995385565763
+    second: Gigachad_Zombie_Death_Trans _597
+  - first:
+      213: -4067580783260294153
+    second: Gigachad_Zombie_Death_Trans _598
+  - first:
+      213: -6957995709956639896
+    second: Gigachad_Zombie_Death_Trans _599
+  - first:
+      213: -82261632323991289
+    second: Gigachad_Zombie_Death_Trans _600
+  - first:
+      213: -1528122529881085245
+    second: Gigachad_Zombie_Death_Trans _601
+  - first:
+      213: -5630773027163188358
+    second: Gigachad_Zombie_Death_Trans _602
+  - first:
+      213: -7008541721559553508
+    second: Gigachad_Zombie_Death_Trans _603
+  - first:
+      213: -8749973816463003672
+    second: Gigachad_Zombie_Death_Trans _604
+  - first:
+      213: -5726452862564861237
+    second: Gigachad_Zombie_Death_Trans _605
+  - first:
+      213: 8726057233749818674
+    second: Gigachad_Zombie_Death_Trans _606
+  - first:
+      213: 7678930993858851009
+    second: Gigachad_Zombie_Death_Trans _607
+  - first:
+      213: -9058723793079500865
+    second: Gigachad_Zombie_Death_Trans _608
+  - first:
+      213: -637043389338861021
+    second: Gigachad_Zombie_Death_Trans _609
+  - first:
+      213: -5859553614000837610
+    second: Gigachad_Zombie_Death_Trans _610
+  - first:
+      213: 1618951334753210427
+    second: Gigachad_Zombie_Death_Trans _611
+  - first:
+      213: -1808020023522338747
+    second: Gigachad_Zombie_Death_Trans _612
+  - first:
+      213: -7700439811170273662
+    second: Gigachad_Zombie_Death_Trans _613
+  - first:
+      213: 6887685854624637556
+    second: Gigachad_Zombie_Death_Trans _614
+  - first:
+      213: -6668935466680976880
+    second: Gigachad_Zombie_Death_Trans _615
+  - first:
+      213: 5353793892546557357
+    second: Gigachad_Zombie_Death_Trans _616
+  - first:
+      213: -6981705737045227121
+    second: Gigachad_Zombie_Death_Trans _617
+  - first:
+      213: -2985942128509764098
+    second: Gigachad_Zombie_Death_Trans _618
+  - first:
+      213: 1534040479738589922
+    second: Gigachad_Zombie_Death_Trans _619
+  - first:
+      213: -4452094408022245888
+    second: Gigachad_Zombie_Death_Trans _620
+  - first:
+      213: -4067161045543706993
+    second: Gigachad_Zombie_Death_Trans _621
+  - first:
+      213: 1298883392042790414
+    second: Gigachad_Zombie_Death_Trans _622
+  - first:
+      213: -7607876167503615868
+    second: Gigachad_Zombie_Death_Trans _623
+  - first:
+      213: -4290496600240594906
+    second: Gigachad_Zombie_Death_Trans _624
+  - first:
+      213: 6939378752300984002
+    second: Gigachad_Zombie_Death_Trans _625
+  - first:
+      213: -7327847691827537538
+    second: Gigachad_Zombie_Death_Trans _626
+  - first:
+      213: 570888794479391780
+    second: Gigachad_Zombie_Death_Trans _627
+  - first:
+      213: -3731849805475940472
+    second: Gigachad_Zombie_Death_Trans _628
+  - first:
+      213: 905229682969172082
+    second: Gigachad_Zombie_Death_Trans _629
+  - first:
+      213: 9023225521094606817
+    second: Gigachad_Zombie_Death_Trans _630
+  - first:
+      213: 8107244213013137767
+    second: Gigachad_Zombie_Death_Trans _631
+  - first:
+      213: -1175334220946519996
+    second: Gigachad_Zombie_Death_Trans _632
+  - first:
+      213: 2625702585272082439
+    second: Gigachad_Zombie_Death_Trans _633
+  - first:
+      213: 2529058493982690052
+    second: Gigachad_Zombie_Death_Trans _634
+  - first:
+      213: 2183336757635735726
+    second: Gigachad_Zombie_Death_Trans _635
+  - first:
+      213: 8504377396715879272
+    second: Gigachad_Zombie_Death_Trans _636
+  - first:
+      213: -6086659989152688902
+    second: Gigachad_Zombie_Death_Trans _637
+  - first:
+      213: 4640165371648241317
+    second: Gigachad_Zombie_Death_Trans _638
+  - first:
+      213: 4739167845897226077
+    second: Gigachad_Zombie_Death_Trans _639
+  - first:
+      213: 4745616515891507383
+    second: Gigachad_Zombie_Death_Trans _640
+  - first:
+      213: 5096407508586569564
+    second: Gigachad_Zombie_Death_Trans _641
+  - first:
+      213: 4660564959125407294
+    second: Gigachad_Zombie_Death_Trans _642
+  - first:
+      213: -4199453956967574749
+    second: Gigachad_Zombie_Death_Trans _643
+  - first:
+      213: -5704202434162733274
+    second: Gigachad_Zombie_Death_Trans _644
+  - first:
+      213: 3495724143589364745
+    second: Gigachad_Zombie_Death_Trans _645
+  - first:
+      213: 582357859805479308
+    second: Gigachad_Zombie_Death_Trans _646
+  - first:
+      213: -3087738481878262661
+    second: Gigachad_Zombie_Death_Trans _647
+  - first:
+      213: 3184390473954682621
+    second: Gigachad_Zombie_Death_Trans _648
+  - first:
+      213: 712245138238225291
+    second: Gigachad_Zombie_Death_Trans _649
+  - first:
+      213: -2474863013022745925
+    second: Gigachad_Zombie_Death_Trans _650
+  - first:
+      213: 8681100011098860827
+    second: Gigachad_Zombie_Death_Trans _651
+  - first:
+      213: -1312370192278132205
+    second: Gigachad_Zombie_Death_Trans _652
+  - first:
+      213: 3351520721382940657
+    second: Gigachad_Zombie_Death_Trans _653
+  - first:
+      213: 5358577122985113186
+    second: Gigachad_Zombie_Death_Trans _654
+  - first:
+      213: -6378739764077834440
+    second: Gigachad_Zombie_Death_Trans _655
+  - first:
+      213: -4569913304655651693
+    second: Gigachad_Zombie_Death_Trans _656
+  - first:
+      213: -4791776866185757812
+    second: Gigachad_Zombie_Death_Trans _657
+  - first:
+      213: -4991453140321059958
+    second: Gigachad_Zombie_Death_Trans _658
+  - first:
+      213: -1108191138811199651
+    second: Gigachad_Zombie_Death_Trans _659
+  - first:
+      213: -4536517872912305454
+    second: Gigachad_Zombie_Death_Trans _660
+  - first:
+      213: 1799475481127045883
+    second: Gigachad_Zombie_Death_Trans _661
+  - first:
+      213: 6516985918626679144
+    second: Gigachad_Zombie_Death_Trans _662
+  - first:
+      213: -1791630683220690524
+    second: Gigachad_Zombie_Death_Trans _663
+  - first:
+      213: 4261214606202900445
+    second: Gigachad_Zombie_Death_Trans _664
+  - first:
+      213: 6980575603449233558
+    second: Gigachad_Zombie_Death_Trans _665
+  - first:
+      213: -5124924104691957172
+    second: Gigachad_Zombie_Death_Trans _666
+  - first:
+      213: 6390504843863005936
+    second: Gigachad_Zombie_Death_Trans _667
+  - first:
+      213: 207380356673581350
+    second: Gigachad_Zombie_Death_Trans _668
+  - first:
+      213: -388343547446194745
+    second: Gigachad_Zombie_Death_Trans _669
+  - first:
+      213: 3158915131621859744
+    second: Gigachad_Zombie_Death_Trans _670
+  - first:
+      213: -3367564249684728198
+    second: Gigachad_Zombie_Death_Trans _671
+  - first:
+      213: -7594776490706431452
+    second: Gigachad_Zombie_Death_Trans _672
+  - first:
+      213: -8269602191188216979
+    second: Gigachad_Zombie_Death_Trans _673
+  - first:
+      213: -3653308079635312237
+    second: Gigachad_Zombie_Death_Trans _674
+  - first:
+      213: 3929959549532581557
+    second: Gigachad_Zombie_Death_Trans _675
+  - first:
+      213: 4557769076576473761
+    second: Gigachad_Zombie_Death_Trans _676
+  - first:
+      213: -4759498583869358466
+    second: Gigachad_Zombie_Death_Trans _677
+  - first:
+      213: 6416120297888784460
+    second: Gigachad_Zombie_Death_Trans _678
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 125
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gigachad_Zombie_Death_Trans _0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2200
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7850a903517130ab0800000000000000
+      internalID: -5043161777947671161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_Death_Trans _1
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 2200
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896ec5b2d497163e0800000000000000
+      internalID: -2062233782012025192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_Death_Trans _2
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 2200
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b9818fe11e25290800000000000000
+      internalID: -7903006872954168500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_Death_Trans _3
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 2200
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b691eb5379970780800000000000000
+      internalID: -8716829833010506058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_Death_Trans _4
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 2200
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a33735dd4484cb40800000000000000
+      internalID: 5459634118104396704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_Death_Trans _5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1650
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa873eb96192cb5d0800000000000000
+      internalID: -3045514070927902545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_Death_Trans _6
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1650
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d81f16acb42b4e0800000000000000
+      internalID: -1967426754608788148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_Death_Trans _7
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1650
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67064cadc25ad3090800000000000000
+      internalID: -8053098946601131914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_Death_Trans _8
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1650
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa7dc3c4974e65c0800000000000000
+      internalID: -4220357096533820757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_Death_Trans _9
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1650
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467e06ec0f4e91d70800000000000000
+      internalID: 9014487852064499556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_Death_Trans _10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1100
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2854c6939858aa0800000000000000
+      internalID: -6159366035636649311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_Death_Trans _11
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1100
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9492db3f600e7a3b0800000000000000
+      internalID: -5501182099346085559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_Death_Trans _12
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1100
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79d0088e02fabc60800000000000000
+      internalID: 7834840645989620092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_Death_Trans _13
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1100
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fe086ef211cc8f0800000000000000
+      internalID: -519020959626104959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_Death_Trans _14
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1100
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a066951798e9d550800000000000000
+      internalID: 6186231298769969319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_Death_Trans _15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 550
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569a7220d1a0975b0800000000000000
+      internalID: -5370249960956122779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_Death_Trans _16
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 550
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e8377f6fd717900800000000000000
+      internalID: 680463518376627780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_Death_Trans _17
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 550
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51ac0e81c3102fd0800000000000000
+      internalID: -2368871681964072611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_Death_Trans _18
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 550
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c708f98a19d3d8b0800000000000000
+      internalID: -5128516842637752381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_Death_Trans _19
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 550
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0cbb149b3dc99490800000000000000
+      internalID: -7738928828887876596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_Death_Trans _20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d777e9e8c8d3af530800000000000000
+      internalID: 3889488902085310333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_Death_Trans _21
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 0
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc40eb20b05345d0800000000000000
+      internalID: -3079529002610701063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_Death_Trans _22
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 0
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711a8ed64fee4b410800000000000000
+      internalID: 1492080110149869847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Zombie_Death_Trans _23
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 0
+        width: 550
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b437f971496f180800000000000000
+      internalID: -9081908769365734554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c26b988aca0efb5429cd1dc78f2d08cc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gigachad_Zombie_Death_Trans _0: -5043161777947671161
+      Gigachad_Zombie_Death_Trans _1: -2062233782012025192
+      Gigachad_Zombie_Death_Trans _10: -6159366035636649311
+      Gigachad_Zombie_Death_Trans _11: -5501182099346085559
+      Gigachad_Zombie_Death_Trans _12: 7834840645989620092
+      Gigachad_Zombie_Death_Trans _13: -519020959626104959
+      Gigachad_Zombie_Death_Trans _14: 6186231298769969319
+      Gigachad_Zombie_Death_Trans _15: -5370249960956122779
+      Gigachad_Zombie_Death_Trans _16: 680463518376627780
+      Gigachad_Zombie_Death_Trans _17: -2368871681964072611
+      Gigachad_Zombie_Death_Trans _18: -5128516842637752381
+      Gigachad_Zombie_Death_Trans _19: -7738928828887876596
+      Gigachad_Zombie_Death_Trans _2: -7903006872954168500
+      Gigachad_Zombie_Death_Trans _20: 3889488902085310333
+      Gigachad_Zombie_Death_Trans _21: -3079529002610701063
+      Gigachad_Zombie_Death_Trans _22: 1492080110149869847
+      Gigachad_Zombie_Death_Trans _23: -9081908769365734554
+      Gigachad_Zombie_Death_Trans _3: -8716829833010506058
+      Gigachad_Zombie_Death_Trans _4: 5459634118104396704
+      Gigachad_Zombie_Death_Trans _5: -3045514070927902545
+      Gigachad_Zombie_Death_Trans _6: -1967426754608788148
+      Gigachad_Zombie_Death_Trans _7: -8053098946601131914
+      Gigachad_Zombie_Death_Trans _8: -4220357096533820757
+      Gigachad_Zombie_Death_Trans _9: 9014487852064499556
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

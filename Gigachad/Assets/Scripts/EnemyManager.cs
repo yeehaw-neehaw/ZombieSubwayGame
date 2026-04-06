@@ -20,6 +20,7 @@ public class EnemyManager : MonoBehaviour
     public float enemyHealth;
     private float playerDamage = PlayerStats.BulletDamage;
     public GameObject walletPrefab;
+    public GameObject EnemyDeathAnim;
     Animator anim;
     SpriteRenderer sr;
 
@@ -88,6 +89,7 @@ public class EnemyManager : MonoBehaviour
                     WalletManager.WalletPity += 1; // increase pity
                 }
                 
+                Instantiate(EnemyDeathAnim);
                 Destroy(gameObject);
             }
         }
