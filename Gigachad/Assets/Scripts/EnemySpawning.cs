@@ -61,7 +61,6 @@ public class EnemySpawning : MonoBehaviour
             GameObject enemy = Instantiate(enemyPrefab, new Vector3(spawnX, spawnY, 0), Quaternion.Euler(0, 0, 0));
             countdown = 0f;
             EnemiesAlive++;
-            Debug.Log(EnemiesAlive);
         }
         else if (countdown < timer)
         {
