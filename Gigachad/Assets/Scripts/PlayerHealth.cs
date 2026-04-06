@@ -46,11 +46,9 @@ public class PlayerHealthBar : MonoBehaviour
         if (damageTimer < damageCooldown && damaging)
         {
             damageTimer += Time.deltaTime;
-            Debug.Log("Damage timer is incrementing and is currently: " + damageTimer);
         }
         else if (damageTimer > damageCooldown && damaging)
         {
-            Debug.Log("Damage should now be applied");
             currentHealth -= 0.1f;
             healthBar.value = currentHealth;
             damageTimer = 0;
