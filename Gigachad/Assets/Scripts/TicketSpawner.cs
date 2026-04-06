@@ -16,9 +16,9 @@ public class TicketSpawner : MonoBehaviour
     public static bool TicketSpawned = false; // prevents tickets from spawning when one exists already
     private float CooldownMax = 3f; // TIMERMAX seconds elapse before a ticket will spawn
     private float SpawnCooldown = 0f; // the actual timer
-    public static int TicketsCollected = PlayerStats.TicketsCollected; // amt of tix player has collected
-    public static int TicketsNeeded = PlayerStats.TicketsNeeded; // tickets needed for every passenger on train
-    public int TicketsCreated = 0; // how many tickets have already been made
+    public static int TicketsCollected; // amt of tix player has collected
+    public static int TicketsNeeded; // tickets needed for every passenger on train
+    public int TicketsCreated; // how many tickets have already been made
     public GameObject winText; // !! need be removed
 
     [Header("Spawn Spots")] // 8 spawn points placed in unity editor
@@ -33,19 +33,22 @@ public class TicketSpawner : MonoBehaviour
 
     void Start()
     {
-        winText.gameObject.SetActive(false); // !! need be removed
+        winText.gameObject.SetActive(false);
+        PlayerStats.TicketsCollected = 0;
+        TicketsCreated = 0;
+        TicketsNeeded = PlayerStats.TicketsNeeded;
+        TicketSpawned = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        TicketsCollected = PlayerStats.TicketsCollected;
         if ((SpawnCooldown < CooldownMax) && !TicketSpawned) // if the cooldown timer has not yet reached TIMERMAX seconds
         {
             SpawnCooldown += Time.deltaTime; // update timer
         }
         else if (!TicketSpawned && (SpawnCooldown >= CooldownMax)
-            && TicketsCreated < TicketsNeeded
+            && TicketsCreated < PlayerStats.TicketsNeeded
             && !EnemySpawning.NoMoreTickets) 
             // if a ticket does not already exist + cooldown done
             // + player still needs tickets + round isnt terminated
@@ -82,7 +85,7 @@ public class TicketSpawner : MonoBehaviour
             TicketSpawned = true; // the current ticket HAS spawned -- prevents infinite cloning
         }
 
-        if (TicketsCollected >= TicketsNeeded)
+        if (PlayerStats.TicketsCollected >= PlayerStats.TicketsNeeded)
         {
             winText.gameObject.SetActive(true); // !! need be removed
         }

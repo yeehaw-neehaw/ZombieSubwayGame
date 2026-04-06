@@ -4,6 +4,6 @@ public class EnemyDeath : MonoBehaviour
 {
     private void Start()
     {
-        Destroy(gameObject, 1);
+        Destroy(gameObject, 0.76f);
     }
 }
