@@ -25,7 +25,12 @@ public class EnemySpawning : MonoBehaviour
     private float TicketTimerMax = 30f; // TIMERMAX seconds elapse before a ticket will spawn
     private float TicketTimerCounter = 0f; // the actual timer for TicketTimerMax
     public static bool NoMoreTickets = false; // tickets cant spawn (all collected OR level ended)
+    public static int EnemiesAlive;
 
+    void Start()
+    {
+        EnemiesAlive = 0;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -50,11 +55,13 @@ public class EnemySpawning : MonoBehaviour
             
         }
         
-        if (countdown >= timer && levelCountdown < levelTimer)
+        if (countdown >= timer && levelCountdown < levelTimer && EnemiesAlive <= 15)
         {
             //Instantiates a new enemy at a set y coordinate
             GameObject enemy = Instantiate(enemyPrefab, new Vector3(spawnX, spawnY, 0), Quaternion.Euler(0, 0, 0));
             countdown = 0f;
+            EnemiesAlive++;
+            Debug.Log(EnemiesAlive);
         }
         else if (countdown < timer)
         {
