@@ -59,6 +59,6 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         //Conducts the actual movement of the gameObject
-        MyRb.MovePosition(MyRb.position + MovementInput * MoveSpeed * Time.fixedDeltaTime);
+        MyRb.MovePosition(MyRb.position + MovementInput.normalized * MoveSpeed * Time.fixedDeltaTime);
     }
 }
