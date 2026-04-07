@@ -24,7 +24,6 @@ public class SubwayOffSubway : MonoBehaviour
         if (gameObject.name == "ToSubway" && TimerText.subwayDoorsOpen && collision.gameObject.CompareTag("Player"))
         {
             SceneManager.LoadScene("On Subway");
-            TimerText.subwayDoorsOpen = false;
             PlayerStats.CurrentLevel += 1;
         }
     }
@@ -34,7 +33,9 @@ public class SubwayOffSubway : MonoBehaviour
         if (gameObject.name == "ToStation1" && !PassengerClicked.clicked)
         {
             winText.gameObject.SetActive(false);
-            PlayerStats.TicketsCollected = 0;
+            TimerText.subwayDoorsOpen = false;
+            TicketSpawner.TicketSpawned = false;
+            EnemySpawning.NoMoreTickets = false;
             if (PlayerStats.CurrentLevel == 2)
             {
                 SceneManager.LoadScene("Level Designer Type Level 2");
