@@ -36,7 +36,7 @@ public class TimerText : MonoBehaviour
         }
         else // if level ends (zombies STOP spawning)
         {
-            if (TicketSpawner.TicketsCollected < TicketSpawner.TicketsNeeded) // if the player still needs tickets
+            if (PlayerStats.TicketsCollected < PlayerStats.TicketsNeeded) // if the player still needs tickets
             {
                 ticketCountdown -= Time.deltaTime; //  decrease TICKET timer countdown
                 roundedCountdown = Mathf.RoundToInt(ticketCountdown); // round countdown
