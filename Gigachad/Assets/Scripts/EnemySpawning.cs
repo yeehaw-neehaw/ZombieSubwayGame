@@ -15,8 +15,8 @@ using UnityEngine;
 
 public class EnemySpawning : MonoBehaviour
 {
-    public float timer = 3f;
-    private float countdown = 1f;
+    private float timer = 2.2f;
+    private float countdown = 0f;
     private int spawnX;
     private float spawnY;
     public GameObject enemyPrefab;
