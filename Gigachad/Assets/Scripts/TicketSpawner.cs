@@ -16,9 +16,9 @@ public class TicketSpawner : MonoBehaviour
     public static bool TicketSpawned = false; // prevents tickets from spawning when one exists already
     private float CooldownMax = 3f; // TIMERMAX seconds elapse before a ticket will spawn
     private float SpawnCooldown = 0f; // the actual timer
-    public static int TicketsCollected; // amt of tix player has collected
-    public static int TicketsNeeded; // tickets needed for every passenger on train
-    public int TicketsCreated; // how many tickets have already been made
+    // public static int TicketsCollected; // amt of tix player has collected
+    // public static int TicketsNeeded; // tickets needed for every passenger on train
+    public static int TicketsCreated; // how many tickets have already been made
     public GameObject winText; // !! need be removed
 
     [Header("Spawn Spots")] // 8 spawn points placed in unity editor
@@ -34,10 +34,11 @@ public class TicketSpawner : MonoBehaviour
     void Start()
     {
         winText.gameObject.SetActive(false);
+        PlayerStats.TicketsNeeded = PlayerStats.PassengerCount + 1;
         PlayerStats.TicketsCollected = 0;
         TicketsCreated = 0;
-        TicketsNeeded = PlayerStats.TicketsNeeded;
         TicketSpawned = false;
+        SpawnCooldown = 0f;
     }
 
     // Update is called once per frame
@@ -87,7 +88,7 @@ public class TicketSpawner : MonoBehaviour
 
         if (PlayerStats.TicketsCollected >= PlayerStats.TicketsNeeded)
         {
-            winText.gameObject.SetActive(true); // !! need be removed
+            winText.gameObject.SetActive(true);
         }
     }
 }

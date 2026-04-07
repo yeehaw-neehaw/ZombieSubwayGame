@@ -29,7 +29,26 @@ public class SubwayTimer : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("Level Designer Type Level 2");
+            TicketSpawner.TicketsCreated = 0;
+            TimerText.subwayDoorsOpen = false;
+            TicketSpawner.TicketSpawned = false;
+            EnemySpawning.NoMoreTickets = false;
+            if (PlayerStats.CurrentLevel == 2)
+            {
+                SceneManager.LoadScene("Level Designer Type Level 2");
+            }
+            else if (PlayerStats.CurrentLevel == 3)
+            {
+                SceneManager.LoadScene("Level Designer Type Level 3");
+            }
+            else if (PlayerStats.CurrentLevel == 4)
+            {
+                SceneManager.LoadScene("Level Designer Type Level 4");
+            }
+            else if (PlayerStats.CurrentLevel == 5)
+            {
+                SceneManager.LoadScene("Level Designer Type Level 5");
+            }
         }    
     }
 }

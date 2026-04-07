@@ -30,6 +30,7 @@ public class EnemySpawning : MonoBehaviour
     void Start()
     {
         EnemiesAlive = 0;
+        NoMoreTickets = false;
     }
     // Update is called once per frame
     void Update()
