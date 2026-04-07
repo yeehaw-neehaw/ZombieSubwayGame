@@ -1,55 +1,52 @@
 fileFormatVersion: 2
-guid: 0afa91e1e1f5aee4fb899f33d5bdd232
+guid: 45549de2bebda184b8953981aba872b0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1235761960294212639
-    second: Gigachad_Idol_SpritesheetAlpha2_0
+      213: -5719907607570899866
+    second: GigaChad_FinalShaded_SideRun280_0
   - first:
-      213: 2968210970529057265
-    second: Gigachad_Idol_SpritesheetAlpha2_1
+      213: -2669480221357971329
+    second: GigaChad_FinalShaded_SideRun280_1
   - first:
-      213: 7376461179499567456
-    second: Gigachad_Idol_SpritesheetAlpha2_2
+      213: -1790029755073952942
+    second: GigaChad_FinalShaded_SideRun280_2
   - first:
-      213: -762310877759596372
-    second: Gigachad_Idol_SpritesheetAlpha2_3
+      213: -7300065400897265553
+    second: GigaChad_FinalShaded_SideRun280_3
   - first:
-      213: -2649568803132911084
-    second: Gigachad_Idol_SpritesheetAlpha2_4
+      213: 8905423115478143179
+    second: GigaChad_FinalShaded_SideRun280_4
   - first:
-      213: -4860725855862054149
-    second: Gigachad_Idol_SpritesheetAlpha2_5
+      213: 4205751303370563053
+    second: GigaChad_FinalShaded_SideRun280_5
   - first:
-      213: 5576008497951972364
-    second: Gigachad_Idol_SpritesheetAlpha2_6
+      213: 6633633323497246430
+    second: GigaChad_FinalShaded_SideRun280_6
   - first:
-      213: -4623833283397536338
-    second: Gigachad_Idol_SpritesheetAlpha2_7
+      213: -1830208808884254584
+    second: GigaChad_FinalShaded_SideRun280_7
   - first:
-      213: 8136930899119549157
-    second: Gigachad_Idol_SpritesheetAlpha2_8
+      213: 976804749019152279
+    second: GigaChad_FinalShaded_SideRun280_8
   - first:
-      213: -2301899474130818719
-    second: Gigachad_Idol_SpritesheetAlpha2_9
+      213: -2458133244288843428
+    second: GigaChad_FinalShaded_SideRun280_9
   - first:
-      213: -445079410831536932
-    second: Gigachad_Idol_SpritesheetAlpha2_10
+      213: 685172839890543859
+    second: GigaChad_FinalShaded_SideRun280_10
   - first:
-      213: 7863347771816777928
-    second: Gigachad_Idol_SpritesheetAlpha2_11
+      213: -959988900530013608
+    second: GigaChad_FinalShaded_SideRun280_11
   - first:
-      213: 2780244877951740214
-    second: Gigachad_Idol_SpritesheetAlpha2_12
+      213: 2540761003418472471
+    second: GigaChad_FinalShaded_SideRun280_12
   - first:
-      213: -966796304805602524
-    second: Gigachad_Idol_SpritesheetAlpha2_13
+      213: 3416296741705874202
+    second: GigaChad_FinalShaded_SideRun280_13
   - first:
-      213: 5338691743052398705
-    second: Gigachad_Idol_SpritesheetAlpha2_14
-  - first:
-      213: 8576094202517579541
-    second: Gigachad_Idol_SpritesheetAlpha2_15
+      213: 8019372685835719350
+    second: GigaChad_FinalShaded_SideRun280_14
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -158,13 +155,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gigachad_Idol_SpritesheetAlpha2_0
+      name: GigaChad_FinalShaded_SideRun280_0
       rect:
         serializedVersion: 2
-        x: 115
-        y: 1506
-        width: 232
-        height: 402
+        x: 72
+        y: 843
+        width: 137
+        height: 273
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f14e64e94fe462110800000000000000
-      internalID: 1235761960294212639
+      spriteID: 66c9ea6165ece90b0800000000000000
+      internalID: -5719907607570899866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gigachad_Idol_SpritesheetAlpha2_1
+      name: GigaChad_FinalShaded_SideRun280_1
       rect:
         serializedVersion: 2
-        x: 615
-        y: 1506
-        width: 232
-        height: 402
+        x: 352
+        y: 843
+        width: 137
+        height: 273
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f94dc4c624313920800000000000000
-      internalID: 2968210970529057265
+      spriteID: f78e607d1e914fad0800000000000000
+      internalID: -2669480221357971329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gigachad_Idol_SpritesheetAlpha2_2
+      name: GigaChad_FinalShaded_SideRun280_2
       rect:
         serializedVersion: 2
-        x: 1115
-        y: 1506
-        width: 232
-        height: 402
+        x: 617
+        y: 846
+        width: 166
+        height: 272
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,20 +214,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 069d78f4c547e5660800000000000000
-      internalID: 7376461179499567456
+      spriteID: 2530077fb698827e0800000000000000
+      internalID: -1790029755073952942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gigachad_Idol_SpritesheetAlpha2_3
+      name: GigaChad_FinalShaded_SideRun280_3
       rect:
         serializedVersion: 2
-        x: 1615
-        y: 1506
-        width: 234
-        height: 401
+        x: 897
+        y: 846
+        width: 166
+        height: 272
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ca819baab4abb65f0800000000000000
-      internalID: -762310877759596372
+      spriteID: f60266ef135f0ba90800000000000000
+      internalID: -7300065400897265553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gigachad_Idol_SpritesheetAlpha2_4
+      name: GigaChad_FinalShaded_SideRun280_4
       rect:
         serializedVersion: 2
-        x: 115
-        y: 1006
-        width: 234
-        height: 401
+        x: 33
+        y: 565
+        width: 205
+        height: 266
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,20 +258,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4125e492637da3bd0800000000000000
-      internalID: -2649568803132911084
+      spriteID: bc090acf32b669b70800000000000000
+      internalID: 8905423115478143179
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gigachad_Idol_SpritesheetAlpha2_5
+      name: GigaChad_FinalShaded_SideRun280_5
       rect:
         serializedVersion: 2
-        x: 615
-        y: 1006
-        width: 234
-        height: 401
+        x: 313
+        y: 565
+        width: 205
+        height: 266
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +280,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bf229ca569b3b8cb0800000000000000
-      internalID: -4860725855862054149
+      spriteID: dedd9030784dd5a30800000000000000
+      internalID: 4205751303370563053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gigachad_Idol_SpritesheetAlpha2_6
+      name: GigaChad_FinalShaded_SideRun280_6
       rect:
         serializedVersion: 2
-        x: 1115
-        y: 1006
-        width: 234
-        height: 401
+        x: 609
+        y: 561
+        width: 194
+        height: 266
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +302,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c0c9cf89f26f16d40800000000000000
-      internalID: 5576008497951972364
+      spriteID: ede4f397c566f0c50800000000000000
+      internalID: 6633633323497246430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gigachad_Idol_SpritesheetAlpha2_7
+      name: GigaChad_FinalShaded_SideRun280_7
       rect:
         serializedVersion: 2
-        x: 1615
-        y: 1006
-        width: 234
-        height: 401
+        x: 889
+        y: 561
+        width: 194
+        height: 266
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +324,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ea5367a7028d4dfb0800000000000000
-      internalID: -4623833283397536338
+      spriteID: 888c9a109cac996e0800000000000000
+      internalID: -1830208808884254584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gigachad_Idol_SpritesheetAlpha2_8
+      name: GigaChad_FinalShaded_SideRun280_8
       rect:
         serializedVersion: 2
-        x: 115
-        y: 506
-        width: 234
-        height: 401
+        x: 61
+        y: 285
+        width: 155
+        height: 271
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +346,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5eaabeb9a8f2ce070800000000000000
-      internalID: 8136930899119549157
+      spriteID: 79f73307ebe4e8d00800000000000000
+      internalID: 976804749019152279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gigachad_Idol_SpritesheetAlpha2_9
+      name: GigaChad_FinalShaded_SideRun280_9
       rect:
         serializedVersion: 2
-        x: 613
-        y: 506
-        width: 234
-        height: 403
+        x: 341
+        y: 285
+        width: 155
+        height: 271
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 16926cfcf920e00e0800000000000000
-      internalID: -2301899474130818719
+      spriteID: c51c59b86d4f2edd0800000000000000
+      internalID: -2458133244288843428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gigachad_Idol_SpritesheetAlpha2_10
+      name: GigaChad_FinalShaded_SideRun280_10
       rect:
         serializedVersion: 2
-        x: 1113
-        y: 506
-        width: 234
-        height: 403
+        x: 627
+        y: 292
+        width: 148
+        height: 266
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,20 +390,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cdccb8c42a2c2d9f0800000000000000
-      internalID: -445079410831536932
+      spriteID: 3f4eb635119328900800000000000000
+      internalID: 685172839890543859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gigachad_Idol_SpritesheetAlpha2_11
+      name: GigaChad_FinalShaded_SideRun280_11
       rect:
         serializedVersion: 2
-        x: 1613
-        y: 506
-        width: 234
-        height: 403
+        x: 907
+        y: 292
+        width: 148
+        height: 266
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,20 +412,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c89f7cf229302d60800000000000000
-      internalID: 7863347771816777928
+      spriteID: 85a37936e2f6da2f0800000000000000
+      internalID: -959988900530013608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gigachad_Idol_SpritesheetAlpha2_12
+      name: GigaChad_FinalShaded_SideRun280_12
       rect:
         serializedVersion: 2
-        x: 113
-        y: 6
-        width: 234
-        height: 403
+        x: 57
+        y: 2
+        width: 158
+        height: 265
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,20 +434,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 639a9e27cf9659620800000000000000
-      internalID: 2780244877951740214
+      spriteID: 7105cebcba8924320800000000000000
+      internalID: 2540761003418472471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gigachad_Idol_SpritesheetAlpha2_13
+      name: GigaChad_FinalShaded_SideRun280_13
       rect:
         serializedVersion: 2
-        x: 613
-        y: 6
-        width: 234
-        height: 403
+        x: 337
+        y: 2
+        width: 158
+        height: 265
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,20 +456,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 42bd6e112ef3592f0800000000000000
-      internalID: -966796304805602524
+      spriteID: a1bf3b849cf196f20800000000000000
+      internalID: 3416296741705874202
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gigachad_Idol_SpritesheetAlpha2_14
+      name: GigaChad_FinalShaded_SideRun280_14
       rect:
         serializedVersion: 2
-        x: 1113
-        y: 6
-        width: 234
-        height: 403
+        x: 614
+        y: 0
+        width: 157
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,30 +478,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17003fdcad7d61a40800000000000000
-      internalID: 5338691743052398705
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gigachad_Idol_SpritesheetAlpha2_15
-      rect:
-        serializedVersion: 2
-        x: 1612
-        y: 6
-        width: 238
-        height: 399
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 517e8553d38640770800000000000000
-      internalID: 8576094202517579541
+      spriteID: 6b255b428f88a4f60800000000000000
+      internalID: 8019372685835719350
       vertices: []
       indices: 
       edges: []
@@ -523,22 +498,21 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Gigachad_Idol_SpritesheetAlpha2_0: 1235761960294212639
-      Gigachad_Idol_SpritesheetAlpha2_1: 2968210970529057265
-      Gigachad_Idol_SpritesheetAlpha2_10: -445079410831536932
-      Gigachad_Idol_SpritesheetAlpha2_11: 7863347771816777928
-      Gigachad_Idol_SpritesheetAlpha2_12: 2780244877951740214
-      Gigachad_Idol_SpritesheetAlpha2_13: -966796304805602524
-      Gigachad_Idol_SpritesheetAlpha2_14: 5338691743052398705
-      Gigachad_Idol_SpritesheetAlpha2_15: 8576094202517579541
-      Gigachad_Idol_SpritesheetAlpha2_2: 7376461179499567456
-      Gigachad_Idol_SpritesheetAlpha2_3: -762310877759596372
-      Gigachad_Idol_SpritesheetAlpha2_4: -2649568803132911084
-      Gigachad_Idol_SpritesheetAlpha2_5: -4860725855862054149
-      Gigachad_Idol_SpritesheetAlpha2_6: 5576008497951972364
-      Gigachad_Idol_SpritesheetAlpha2_7: -4623833283397536338
-      Gigachad_Idol_SpritesheetAlpha2_8: 8136930899119549157
-      Gigachad_Idol_SpritesheetAlpha2_9: -2301899474130818719
+      GigaChad_FinalShaded_SideRun280_0: -5719907607570899866
+      GigaChad_FinalShaded_SideRun280_1: -2669480221357971329
+      GigaChad_FinalShaded_SideRun280_10: 685172839890543859
+      GigaChad_FinalShaded_SideRun280_11: -959988900530013608
+      GigaChad_FinalShaded_SideRun280_12: 2540761003418472471
+      GigaChad_FinalShaded_SideRun280_13: 3416296741705874202
+      GigaChad_FinalShaded_SideRun280_14: 8019372685835719350
+      GigaChad_FinalShaded_SideRun280_2: -1790029755073952942
+      GigaChad_FinalShaded_SideRun280_3: -7300065400897265553
+      GigaChad_FinalShaded_SideRun280_4: 8905423115478143179
+      GigaChad_FinalShaded_SideRun280_5: 4205751303370563053
+      GigaChad_FinalShaded_SideRun280_6: 6633633323497246430
+      GigaChad_FinalShaded_SideRun280_7: -1830208808884254584
+      GigaChad_FinalShaded_SideRun280_8: 976804749019152279
+      GigaChad_FinalShaded_SideRun280_9: -2458133244288843428
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

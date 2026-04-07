@@ -742,6 +742,18 @@ PrefabInstance:
       value: Player-Placeholder
       objectReference: {fileID: 0}
     - target: {fileID: 7620836234728062645, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620836234728062645, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620836234728062645, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7620836234728062645, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -6643,7 +6655,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5028802cc82147e4db66c583e4787117, type: 2}
+  - {fileID: 2100000, guid: cf1268f72435fd94b9e0d35668611daf, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
