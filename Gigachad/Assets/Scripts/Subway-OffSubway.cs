@@ -25,6 +25,7 @@ public class SubwayOffSubway : MonoBehaviour
         {
             SceneManager.LoadScene("On Subway");
             PlayerStats.CurrentLevel += 1;
+            TimerText.subwayDoorsOpen = false;
         }
     }
 
