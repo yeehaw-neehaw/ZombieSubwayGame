@@ -12,13 +12,14 @@ using UnityEngine;
 
 public class ProjectileDeleter : MonoBehaviour
 {
-    public int ricochetPower = PlayerStats.RicochetLevel;
+    private int ricochetPower;
     private Rigidbody2D myRb;
 
     void Start()
     {
         myRb = GetComponent<Rigidbody2D>();
         SubwayOffSubway.hasDeleted = false;
+        ricochetPower = PlayerStats.RicochetLevel;
     }
 
     void Update()
