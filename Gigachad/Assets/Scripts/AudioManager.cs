@@ -32,4 +32,17 @@ public class AudioManager : MonoBehaviour
     public AudioSource audioSource18;
     public AudioSource audioSource19;
     public AudioSource audioSource20;
+
+    private void Awake()
+    {
+        if(Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(this);
+        }
+        else
+        {
+            Destroy(this);
+        }
+    }
 }
