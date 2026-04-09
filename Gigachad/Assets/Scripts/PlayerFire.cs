@@ -31,15 +31,10 @@ public class PlayerFire : MonoBehaviour
     {
         ammoVisual.text = currentbullets.ToString() + "/" + maxbullets.ToString();
 
-        if (Input.GetKeyDown(KeyCode.R) && currentbullets < 20)
+        if (Input.GetKeyDown(KeyCode.R) && currentbullets > 0 && currentbullets < 20)
         {
             currentbullets = 0;
             reloadElapsedTime += Time.deltaTime;
-            if (reloadElapsedTime >= reloadTime)
-            {
-                currentbullets = maxbullets;
-                reloadElapsedTime = 0;
-            }
         }    
         else if (currentbullets <= 0)
         {
