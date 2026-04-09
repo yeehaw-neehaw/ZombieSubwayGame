@@ -15,7 +15,7 @@ using UnityEngine.UI;
 
 public class PassengerClicked : MonoBehaviour
 {
-    public GameObject Text1, Background1, Broke1;
+    public GameObject Text1, Background1, Broke1, PriceText;
     public Button Upgrader, xOut;
     public static bool clicked = false;
     void Start()
@@ -26,6 +26,7 @@ public class PassengerClicked : MonoBehaviour
         Background1.gameObject.SetActive(false);
         xOut.gameObject.SetActive(false);
         Broke1.gameObject.SetActive(false);
+        PriceText.gameObject.SetActive(false);
         //Adding function calls when the buttons are clicked
         Upgrader.onClick.AddListener(OnButtonClick);
         xOut.onClick.AddListener(OnXClick);
@@ -39,6 +40,7 @@ public class PassengerClicked : MonoBehaviour
             Text1.gameObject.SetActive(true);
             Background1.gameObject.SetActive(true);
             xOut.gameObject.SetActive(true);
+            PriceText.gameObject.SetActive(true);
             clicked = true;
         }
         if (gameObject.name == "Passenger2" && !clicked)
@@ -47,6 +49,7 @@ public class PassengerClicked : MonoBehaviour
             Text1.gameObject.SetActive(true);
             Background1.gameObject.SetActive(true);
             xOut.gameObject.SetActive(true);
+            PriceText.gameObject.SetActive(true);
             clicked = true;
         }
         if (gameObject.name == "Passenger3" && !clicked)
@@ -55,6 +58,7 @@ public class PassengerClicked : MonoBehaviour
             Text1.gameObject.SetActive(true);
             Background1.gameObject.SetActive(true);
             xOut.gameObject.SetActive(true);
+            PriceText.gameObject.SetActive(true);
             clicked = true;
         }
         if (gameObject.name == "Passenger4" && !clicked)
@@ -63,6 +67,7 @@ public class PassengerClicked : MonoBehaviour
             Text1.gameObject.SetActive(true);
             Background1.gameObject.SetActive(true);
             xOut.gameObject.SetActive(true);
+            PriceText.gameObject.SetActive(true);
             clicked = true;
         }
         if (gameObject.name == "Passenger5" && !clicked)
@@ -71,6 +76,7 @@ public class PassengerClicked : MonoBehaviour
             Text1.gameObject.SetActive(true);
             Background1.gameObject.SetActive(true);
             xOut.gameObject.SetActive(true);
+            PriceText.gameObject.SetActive(true);
             clicked = true;
         }
     }
@@ -121,6 +127,7 @@ public class PassengerClicked : MonoBehaviour
         Background1.gameObject.SetActive(false);
         xOut.gameObject.SetActive(false);
         Broke1.gameObject.SetActive(false);
+        PriceText.gameObject.SetActive(false);
         clicked = false;
     }
 }
