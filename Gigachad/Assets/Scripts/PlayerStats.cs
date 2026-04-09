@@ -24,7 +24,7 @@ public class PlayerStats : MonoBehaviour
     public static int TicketsCollected = 0;
     public static int TicketsNeeded = 6;
     public static int PassengerCount = 5;
-    public static int CurrentLevel = 1;
+    public static int CurrentLevel = 0;
 
     private void Awake()
     {

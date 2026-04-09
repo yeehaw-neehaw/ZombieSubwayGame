@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Intro Graphic.unity
     guid: 5ca0dc000477d884b81a5520282432b3
   - enabled: 1
+    path: Assets/Scenes/TutorialStation.unity
+    guid: 4656a40aeb56fca448faab418d1a04c3
+  - enabled: 1
     path: Assets/Scenes/On Subway.unity
     guid: 7acc9781585466e4e8c9753b5278e8fb
   - enabled: 1
