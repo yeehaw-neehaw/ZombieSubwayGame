@@ -354,7 +354,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3400611742608220432, guid: 6da6863ccb8007740b4c76910361e450, type: 3}
       propertyPath: m_LocalScale.x
-      value: 4.446988
+      value: 3.265508
       objectReference: {fileID: 0}
     - target: {fileID: 3400611742608220432, guid: 6da6863ccb8007740b4c76910361e450, type: 3}
       propertyPath: m_LocalScale.y
@@ -362,7 +362,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3400611742608220432, guid: 6da6863ccb8007740b4c76910361e450, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0219
+      value: -0.0275
       objectReference: {fileID: 0}
     - target: {fileID: 3400611742608220432, guid: 6da6863ccb8007740b4c76910361e450, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6272,7 +6272,7 @@ GameObject:
   - component: {fileID: 1345402435}
   m_Layer: 0
   m_Name: BarrierAssets
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
