@@ -66,7 +66,8 @@ public class SubwayOffSubway : MonoBehaviour
             if (PlayerStats.PassengerCount < 5)
             {
                 Debug.Log("Passenger count is " + PlayerStats.PassengerCount);
-                for (int j = 0; j < PlayerStats.PassengerCount; j++)
+                int amountOfPassengersToDelete = 5 - PlayerStats.PassengerCount;
+                for (int j = 0; j < amountOfPassengersToDelete; j++) 
                 {
                     Debug.Log("Passenger has been redeleted");
                     Destroy(gameObjects[j]);
@@ -74,7 +75,7 @@ public class SubwayOffSubway : MonoBehaviour
             }
             if ((PlayerStats.TicketsCollected - 1) < PlayerStats.PassengerCount)
             {
-                for (int i = 0; i < PlayerStats.PassengerCount - PlayerStats.TicketsCollected; i++)
+                for (int i = 0; i < 5 - (PlayerStats.TicketsCollected - 1); i++)
                 {
                     Debug.Log("Passenger" + (i));
                     Destroy(gameObjects[i]);
