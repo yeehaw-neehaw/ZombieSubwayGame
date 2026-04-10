@@ -36,7 +36,7 @@ public class EnemySpawning : MonoBehaviour
     void Update()
     {
         levelCountdown += Time.deltaTime;
-        if (Random.Range(1, 3) == 1)
+        if (Random.Range(1, 3) == 1 && PlayerStats.CurrentLevel != 5)
         {
             spawnX = Random.Range(-16, 17);
             spawnY = -5;
