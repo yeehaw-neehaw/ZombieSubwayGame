@@ -31,28 +31,31 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        MovementInput.x = Input.GetAxisRaw("Horizontal");
-        MovementInput.y = Input.GetAxisRaw("Vertical");
+        if (!PlayerFire.pauseOn)
+        {
+            MovementInput.x = Input.GetAxisRaw("Horizontal");
+            MovementInput.y = Input.GetAxisRaw("Vertical");
 
-        anim.SetFloat("xVelocity", MovementInput.x);
-        anim.SetBool("updown", updown);
-        anim.SetFloat("yVelocity", MovementInput.y);
-        if (MovementInput.x < 0)
-        {
-            sr.flipX = true;
-        }
-        else
-        {
-            sr.flipX = false;
-        }
-        if (MovementInput.y < 0 || MovementInput.y > 0)
-        {
-            updown = true;
-            
-        }
-        else
-        {
-            updown = false;
+            anim.SetFloat("xVelocity", MovementInput.x);
+            anim.SetBool("updown", updown);
+            anim.SetFloat("yVelocity", MovementInput.y);
+            if (MovementInput.x < 0)
+            {
+                sr.flipX = true;
+            }
+            else
+            {
+                sr.flipX = false;
+            }
+            if (MovementInput.y < 0 || MovementInput.y > 0)
+            {
+                updown = true;
+
+            }
+            else
+            {
+                updown = false;
+            }
         }
     }
 

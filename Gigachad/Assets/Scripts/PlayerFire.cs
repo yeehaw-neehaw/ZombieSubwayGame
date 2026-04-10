@@ -15,7 +15,7 @@ using UnityEngine;
 public class PlayerFire : MonoBehaviour
 {
     //Defining vars
-    public GameObject bulletPrefab;
+    public GameObject bulletPrefab, pauseText;
     private int maxbullets = 20;
     private int currentbullets = 20;
     public float bulletSpeed = 0.1f;
@@ -25,6 +25,12 @@ public class PlayerFire : MonoBehaviour
     private float reloadElapsedTime = 0;
     public AudioSource shootingSound;
     public TMP_Text ammoVisual;
+    public static bool pauseOn = false;
+
+    void Start()
+    {
+        pauseText.gameObject.SetActive(false);
+    }
 
     // Update is called once per frame
     void Update()
@@ -58,6 +64,18 @@ public class PlayerFire : MonoBehaviour
             Fire((mousePos - new Vector3(transform.position.x, transform.position.y, 0)).normalized);
             timer = 0;
             currentbullets--;
+        }
+        if (Input.GetKeyDown(KeyCode.Escape) && !pauseOn)
+        {
+            Time.timeScale = 0;
+            pauseOn = true;
+            pauseText.gameObject.SetActive(true);
+        }
+        else if (Input.GetKeyDown(KeyCode.Escape) && pauseOn)
+        {
+            Time.timeScale = 1;
+            pauseOn = false;
+            pauseText.gameObject.SetActive(false);
         }
     }
 

@@ -671,6 +671,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &203672211 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 45391677130366652, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+  m_PrefabInstance: {fileID: 203672209}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &218967990
 GameObject:
   m_ObjectHideFlags: 0
@@ -861,6 +866,10 @@ PrefabInstance:
       propertyPath: maxHealth
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -6543718195929317761, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
+      propertyPath: pauseText
+      value: 
+      objectReference: {fileID: 203672211}
     - target: {fileID: -6543718195929317761, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
       propertyPath: ammoVisual
       value: 
