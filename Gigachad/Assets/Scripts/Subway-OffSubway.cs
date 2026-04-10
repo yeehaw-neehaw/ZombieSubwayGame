@@ -61,7 +61,7 @@ public class SubwayOffSubway : MonoBehaviour
     }
     void Update()
     {
-        if (gameObject.name == "ToStation1" && !hasDeleted)
+        if (gameObject.name == "ToStation1" && !hasDeleted && PlayerStats.CurrentLevel > 1)
         {
             if (PlayerStats.PassengerCount < 5)
             {
