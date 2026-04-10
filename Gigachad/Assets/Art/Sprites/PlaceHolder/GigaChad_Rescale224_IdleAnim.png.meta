@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: ac2a109cc5531f34b9468ba065e20c96
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4622971238326778659
+    second: GigaChad_Rescale224_IdleAnim_0
+  - first:
+      213: -623200563856699874
+    second: GigaChad_Rescale224_IdleAnim_1
+  - first:
+      213: -6541827197363758543
+    second: GigaChad_Rescale224_IdleAnim_2
+  - first:
+      213: 3663277690407763174
+    second: GigaChad_Rescale224_IdleAnim_3
+  - first:
+      213: 4956175708698291701
+    second: GigaChad_Rescale224_IdleAnim_4
+  - first:
+      213: -1849113761562672991
+    second: GigaChad_Rescale224_IdleAnim_5
+  - first:
+      213: 781201709770670351
+    second: GigaChad_Rescale224_IdleAnim_6
+  - first:
+      213: 4963024679172027735
+    second: GigaChad_Rescale224_IdleAnim_7
+  - first:
+      213: 970905202909336254
+    second: GigaChad_Rescale224_IdleAnim_8
+  - first:
+      213: 6499444055420286411
+    second: GigaChad_Rescale224_IdleAnim_9
+  - first:
+      213: 5973596112797131999
+    second: GigaChad_Rescale224_IdleAnim_10
+  - first:
+      213: 3807684768540759086
+    second: GigaChad_Rescale224_IdleAnim_11
+  - first:
+      213: 4132515890555678083
+    second: GigaChad_Rescale224_IdleAnim_12
+  - first:
+      213: 835143003004746087
+    second: GigaChad_Rescale224_IdleAnim_13
+  - first:
+      213: -4195106766139965587
+    second: GigaChad_Rescale224_IdleAnim_14
+  - first:
+      213: -5523421330641221680
+    second: GigaChad_Rescale224_IdleAnim_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_IdleAnim_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 673
+        width: 124
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd44facf628e7dfb0800000000000000
+      internalID: -4622971238326778659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_IdleAnim_1
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 673
+        width: 124
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e8f779362f957f0800000000000000
+      internalID: -623200563856699874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_IdleAnim_2
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 673
+        width: 124
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ad427f2d2c635a0800000000000000
+      internalID: -6541827197363758543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_IdleAnim_3
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 673
+        width: 124
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec3e5a86a396d230800000000000000
+      internalID: 3663277690407763174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_IdleAnim_4
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 449
+        width: 124
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fda1615c8fd7c440800000000000000
+      internalID: 4956175708698291701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_IdleAnim_5
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 449
+        width: 124
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a045c4b4d0a656e0800000000000000
+      internalID: -1849113761562672991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_IdleAnim_6
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 449
+        width: 124
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f010fc8e0d267da00800000000000000
+      internalID: 781201709770670351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_IdleAnim_7
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 449
+        width: 124
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755bb8586a430e440800000000000000
+      internalID: 4963024679172027735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_IdleAnim_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 225
+        width: 124
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb25df15329597d00800000000000000
+      internalID: 970905202909336254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_IdleAnim_9
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 225
+        width: 124
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5b9d0dee9a23a50800000000000000
+      internalID: 6499444055420286411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_IdleAnim_10
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 225
+        width: 131
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd46deed30a76e250800000000000000
+      internalID: 5973596112797131999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_IdleAnim_11
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 225
+        width: 131
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24998d7f1d97d430800000000000000
+      internalID: 3807684768540759086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_IdleAnim_12
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1
+        width: 131
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d6a35be45a95930800000000000000
+      internalID: 4132515890555678083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_IdleAnim_13
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1
+        width: 131
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76930cee226079b00800000000000000
+      internalID: 835143003004746087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_IdleAnim_14
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1
+        width: 131
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6fb3617f9cf7c5c0800000000000000
+      internalID: -4195106766139965587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_IdleAnim_15
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1
+        width: 125
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7805a609dd853b0800000000000000
+      internalID: -5523421330641221680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GigaChad_Rescale224_IdleAnim_0: -4622971238326778659
+      GigaChad_Rescale224_IdleAnim_1: -623200563856699874
+      GigaChad_Rescale224_IdleAnim_10: 5973596112797131999
+      GigaChad_Rescale224_IdleAnim_11: 3807684768540759086
+      GigaChad_Rescale224_IdleAnim_12: 4132515890555678083
+      GigaChad_Rescale224_IdleAnim_13: 835143003004746087
+      GigaChad_Rescale224_IdleAnim_14: -4195106766139965587
+      GigaChad_Rescale224_IdleAnim_15: -5523421330641221680
+      GigaChad_Rescale224_IdleAnim_2: -6541827197363758543
+      GigaChad_Rescale224_IdleAnim_3: 3663277690407763174
+      GigaChad_Rescale224_IdleAnim_4: 4956175708698291701
+      GigaChad_Rescale224_IdleAnim_5: -1849113761562672991
+      GigaChad_Rescale224_IdleAnim_6: 781201709770670351
+      GigaChad_Rescale224_IdleAnim_7: 4963024679172027735
+      GigaChad_Rescale224_IdleAnim_8: 970905202909336254
+      GigaChad_Rescale224_IdleAnim_9: 6499444055420286411
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

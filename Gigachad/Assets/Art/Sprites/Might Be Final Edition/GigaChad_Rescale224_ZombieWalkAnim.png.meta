@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: fba2e1a25a7b2194f8535a0f7b2658d8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5761226904022347113
+    second: GigaChad_Rescale224_ZombieWalkAnim_0
+  - first:
+      213: -934796391777147917
+    second: GigaChad_Rescale224_ZombieWalkAnim_1
+  - first:
+      213: -1110183240951157935
+    second: GigaChad_Rescale224_ZombieWalkAnim_2
+  - first:
+      213: 5224566810956746193
+    second: GigaChad_Rescale224_ZombieWalkAnim_3
+  - first:
+      213: 4532701059346161192
+    second: GigaChad_Rescale224_ZombieWalkAnim_4
+  - first:
+      213: 3794370238790632017
+    second: GigaChad_Rescale224_ZombieWalkAnim_5
+  - first:
+      213: -6703877664884447049
+    second: GigaChad_Rescale224_ZombieWalkAnim_6
+  - first:
+      213: 3281509076810181274
+    second: GigaChad_Rescale224_ZombieWalkAnim_7
+  - first:
+      213: 3792419929833008208
+    second: GigaChad_Rescale224_ZombieWalkAnim_8
+  - first:
+      213: 1142308457104162174
+    second: GigaChad_Rescale224_ZombieWalkAnim_9
+  - first:
+      213: -2490391465954047906
+    second: GigaChad_Rescale224_ZombieWalkAnim_10
+  - first:
+      213: -9051399224927071432
+    second: GigaChad_Rescale224_ZombieWalkAnim_11
+  - first:
+      213: 7044856790580615110
+    second: GigaChad_Rescale224_ZombieWalkAnim_12
+  - first:
+      213: -3594887938639984307
+    second: GigaChad_Rescale224_ZombieWalkAnim_13
+  - first:
+      213: 3387465962557806777
+    second: GigaChad_Rescale224_ZombieWalkAnim_14
+  - first:
+      213: 1114461997009689208
+    second: GigaChad_Rescale224_ZombieWalkAnim_15
+  - first:
+      213: 170795373397381198
+    second: GigaChad_Rescale224_ZombieWalkAnim_16
+  - first:
+      213: -8065695874819217880
+    second: GigaChad_Rescale224_ZombieWalkAnim_17
+  - first:
+      213: 5257961479910920331
+    second: GigaChad_Rescale224_ZombieWalkAnim_18
+  - first:
+      213: 7840701483406491216
+    second: GigaChad_Rescale224_ZombieWalkAnim_19
+  - first:
+      213: -6281504192670658535
+    second: GigaChad_Rescale224_ZombieWalkAnim_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_ZombieWalkAnim_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 901
+        width: 145
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7921353b7a20c00b0800000000000000
+      internalID: -5761226904022347113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_ZombieWalkAnim_1
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 901
+        width: 145
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f36eca62afe603f0800000000000000
+      internalID: -934796391777147917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_ZombieWalkAnim_2
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 901
+        width: 145
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ba38f6936d790f0800000000000000
+      internalID: -1110183240951157935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_ZombieWalkAnim_3
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 901
+        width: 145
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd4f5865d3618840800000000000000
+      internalID: 5224566810956746193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_ZombieWalkAnim_4
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 903
+        width: 139
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e5d53299367ee30800000000000000
+      internalID: 4532701059346161192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_ZombieWalkAnim_5
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 679
+        width: 139
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1520e65f0af48a430800000000000000
+      internalID: 3794370238790632017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_ZombieWalkAnim_6
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 679
+        width: 139
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b823ee48ca07f2a0800000000000000
+      internalID: -6703877664884447049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_ZombieWalkAnim_7
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 679
+        width: 139
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9aad728e134a8d20800000000000000
+      internalID: 3281509076810181274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_ZombieWalkAnim_8
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 676
+        width: 132
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ceec445d161a430800000000000000
+      internalID: 3792419929833008208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_ZombieWalkAnim_9
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 676
+        width: 132
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d3e915d7b4adf00800000000000000
+      internalID: 1142308457104162174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_ZombieWalkAnim_10
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 452
+        width: 132
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e580528082a507dd0800000000000000
+      internalID: -2490391465954047906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_ZombieWalkAnim_11
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 452
+        width: 132
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 833d9fd7c58f26280800000000000000
+      internalID: -9051399224927071432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_ZombieWalkAnim_12
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 453
+        width: 138
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c75e000deb54c160800000000000000
+      internalID: 7044856790580615110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_ZombieWalkAnim_13
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 453
+        width: 138
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d49070267746c1ec0800000000000000
+      internalID: -3594887938639984307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_ZombieWalkAnim_14
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 453
+        width: 138
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b81cfa6852b20f20800000000000000
+      internalID: 3387465962557806777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_ZombieWalkAnim_15
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 229
+        width: 138
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a5f67184d577f00800000000000000
+      internalID: 1114461997009689208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_ZombieWalkAnim_16
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 229
+        width: 134
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4091a8bc79ce5200800000000000000
+      internalID: 170795373397381198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_ZombieWalkAnim_17
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 229
+        width: 134
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8262113f554e01090800000000000000
+      internalID: -8065695874819217880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_ZombieWalkAnim_18
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 229
+        width: 134
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8017ccab1808f840800000000000000
+      internalID: 5257961479910920331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_ZombieWalkAnim_19
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 229
+        width: 134
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e72541574cfcc60800000000000000
+      internalID: 7840701483406491216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescale224_ZombieWalkAnim_20
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 7
+        width: 137
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9101db4b73d93d8a0800000000000000
+      internalID: -6281504192670658535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GigaChad_Rescale224_ZombieWalkAnim_0: -5761226904022347113
+      GigaChad_Rescale224_ZombieWalkAnim_1: -934796391777147917
+      GigaChad_Rescale224_ZombieWalkAnim_10: -2490391465954047906
+      GigaChad_Rescale224_ZombieWalkAnim_11: -9051399224927071432
+      GigaChad_Rescale224_ZombieWalkAnim_12: 7044856790580615110
+      GigaChad_Rescale224_ZombieWalkAnim_13: -3594887938639984307
+      GigaChad_Rescale224_ZombieWalkAnim_14: 3387465962557806777
+      GigaChad_Rescale224_ZombieWalkAnim_15: 1114461997009689208
+      GigaChad_Rescale224_ZombieWalkAnim_16: 170795373397381198
+      GigaChad_Rescale224_ZombieWalkAnim_17: -8065695874819217880
+      GigaChad_Rescale224_ZombieWalkAnim_18: 5257961479910920331
+      GigaChad_Rescale224_ZombieWalkAnim_19: 7840701483406491216
+      GigaChad_Rescale224_ZombieWalkAnim_2: -1110183240951157935
+      GigaChad_Rescale224_ZombieWalkAnim_20: -6281504192670658535
+      GigaChad_Rescale224_ZombieWalkAnim_3: 5224566810956746193
+      GigaChad_Rescale224_ZombieWalkAnim_4: 4532701059346161192
+      GigaChad_Rescale224_ZombieWalkAnim_5: 3794370238790632017
+      GigaChad_Rescale224_ZombieWalkAnim_6: -6703877664884447049
+      GigaChad_Rescale224_ZombieWalkAnim_7: 3281509076810181274
+      GigaChad_Rescale224_ZombieWalkAnim_8: 3792419929833008208
+      GigaChad_Rescale224_ZombieWalkAnim_9: 1142308457104162174
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
