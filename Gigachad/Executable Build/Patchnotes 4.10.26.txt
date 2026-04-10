@@ -1,0 +1,14 @@
+4.10.2026 patch notes 
+
+- MC scaled same across all levels 
+
+- zombies dont spawn in chairs on lvl 5 
+
+- audio additions 
+
+- art implementations 
+
+----- wallets 
+----- SUBWAY PLACEHOLDERS!!! YAY FINALLY 
+
+- ticket/passenger deletion fixed/consistent 

@@ -911,6 +911,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2222653868790390498}
     - target: {fileID: -6543718195929317761, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
+      propertyPath: pauseText
+      value: 
+      objectReference: {fileID: 4346756020518179534}
+    - target: {fileID: -6543718195929317761, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
       propertyPath: ammoVisual
       value: 
       objectReference: {fileID: 1665545813}
@@ -18625,6 +18629,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+--- !u!1 &4346756020518179534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 45391677130366652, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+  m_PrefabInstance: {fileID: 4346756020518179533}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
