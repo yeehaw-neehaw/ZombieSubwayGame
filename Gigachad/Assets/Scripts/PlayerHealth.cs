@@ -81,6 +81,7 @@ public class PlayerHealthBar : MonoBehaviour
         {
             spriteRenderer.color = Color.white;
             damaging = false;
+            red = false;
         }
     }
 }
