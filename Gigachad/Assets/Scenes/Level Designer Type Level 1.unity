@@ -737,25 +737,9 @@ PrefabInstance:
       propertyPath: ammoVisual
       value: 
       objectReference: {fileID: 1665545813}
-    - target: {fileID: -3742872688841138357, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
-      propertyPath: spawnY
-      value: -5.2
-      objectReference: {fileID: 0}
     - target: {fileID: 5604905270729558800, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
       propertyPath: m_Name
       value: Player-Placeholder
-      objectReference: {fileID: 0}
-    - target: {fileID: 7620836234728062645, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7620836234728062645, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7620836234728062645, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7620836234728062645, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
       propertyPath: m_LocalPosition.x

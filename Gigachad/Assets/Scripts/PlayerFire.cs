@@ -23,7 +23,6 @@ public class PlayerFire : MonoBehaviour
     private float timer = 0;
     private float reloadTime = PlayerStats.ReloadSpeed;
     private float reloadElapsedTime = 0;
-    public AudioSource shootingSound;
     public TMP_Text ammoVisual;
     public static bool pauseOn = false;
 
@@ -39,6 +38,7 @@ public class PlayerFire : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.R) && currentbullets > 0 && currentbullets < 20)
         {
+            AudioManager.Instance.SFX[1].Play();
             currentbullets = 0;
             reloadElapsedTime += Time.deltaTime;
         }    
@@ -57,7 +57,7 @@ public class PlayerFire : MonoBehaviour
         }
         else if (Input.GetMouseButton(0))
         {
-            shootingSound.Play();
+            AudioManager.Instance.SFX[2].Play();
             //calculate direction and fire
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             mousePos.z = 0;

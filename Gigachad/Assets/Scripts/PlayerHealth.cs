@@ -55,6 +55,7 @@ public class PlayerHealthBar : MonoBehaviour
         }
         if (currentHealth <= 0)
         {
+            AudioManager.Instance.SFX[5].Play();
             // Time.timeScale = 0;
             SceneManager.LoadScene("Game Over"); // Game over screen loaded upon 0 health
 
@@ -64,6 +65,7 @@ public class PlayerHealthBar : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy") && !iFrames && !damaging)
         {
+            AudioManager.Instance.SFX[6].Play();
             currentHealth -= 0.1f;
             healthBar.value = currentHealth;
             damaging = true;

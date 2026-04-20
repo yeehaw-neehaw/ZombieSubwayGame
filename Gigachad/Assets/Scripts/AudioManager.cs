@@ -17,19 +17,11 @@ public class AudioManager : MonoBehaviour
         if(Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(this);
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
-            Destroy(this);
-        }
-    }
-
-    private void Update()
-    {
-        if (SceneManager.GetSceneByName("Level Designer Type Level 1").Equals(true))
-        {
-            Music[0].Play();
+            Destroy(gameObject);
         }
     }
 }
