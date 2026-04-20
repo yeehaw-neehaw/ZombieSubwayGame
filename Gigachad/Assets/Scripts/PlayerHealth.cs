@@ -20,38 +20,43 @@ public class PlayerHealthBar : MonoBehaviour
     public Slider healthBar;
     public float damageCooldown = 1f;
     public float damageTimer = 0;
-    public float iframeCooldown = 0.5f;
-    public float iframeTimer = 0;
-    public bool iFrames = false;
+    public float redCooldown = 0.3f;
+    public float redTimer = 0;
+    public bool red = false;
     private bool damaging = false;
+    private SpriteRenderer spriteRenderer;
 
     void Start()
     {
         currentHealth = maxHealth;
         healthBar.maxValue = maxHealth;
         healthBar.value = currentHealth;
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
     {
-        if (iFrames && iframeTimer < iframeCooldown)
+        if (red && redTimer < redCooldown)
         {
-            iframeTimer += Time.deltaTime;
+            redTimer += Time.deltaTime;
+            spriteRenderer.color = Color.red;
         }
-        else if (iFrames && iframeTimer > iframeCooldown)
+        else if (red && redTimer > redCooldown)
         {
-            iframeTimer = 0;
-            iFrames = false;
+            redTimer = 0;
+            red = false;
         }
-        if (damageTimer < damageCooldown && damaging)
+        if (damageTimer < damageCooldown && damaging && !red)
         {
             damageTimer += Time.deltaTime;
+            spriteRenderer.color = Color.white;
         }
-        else if (damageTimer > damageCooldown && damaging)
+        else if (damageTimer > damageCooldown && damaging && !red)
         {
             currentHealth -= 0.1f;
             healthBar.value = currentHealth;
             damageTimer = 0;
+            red = true;
         }
         if (currentHealth <= 0)
         {
@@ -62,17 +67,19 @@ public class PlayerHealthBar : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy") && !iFrames && !damaging)
+        if (collision.gameObject.CompareTag("Enemy") && !red && !damaging)
         {
             currentHealth -= 0.1f;
             healthBar.value = currentHealth;
             damaging = true;
+            red = true;
         }
     }
     void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            spriteRenderer.color = Color.white;
             damaging = false;
         }
     }
