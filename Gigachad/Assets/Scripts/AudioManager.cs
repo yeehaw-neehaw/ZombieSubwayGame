@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
@@ -21,6 +22,14 @@ public class AudioManager : MonoBehaviour
         else
         {
             Destroy(this);
+        }
+    }
+
+    private void Update()
+    {
+        if (SceneManager.GetSceneByName("Level Designer Type Level 1").Equals(true))
+        {
+            Music[0].Play();
         }
     }
 }

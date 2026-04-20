@@ -656,7 +656,7 @@ GameObject:
   - component: {fileID: 7158623285684363633}
   - component: {fileID: 6672098622209847871}
   m_Layer: 0
-  m_Name: Battle
+  m_Name: Level 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -688,7 +688,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: b4744590b025cf5428f347c3177df64d, type: 3}
+  m_Resource: {fileID: 8300000, guid: f2253cb0ffad2d24095a76565a26b59e, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1280,7 +1280,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: aad9c0e0479981f48970d4a6803065af, type: 3}
+  m_Resource: {fileID: 8300000, guid: 9ae41ce8807e3904fa7cd1f27fedd80a, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -2151,7 +2151,7 @@ GameObject:
   - component: {fileID: 4450224856205769438}
   - component: {fileID: 4657099427363817952}
   m_Layer: 0
-  m_Name: Ambient
+  m_Name: Level 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2183,7 +2183,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 75ae4d9ab7637fe47941e2a74daeb500, type: 3}
+  m_Resource: {fileID: 8300000, guid: 99ea14246172d5c49955237716b7c006, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
