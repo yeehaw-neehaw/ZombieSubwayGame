@@ -41,12 +41,10 @@ public class PlayerMovement : MonoBehaviour
             anim.SetFloat("yVelocity", MovementInput.y);
             if (MovementInput.x < 0)
             {
-                AudioManager.Instance.SFX[7].Play();
                 sr.flipX = true;
             }
             else if (MovementInput.x > 0)
             {
-                AudioManager.Instance.SFX[7].Play();
             }
             else
             {
@@ -54,7 +52,6 @@ public class PlayerMovement : MonoBehaviour
             }
             if (MovementInput.y < 0 || MovementInput.y > 0)
             {
-                AudioManager.Instance.SFX[7].Play();
                 updown = true;
 
             }
@@ -69,5 +66,10 @@ public class PlayerMovement : MonoBehaviour
     {
         //Conducts the actual movement of the gameObject
         MyRb.MovePosition(MyRb.position + MovementInput.normalized * MoveSpeed * Time.fixedDeltaTime);
+    }
+
+    void WalkingSound()
+    {
+        AudioManager.Instance.SFX[7].Play();
     }
 }
