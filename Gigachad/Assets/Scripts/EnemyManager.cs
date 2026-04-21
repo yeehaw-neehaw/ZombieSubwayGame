@@ -64,12 +64,10 @@ public class EnemyManager : MonoBehaviour
         if (myRb.linearVelocity.x < 0)
         {
             sr.flipX = true;
-            AudioManager.Instance.SFX[18].Play();
         }
         else
         {
             sr.flipX = false;
-            AudioManager.Instance.SFX[18].Play();
         }
     }
 
