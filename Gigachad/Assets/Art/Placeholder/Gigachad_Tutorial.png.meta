@@ -1,0 +1,276 @@
+fileFormatVersion: 2
+guid: 2cffdb30cd337c047965e9ca1ded3441
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3716191067137068368
+    second: Gigachad_Tutorial_0
+  - first:
+      213: -1139380894043766328
+    second: Gigachad_Tutorial_1
+  - first:
+      213: 1615007851002826782
+    second: Gigachad_Tutorial_2
+  - first:
+      213: 6909190280672157185
+    second: Gigachad_Tutorial_3
+  - first:
+      213: 2879480895767939473
+    second: Gigachad_Tutorial_4
+  - first:
+      213: -258293390150963562
+    second: Gigachad_Tutorial_5
+  - first:
+      213: -658534977008248687
+    second: Gigachad_Tutorial_6
+  - first:
+      213: 1555227885121915212
+    second: Gigachad_Tutorial_7
+  - first:
+      213: 2361998180263602349
+    second: Gigachad_Tutorial_8
+  - first:
+      213: -8317007537605448527
+    second: Gigachad_Tutorial_9
+  - first:
+      213: 7929675926969596095
+    second: Gigachad_Tutorial_10
+  - first:
+      213: -1131643433444742989
+    second: Gigachad_Tutorial_11
+  - first:
+      213: 6237898518965149777
+    second: Gigachad_Tutorial_12
+  - first:
+      213: -6927235890317183164
+    second: Gigachad_Tutorial_13
+  - first:
+      213: -2570420339975018752
+    second: Gigachad_Tutorial_14
+  - first:
+      213: 8826846043679962353
+    second: Gigachad_Tutorial_15
+  - first:
+      213: -4926587038938560864
+    second: Gigachad_Tutorial_16
+  - first:
+      213: -1387948267678140610
+    second: Gigachad_Tutorial_17
+  - first:
+      213: 3476509090312103526
+    second: Gigachad_Tutorial_18
+  - first:
+      213: -2122574316984779662
+    second: Gigachad_Tutorial_19
+  - first:
+      213: -8582299030750820098
+    second: Gigachad_Tutorial_20
+  - first:
+      213: -1856422793849451358
+    second: Gigachad_Tutorial_21
+  - first:
+      213: -678781292701721931
+    second: Gigachad_Tutorial_22
+  - first:
+      213: 7266407970411016098
+    second: Gigachad_Tutorial_23
+  - first:
+      213: -3057159683487597203
+    second: Gigachad_Tutorial_24
+  - first:
+      213: 7098771798987246653
+    second: Gigachad_Tutorial_25
+  - first:
+      213: 2813029089539742381
+    second: Gigachad_Tutorial_26
+  - first:
+      213: -2196360680968786088
+    second: Gigachad_Tutorial_27
+  - first:
+      213: 4719177115778948318
+    second: Gigachad_Tutorial_28
+  - first:
+      213: 8287808006526541312
+    second: Gigachad_Tutorial_29
+  - first:
+      213: -8407857734421522617
+    second: Gigachad_Tutorial_30
+  - first:
+      213: -3355310932384416645
+    second: Gigachad_Tutorial_31
+  - first:
+      213: 401253206581684475
+    second: Gigachad_Tutorial_32
+  - first:
+      213: 1833548081309822394
+    second: Gigachad_Tutorial_33
+  - first:
+      213: 2514565867949662211
+    second: Gigachad_Tutorial_34
+  - first:
+      213: 8223070553452828959
+    second: Gigachad_Tutorial_35
+  - first:
+      213: -2793887662992455426
+    second: Gigachad_Tutorial_36
+  - first:
+      213: -2634296028479354995
+    second: Gigachad_Tutorial_37
+  - first:
+      213: -5214460399785311406
+    second: Gigachad_Tutorial_38
+  - first:
+      213: -1415006299938159806
+    second: Gigachad_Tutorial_39
+  - first:
+      213: -919554789741884986
+    second: Gigachad_Tutorial_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gigachad_Tutorial_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 814
+        height: 490
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2b0d5e9ef6d6cc0800000000000000
+      internalID: -3716191067137068368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e717e6a90dd68ff4dba62a045af034f4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gigachad_Tutorial_0: -3716191067137068368
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
