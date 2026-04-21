@@ -17,7 +17,7 @@ public class SubwayOffSubway : MonoBehaviour
     public GameObject winText;
     public GameObject[] gameObjects;
     public static bool hasDeleted = false;
-    private int passengerDecrementer = 0;
+    //private int passengerDecrementer = 0;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -64,6 +64,7 @@ public class SubwayOffSubway : MonoBehaviour
     }
     void Update()
     {
+        /*
         if (gameObject.name == "ToStation1" && !hasDeleted && PlayerStats.CurrentLevel > 1)
         {
             if (PlayerStats.PassengerCount < 5)
@@ -88,6 +89,17 @@ public class SubwayOffSubway : MonoBehaviour
                 Debug.Log("Passenger Count: " + PlayerStats.PassengerCount);
                 hasDeleted = true;
             }
+        }
+        */
+        if (gameObject.name == "ToStation1" && !hasDeleted && PlayerStats.CurrentLevel > 1)
+        {
+            PlayerStats.PassengerCount = PlayerStats.TicketsCollected - 1;
+            Debug.Log("Passenger count is " + PlayerStats.PassengerCount);
+            for (int j = 0; j < 5 - PlayerStats.PassengerCount; j++)
+            {
+                Destroy(gameObjects[j]);
+            }
+            hasDeleted = true;
         }
     }
 }
