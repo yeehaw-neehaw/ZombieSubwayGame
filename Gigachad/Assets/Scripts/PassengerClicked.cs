@@ -36,6 +36,7 @@ public class PassengerClicked : MonoBehaviour
         //Checks for each different passenger in the case they are clicked
         if (gameObject.name == "Passenger1" && !clicked)
         {
+            AudioManager.Instance.SFX[13].Play();
             Upgrader.gameObject.SetActive(true);
             Text1.gameObject.SetActive(true);
             Background1.gameObject.SetActive(true);
@@ -45,6 +46,7 @@ public class PassengerClicked : MonoBehaviour
         }
         if (gameObject.name == "Passenger2" && !clicked)
         {
+            AudioManager.Instance.SFX[13].Play();
             Upgrader.gameObject.SetActive(true);
             Text1.gameObject.SetActive(true);
             Background1.gameObject.SetActive(true);
@@ -54,6 +56,7 @@ public class PassengerClicked : MonoBehaviour
         }
         if (gameObject.name == "Passenger3" && !clicked)
         {
+            AudioManager.Instance.SFX[13].Play();
             Upgrader.gameObject.SetActive(true);
             Text1.gameObject.SetActive(true);
             Background1.gameObject.SetActive(true);
@@ -63,6 +66,7 @@ public class PassengerClicked : MonoBehaviour
         }
         if (gameObject.name == "Passenger4" && !clicked)
         {
+            AudioManager.Instance.SFX[13].Play();
             Upgrader.gameObject.SetActive(true);
             Text1.gameObject.SetActive(true);
             Background1.gameObject.SetActive(true);
@@ -72,6 +76,7 @@ public class PassengerClicked : MonoBehaviour
         }
         if (gameObject.name == "Passenger5" && !clicked)
         {
+            AudioManager.Instance.SFX[13].Play();
             Upgrader.gameObject.SetActive(true);
             Text1.gameObject.SetActive(true);
             Background1.gameObject.SetActive(true);
@@ -93,27 +98,32 @@ public class PassengerClicked : MonoBehaviour
         }
         if (gameObject.name == "Passenger1" && PlayerStats.PlayerCash >= 5)
         {
+            AudioManager.Instance.SFX[3].Play();
             PlayerStats.BulletDamage += 2;
             PlayerStats.PlayerCash -= 5;
             Debug.Log("Current Damage: " + PlayerStats.BulletDamage);
         }
         if (gameObject.name == "Passenger2" && PlayerStats.PlayerCash >= 5)
         {
+            AudioManager.Instance.SFX[3].Play();
             PlayerStats.ReloadSpeed -= 1;
             PlayerStats.PlayerCash -= 5;
         }
         if (gameObject.name == "Passenger3" && PlayerStats.PlayerCash >= 5)
         {
+            AudioManager.Instance.SFX[3].Play();
             PlayerStats.PlayerMovementSpeed += 1;
             PlayerStats.PlayerCash -= 5;
         }
         if (gameObject.name == "Passenger4" && PlayerStats.PlayerCash >= 5)
         {
+            AudioManager.Instance.SFX[3].Play();
             PlayerStats.ShootingSpeed -= 0.03f;
             PlayerStats.PlayerCash -= 5;
         }
         if (gameObject.name == "Passenger5" && PlayerStats.PlayerCash >= 5)
         {
+            AudioManager.Instance.SFX[3].Play();
             PlayerStats.RicochetLevel += 1;
             PlayerStats.PlayerCash -= 5;
         }
@@ -122,6 +132,7 @@ public class PassengerClicked : MonoBehaviour
     void OnXClick()
     {
         //Closes the UI if the X button is pressed
+        AudioManager.Instance.SFX[13].Play();
         Upgrader.gameObject.SetActive(false);
         Text1.gameObject.SetActive(false);
         Background1.gameObject.SetActive(false);
