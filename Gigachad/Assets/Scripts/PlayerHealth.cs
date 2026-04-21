@@ -40,6 +40,7 @@ public class PlayerHealthBar : MonoBehaviour
         {
             redTimer += Time.deltaTime;
             spriteRenderer.color = Color.red;
+            AudioManager.Instance.SFX[6].Play();
         }
         else if (red && redTimer > redCooldown)
         {
