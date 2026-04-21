@@ -20,6 +20,7 @@ public class TicketScript : MonoBehaviour
             Destroy(Ticket); // ticket disappears
             TicketSpawner.TicketSpawned = false;
             PlayerStats.TicketsCollected += 1;
+            AudioManager.Instance.SFX[11].Play();
         }
     }
     void Update()

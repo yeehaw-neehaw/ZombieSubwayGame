@@ -26,6 +26,7 @@ public class SubwayOffSubway : MonoBehaviour
             SceneManager.LoadScene("On Subway");
             PlayerStats.CurrentLevel += 1;
             TimerText.subwayDoorsOpen = false;
+            AudioManager.Instance.Music[3].Play();
         }
     }
 
@@ -40,10 +41,12 @@ public class SubwayOffSubway : MonoBehaviour
             if (PlayerStats.CurrentLevel == 1)
             {
                 SceneManager.LoadScene("Level Designer Type Level 1");
+                AudioManager.Instance.Music[0].Play();
             }
             else if (PlayerStats.CurrentLevel == 2)
             {
                 SceneManager.LoadScene("Level Designer Type Level 2");
+                AudioManager.Instance.Music[1].Play();
             }
             else if (PlayerStats.CurrentLevel == 3)
             {

@@ -10,6 +10,7 @@ public class WalletManager : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player")) // collides with player
         {
+            AudioManager.Instance.SFX[0].Play();
             Destroy(gameObject); // ticket disappears
             PlayerStats.PlayerCash += UnityEngine.Random.Range(1, 6); // cash 1-5
         }

@@ -57,7 +57,6 @@ public class EnemyManager : MonoBehaviour
         {
             playerPos = GameObject.FindAnyObjectByType<PlayerMovement>().gameObject.transform;
         }
-
         myRb = gameObject.GetComponent<Rigidbody2D>();
         direction = playerPos.position - transform.position;
         myRb.linearVelocity = direction * followSpeed;
@@ -65,10 +64,12 @@ public class EnemyManager : MonoBehaviour
         if (myRb.linearVelocity.x < 0)
         {
             sr.flipX = true;
+            AudioManager.Instance.SFX[18].Play();
         }
         else
         {
             sr.flipX = false;
+            AudioManager.Instance.SFX[18].Play();
         }
     }
 
@@ -77,12 +78,14 @@ public class EnemyManager : MonoBehaviour
         if (collision.gameObject.CompareTag("Projectile")) // when enemy collides with bullet
         {
             enemyHealth -= playerDamage; // enemy health goes down
+            AudioManager.Instance.SFX[19].Play();
             if (enemyHealth <= 0)
             {
                 if ((UnityEngine.Random.Range(1,9) == 4) || (WalletManager.WalletPity >= 10)) // 1/8 chance OR if pity reached
                 {
                     Instantiate(walletPrefab, gameObject.transform.position, Quaternion.identity); // spawn wallet
                     WalletManager.WalletPity = 0; // reset pity
+                    AudioManager.Instance.SFX[14].Play();
                 }
                 else // if no wallet spawned,
                 {
@@ -91,6 +94,7 @@ public class EnemyManager : MonoBehaviour
                 Instantiate(EnemyDeathAnim, gameObject.transform.position, Quaternion.identity);
                 EnemySpawning.EnemiesAlive--;
                 Destroy(gameObject);
+                AudioManager.Instance.SFX[16].Play();
             }
         }
     }
