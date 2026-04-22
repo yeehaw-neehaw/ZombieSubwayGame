@@ -14,6 +14,7 @@ public class ProjectileDeleter : MonoBehaviour
 {
     private int ricochetPower;
     private Rigidbody2D myRb;
+    public new ParticleSystem particleSystem;
 
     void Start()
     {
@@ -30,6 +31,8 @@ public class ProjectileDeleter : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Wall") || collision.gameObject.CompareTag("Player"))
         {
+            ParticleSystem OnHitParticles = Instantiate(particleSystem, gameObject.transform.position, Quaternion.Euler(0,0,0));
+            Destroy(OnHitParticles, .4f);
             if (ricochetPower <= 0)
             {
                 Destroy(gameObject);
