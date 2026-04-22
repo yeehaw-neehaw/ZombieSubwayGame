@@ -131,7 +131,7 @@ public class PassengerClicked : MonoBehaviour
     }
     void OnXClick()
     {
-        //Closes the UI if the X button is pressed
+        // Closes the UI if the X button is pressed
         AudioManager.Instance.SFX[13].Play();
         Upgrader.gameObject.SetActive(false);
         Text1.gameObject.SetActive(false);
