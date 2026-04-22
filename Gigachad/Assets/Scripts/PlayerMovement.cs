@@ -39,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
             anim.SetFloat("xVelocity", MovementInput.x);
             anim.SetBool("updown", updown);
             anim.SetFloat("yVelocity", MovementInput.y);
-            if (MovementInput.x < 0)
+            if (MovementInput.x < 0 && !updown)
             {
                 sr.flipX = true;
             }
