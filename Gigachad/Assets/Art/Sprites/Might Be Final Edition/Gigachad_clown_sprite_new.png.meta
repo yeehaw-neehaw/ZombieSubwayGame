@@ -1,0 +1,806 @@
+fileFormatVersion: 2
+guid: c6de9faa1d44cb349996ca0e1c0cc2d6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3731671362738784332
+    second: Gigachad_clown_sprite_new_0
+  - first:
+      213: 1052602209472989054
+    second: Gigachad_clown_sprite_new_1
+  - first:
+      213: 2869067361590310174
+    second: Gigachad_clown_sprite_new_2
+  - first:
+      213: 6315365341598324087
+    second: Gigachad_clown_sprite_new_3
+  - first:
+      213: 108110784844299884
+    second: Gigachad_clown_sprite_new_4
+  - first:
+      213: 7824827088006710709
+    second: Gigachad_clown_sprite_new_5
+  - first:
+      213: 3673262203856506761
+    second: Gigachad_clown_sprite_new_6
+  - first:
+      213: 6293289646059562232
+    second: Gigachad_clown_sprite_new_7
+  - first:
+      213: -5643351125669162217
+    second: Gigachad_clown_sprite_new_8
+  - first:
+      213: -7831651497949378354
+    second: Gigachad_clown_sprite_new_9
+  - first:
+      213: 6355277273448932759
+    second: Gigachad_clown_sprite_new_10
+  - first:
+      213: 8934915757482738480
+    second: Gigachad_clown_sprite_new_11
+  - first:
+      213: 6801302146235265879
+    second: Gigachad_clown_sprite_new_12
+  - first:
+      213: 3766375866468736767
+    second: Gigachad_clown_sprite_new_13
+  - first:
+      213: 8615779459312295520
+    second: Gigachad_clown_sprite_new_14
+  - first:
+      213: -5838290918093903173
+    second: Gigachad_clown_sprite_new_15
+  - first:
+      213: -7999817809123263374
+    second: Gigachad_clown_sprite_new_16
+  - first:
+      213: -4791124616460075867
+    second: Gigachad_clown_sprite_new_17
+  - first:
+      213: 3045182236048600200
+    second: Gigachad_clown_sprite_new_18
+  - first:
+      213: -7002554031700776922
+    second: Gigachad_clown_sprite_new_19
+  - first:
+      213: 7999388876848431528
+    second: Gigachad_clown_sprite_new_20
+  - first:
+      213: 7418729125050810190
+    second: Gigachad_clown_sprite_new_21
+  - first:
+      213: -3943067357481688948
+    second: Gigachad_clown_sprite_new_22
+  - first:
+      213: -133350783954367113
+    second: Gigachad_clown_sprite_new_23
+  - first:
+      213: 3860907400299008132
+    second: Gigachad_clown_sprite_new_24
+  - first:
+      213: -2245498908865563062
+    second: Gigachad_clown_sprite_new_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 108
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3416
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7f475baa0763cc0800000000000000
+      internalID: -3731671362738784332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_1
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 3416
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77cd61f1289b9e00800000000000000
+      internalID: 1052602209472989054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_2
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 3416
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15f14c7099f0d720800000000000000
+      internalID: 2869067361590310174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_3
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 3416
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77518c4615fa4a750800000000000000
+      internalID: 6315365341598324087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_4
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 3416
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e780f9f26108100800000000000000
+      internalID: 108110784844299884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_5
+      rect:
+        serializedVersion: 2
+        x: 3230
+        y: 3416
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b58e7167ce579c60800000000000000
+      internalID: 7824827088006710709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2562
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f4cbb338c0af230800000000000000
+      internalID: 3673262203856506761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_7
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 2562
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f4260ef691465750800000000000000
+      internalID: 6293289646059562232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_8
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 2562
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71350bb0d0acea1b0800000000000000
+      internalID: -5643351125669162217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_9
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 2562
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8421cd472605390800000000000000
+      internalID: -7831651497949378354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_10
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 2562
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795690d220b723850800000000000000
+      internalID: 6355277273448932759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_11
+      rect:
+        serializedVersion: 2
+        x: 3230
+        y: 2562
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0338cceca823ffb70800000000000000
+      internalID: 8934915757482738480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1708
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75374746444136e50800000000000000
+      internalID: 6801302146235265879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_13
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 1708
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe197b35ead44430800000000000000
+      internalID: 3766375866468736767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_14
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 1708
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e9a6715c5619770800000000000000
+      internalID: 8615779459312295520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_15
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 1708
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbaaf93b7593afea0800000000000000
+      internalID: -5838290918093903173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_16
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 1708
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c3d536610faf090800000000000000
+      internalID: -7999817809123263374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_17
+      rect:
+        serializedVersion: 2
+        x: 3230
+        y: 1708
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac7449bb81828db0800000000000000
+      internalID: -4791124616460075867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 854
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ca1001c19a24a20800000000000000
+      internalID: 3045182236048600200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_19
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 854
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628eef3953ee1de90800000000000000
+      internalID: -7002554031700776922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_20
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 854
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a103c80dc9830f60800000000000000
+      internalID: 7999388876848431528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_21
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 854
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f7f7745de94f660800000000000000
+      internalID: 7418729125050810190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_22
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 854
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80addf21296749c0800000000000000
+      internalID: -3943067357481688948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_23
+      rect:
+        serializedVersion: 2
+        x: 3230
+        y: 854
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d41e32b2e362ef0800000000000000
+      internalID: -133350783954367113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480df7913d2b49530800000000000000
+      internalID: 3860907400299008132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_clown_sprite_new_25
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 0
+        width: 646
+        height: 854
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a467a89b3a266d0e0800000000000000
+      internalID: -2245498908865563062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 281b767a2e41ac84696dfbb8ec5d24c5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gigachad_clown_sprite_new_0: -3731671362738784332
+      Gigachad_clown_sprite_new_1: 1052602209472989054
+      Gigachad_clown_sprite_new_10: 6355277273448932759
+      Gigachad_clown_sprite_new_11: 8934915757482738480
+      Gigachad_clown_sprite_new_12: 6801302146235265879
+      Gigachad_clown_sprite_new_13: 3766375866468736767
+      Gigachad_clown_sprite_new_14: 8615779459312295520
+      Gigachad_clown_sprite_new_15: -5838290918093903173
+      Gigachad_clown_sprite_new_16: -7999817809123263374
+      Gigachad_clown_sprite_new_17: -4791124616460075867
+      Gigachad_clown_sprite_new_18: 3045182236048600200
+      Gigachad_clown_sprite_new_19: -7002554031700776922
+      Gigachad_clown_sprite_new_2: 2869067361590310174
+      Gigachad_clown_sprite_new_20: 7999388876848431528
+      Gigachad_clown_sprite_new_21: 7418729125050810190
+      Gigachad_clown_sprite_new_22: -3943067357481688948
+      Gigachad_clown_sprite_new_23: -133350783954367113
+      Gigachad_clown_sprite_new_24: 3860907400299008132
+      Gigachad_clown_sprite_new_25: -2245498908865563062
+      Gigachad_clown_sprite_new_3: 6315365341598324087
+      Gigachad_clown_sprite_new_4: 108110784844299884
+      Gigachad_clown_sprite_new_5: 7824827088006710709
+      Gigachad_clown_sprite_new_6: 3673262203856506761
+      Gigachad_clown_sprite_new_7: 6293289646059562232
+      Gigachad_clown_sprite_new_8: -5643351125669162217
+      Gigachad_clown_sprite_new_9: -7831651497949378354
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
