@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 88aea984762092944b9bf1e19cd6840e
+guid: c725c7850465bc64f91b66e05dd02499
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8843262753675635405
-    second: Gigachad_Bullet_0
+      213: -8496926511695086816
+    second: GigaChad_FRFR_Passenger3_MovementSpeed_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -47,11 +47,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 8
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 420
+  spritePixelsToUnits: 108
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gigachad_Bullet_0
+      name: GigaChad_FRFR_Passenger3_MovementSpeed_0
       rect:
         serializedVersion: 2
-        x: 61
-        y: 11
-        width: 189
-        height: 189
+        x: 1
+        y: 0
+        width: 439
+        height: 770
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 33598bf016b664580800000000000000
-      internalID: -8843262753675635405
+      spriteID: 02bb0d33b5ad41a80800000000000000
+      internalID: -8496926511695086816
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Gigachad_Bullet_0: -8843262753675635405
+      GigaChad_FRFR_Passenger3_MovementSpeed_0: -8496926511695086816
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
