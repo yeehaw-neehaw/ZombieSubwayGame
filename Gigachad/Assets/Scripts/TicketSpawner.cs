@@ -58,27 +58,35 @@ public class TicketSpawner : MonoBehaviour
             switch (UnityEngine.Random.Range(1, 9)) // randomly pick 1-8, instantiate a ticket in one of 8 spots
             {
                 case 1:
+                    AudioManager.Instance.SFX[10].Play();
                     Instantiate(TicketPrefab,spawn1.position, Quaternion.identity);
                     break;
                 case 2:
+                    AudioManager.Instance.SFX[10].Play();
                     Instantiate(TicketPrefab, spawn2.position, Quaternion.identity);
                     break;
                 case 3:
+                    AudioManager.Instance.SFX[10].Play();
                     Instantiate(TicketPrefab, spawn3.position, Quaternion.identity);
                     break;
                 case 4:
+                    AudioManager.Instance.SFX[10].Play();
                     Instantiate(TicketPrefab, spawn4.position, Quaternion.identity);
                     break;
                 case 5:
+                    AudioManager.Instance.SFX[10].Play();
                     Instantiate(TicketPrefab, spawn5.position, Quaternion.identity);
                     break;
                 case 6:
+                    AudioManager.Instance.SFX[10].Play();
                     Instantiate(TicketPrefab, spawn6.position, Quaternion.identity);
                     break;
                 case 7:
+                    AudioManager.Instance.SFX[10].Play();
                     Instantiate(TicketPrefab, spawn7.position, Quaternion.identity);
                     break;
                 case 8:
+                    AudioManager.Instance.SFX[10].Play();
                     Instantiate(TicketPrefab, spawn8.position, Quaternion.identity);
                     break;
             }

@@ -27,6 +27,7 @@ public class TicketScript : MonoBehaviour
     {
         if (EnemySpawning.NoMoreTickets)
         {
+            AudioManager.Instance.SFX[9].Play();
             Destroy(Ticket);
         }
     }
