@@ -91,8 +91,9 @@ public class EnemyManager : MonoBehaviour
                 }
                 Instantiate(EnemyDeathAnim, gameObject.transform.position, Quaternion.identity);
                 EnemySpawning.EnemiesAlive--;
-                Destroy(gameObject);
                 AudioManager.Instance.SFX[16].Play();
+                AudioManager.Instance.SFX[8].Play();
+                Destroy(gameObject);
             }
         }
     }
