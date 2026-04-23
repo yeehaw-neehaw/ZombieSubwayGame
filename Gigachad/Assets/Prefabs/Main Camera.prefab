@@ -45,8 +45,8 @@ Camera:
   m_GameObject: {fileID: 7495214358158581712}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.4431373, g: 0.47450984, b: 0.38431376, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -165,3 +165,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TicketPrefab: {fileID: 9200789215188688333, guid: 7f146ff94d36c1441a3530f19410fa1a, type: 3}
+  winText: {fileID: 0}
+  spawn1: {fileID: 0}
+  spawn2: {fileID: 0}
+  spawn3: {fileID: 0}
+  spawn4: {fileID: 0}
+  spawn5: {fileID: 0}
+  spawn6: {fileID: 0}
+  spawn7: {fileID: 0}
+  spawn8: {fileID: 0}
