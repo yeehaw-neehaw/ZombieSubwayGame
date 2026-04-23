@@ -62,7 +62,13 @@ public class PlayerHealthBar : MonoBehaviour
         if (currentHealth <= 0)
         {
             AudioManager.Instance.SFX[5].Play();
-            // Time.timeScale = 0;
+            for (int i = 0; i < 5; i++)
+            {
+                if (PlayerStats.CurrentLevel == i)
+                {
+                    AudioManager.Instance.Music[i].Stop();
+                }
+            }
             SceneManager.LoadScene("Game Over"); // Game over screen loaded upon 0 health
 
         }
