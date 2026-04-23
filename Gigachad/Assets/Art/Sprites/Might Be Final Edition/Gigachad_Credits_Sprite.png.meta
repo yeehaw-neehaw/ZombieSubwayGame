@@ -1,16 +1,22 @@
 fileFormatVersion: 2
-guid: 3161f5e53623ccc459f71320872e92ee
+guid: 869a057b124a07141a04615160fc8387
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4633898861452759937
-    second: GigaChad_SubwayTicket_Trans_0
+      213: 1161943341402191878
+    second: Gigachad_Credits_Sprite_0
   - first:
-      213: -7721279584725257986
-    second: GigaChad_SubwayTicket_Trans_1
+      213: -6969570186573499432
+    second: Gigachad_Credits_Sprite_1
   - first:
-      213: -849685754390435731
-    second: GigaChad_SubwayTicket_Trans_2
+      213: 4568390301626773659
+    second: Gigachad_Credits_Sprite_2
+  - first:
+      213: 5509446989068682859
+    second: Gigachad_Credits_Sprite_3
+  - first:
+      213: -1356061945027458677
+    second: Gigachad_Credits_Sprite_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -57,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1550
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -119,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GigaChad_SubwayTicket_Trans_0
+      name: Gigachad_Credits_Sprite_0
       rect:
         serializedVersion: 2
-        x: 44
-        y: 746
-        width: 20
-        height: 31
+        x: 51
+        y: 670
+        width: 1151
+        height: 504
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1839af9867aee4040800000000000000
-      internalID: 4633898861452759937
+      spriteID: 6087861105d002010800000000000000
+      internalID: 1161943341402191878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GigaChad_SubwayTicket_Trans_1
+      name: Gigachad_Credits_Sprite_1
       rect:
         serializedVersion: 2
-        x: 56
-        y: 64
-        width: 1890
-        height: 1447
+        x: 1305
+        y: 670
+        width: 1151
+        height: 504
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef0b9f4702188d490800000000000000
-      internalID: -7721279584725257986
+      spriteID: 8d3322877dc174f90800000000000000
+      internalID: -6969570186573499432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GigaChad_SubwayTicket_Trans_2
+      name: Gigachad_Credits_Sprite_2
       rect:
         serializedVersion: 2
-        x: 382
-        y: 52
-        width: 30
-        height: 21
+        x: 2559
+        y: 670
+        width: 1151
+        height: 504
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,8 +184,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d6829d6ee4f4534f0800000000000000
-      internalID: -849685754390435731
+      spriteID: b90bdc366ce266f30800000000000000
+      internalID: 4568390301626773659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Credits_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 55
+        width: 1151
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66c844a8dc757c40800000000000000
+      internalID: 5509446989068682859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Credits_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 55
+        width: 1151
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89863188dc4e2de0800000000000000
+      internalID: -1356061945027458677
       vertices: []
       indices: 
       edges: []
@@ -198,9 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GigaChad_SubwayTicket_Trans_0: 4633898861452759937
-      GigaChad_SubwayTicket_Trans_1: -7721279584725257986
-      GigaChad_SubwayTicket_Trans_2: -849685754390435731
+      Gigachad_Credits_Sprite_0: 1161943341402191878
+      Gigachad_Credits_Sprite_1: -6969570186573499432
+      Gigachad_Credits_Sprite_2: 4568390301626773659
+      Gigachad_Credits_Sprite_3: 5509446989068682859
+      Gigachad_Credits_Sprite_4: -1356061945027458677
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

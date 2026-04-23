@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 3161f5e53623ccc459f71320872e92ee
+guid: 9beffdd3dbeee6d4c8a040dd42af1522
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4633898861452759937
-    second: GigaChad_SubwayTicket_Trans_0
-  - first:
-      213: -7721279584725257986
-    second: GigaChad_SubwayTicket_Trans_1
-  - first:
-      213: -849685754390435731
-    second: GigaChad_SubwayTicket_Trans_2
+      213: -4755844702963120302
+    second: Gigachad_PlayButton1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -57,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1550
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -119,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GigaChad_SubwayTicket_Trans_0
+      name: Gigachad_PlayButton1_0
       rect:
         serializedVersion: 2
-        x: 44
-        y: 746
-        width: 20
-        height: 31
+        x: 23
+        y: 72
+        width: 1020
+        height: 534
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,52 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1839af9867aee4040800000000000000
-      internalID: 4633898861452759937
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GigaChad_SubwayTicket_Trans_1
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 64
-        width: 1890
-        height: 1447
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ef0b9f4702188d490800000000000000
-      internalID: -7721279584725257986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GigaChad_SubwayTicket_Trans_2
-      rect:
-        serializedVersion: 2
-        x: 382
-        y: 52
-        width: 30
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d6829d6ee4f4534f0800000000000000
-      internalID: -849685754390435731
+      spriteID: 257c5f0b078dffdb0800000000000000
+      internalID: -4755844702963120302
       vertices: []
       indices: 
       edges: []
@@ -198,9 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      GigaChad_SubwayTicket_Trans_0: 4633898861452759937
-      GigaChad_SubwayTicket_Trans_1: -7721279584725257986
-      GigaChad_SubwayTicket_Trans_2: -849685754390435731
+      Gigachad_PlayButton1_0: -4755844702963120302
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
