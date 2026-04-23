@@ -15,6 +15,7 @@ public class ProjectileDeleter : MonoBehaviour
     private int ricochetPower;
     private Rigidbody2D myRb;
     public new ParticleSystem particleSystem;
+    public float rotationSpeed = -180f;
 
     void Start()
     {
@@ -26,6 +27,7 @@ public class ProjectileDeleter : MonoBehaviour
     void Update()
     {
         gameObject.GetComponent<Rigidbody2D>().linearVelocity = new Vector2(Mathf.Clamp(myRb.linearVelocity.x, -10, 10), Mathf.Clamp(myRb.linearVelocity.y, -10, 10));
+        gameObject.transform.Rotate(0f, 0f, rotationSpeed * Time.deltaTime);
     }
     void OnCollisionEnter2D(Collision2D collision)
     {

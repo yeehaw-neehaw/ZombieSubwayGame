@@ -23,6 +23,14 @@ public class SubwayOffSubway : MonoBehaviour
     {
         if (gameObject.name == "ToSubway" && TimerText.subwayDoorsOpen && collision.gameObject.CompareTag("Player"))
         {
+            for (int i = 0; i < 5; i++)
+            {
+                if (PlayerStats.CurrentLevel == i)
+                {
+                    AudioManager.Instance.Music[i].Stop();
+                }
+            }
+            AudioManager.Instance.Music[0].Stop();
             SceneManager.LoadScene("On Subway");
             PlayerStats.CurrentLevel += 1;
             TimerText.subwayDoorsOpen = false;
@@ -40,24 +48,29 @@ public class SubwayOffSubway : MonoBehaviour
             EnemySpawning.NoMoreTickets = false;
             if (PlayerStats.CurrentLevel == 1)
             {
+                AudioManager.Instance.Music[3].Stop();
                 SceneManager.LoadScene("Level Designer Type Level 1");
                 AudioManager.Instance.Music[0].Play();
             }
             else if (PlayerStats.CurrentLevel == 2)
             {
+                AudioManager.Instance.Music[3].Stop();
                 SceneManager.LoadScene("Level Designer Type Level 2");
                 AudioManager.Instance.Music[1].Play();
             }
             else if (PlayerStats.CurrentLevel == 3)
             {
+                AudioManager.Instance.Music[3].Stop();
                 SceneManager.LoadScene("Level Designer Type Level 3");
             }
             else if (PlayerStats.CurrentLevel == 4)
             {
+                AudioManager.Instance.Music[3].Stop();
                 SceneManager.LoadScene("Level Designer Type Level 4");
             }
             else if (PlayerStats.CurrentLevel == 5)
             {
+                AudioManager.Instance.Music[3].Stop();
                 SceneManager.LoadScene("Level Designer Type Level 5");
             }
         }

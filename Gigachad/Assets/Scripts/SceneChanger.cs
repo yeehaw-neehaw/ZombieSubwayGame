@@ -16,6 +16,19 @@ public class SceneChanger : MonoBehaviour
     {
         AudioManager.Instance.SFX[13].Play();
         SceneManager.LoadScene(sceneName);
+        if (sceneName == "Intro Screen")
+        {
+            PlayerStats.BulletDamage = 2;
+            PlayerStats.PlayerCash = 0;
+            PlayerStats.ReloadSpeed = 2.5f;
+            PlayerStats.PlayerMovementSpeed = 5f;
+            PlayerStats.ShootingSpeed = 0.3f;
+            PlayerStats.RicochetLevel = 0;
+            PlayerStats.TicketsCollected = 0;
+            PlayerStats.TicketsNeeded = 6;
+            PlayerStats.PassengerCount = 5;
+            PlayerStats.CurrentLevel = 0;
+        }
     }
     public void TryAgainChanger(string sceneName)
     {
