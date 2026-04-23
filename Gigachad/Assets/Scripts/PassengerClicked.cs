@@ -107,24 +107,28 @@ public class PassengerClicked : MonoBehaviour
         {
             AudioManager.Instance.SFX[3].Play();
             PlayerStats.ReloadSpeed -= 1;
+            Debug.Log("Your Reload Speed is now " + PlayerStats.ReloadSpeed);
             PlayerStats.PlayerCash -= 5;
         }
         if (gameObject.name == "Passenger3" && PlayerStats.PlayerCash >= 5)
         {
             AudioManager.Instance.SFX[3].Play();
             PlayerStats.PlayerMovementSpeed += 1;
+            Debug.Log("Your Movement speed is now " + PlayerStats.PlayerMovementSpeed);
             PlayerStats.PlayerCash -= 5;
         }
         if (gameObject.name == "Passenger4" && PlayerStats.PlayerCash >= 5)
         {
             AudioManager.Instance.SFX[3].Play();
             PlayerStats.ShootingSpeed -= 0.03f;
+            Debug.Log("Your Shooting speed is now " + PlayerStats.ShootingSpeed);
             PlayerStats.PlayerCash -= 5;
         }
         if (gameObject.name == "Passenger5" && PlayerStats.PlayerCash >= 5)
         {
             AudioManager.Instance.SFX[3].Play();
             PlayerStats.RicochetLevel += 1;
+            Debug.Log("Your Ricochet Level is now " + PlayerStats.RicochetLevel);
             PlayerStats.PlayerCash -= 5;
         }
         Debug.Log("You currently have money: " + PlayerStats.PlayerCash);
