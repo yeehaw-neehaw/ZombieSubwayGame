@@ -92,7 +92,10 @@ public class EnemyManager : MonoBehaviour
                 Instantiate(EnemyDeathAnim, gameObject.transform.position, Quaternion.identity);
                 EnemySpawning.EnemiesAlive--;
                 AudioManager.Instance.SFX[16].Play();
-                AudioManager.Instance.SFX[8].Play();
+                if (Random.Range(1,9) == 4)
+                {
+                    AudioManager.Instance.SFX[8].Play();
+                }
                 Destroy(gameObject);
             }
         }
