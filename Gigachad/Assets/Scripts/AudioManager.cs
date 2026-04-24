@@ -23,9 +23,19 @@ public class AudioManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        //plays title screen music if on title, stops otherwise, no clue where the other music is handled
         if (SceneManager.GetActiveScene().name == "Intro Screen")
         {
             Music[2].Play();
+        }
+
+    }
+
+    private void Update()
+    {
+        if (SceneManager.GetActiveScene().name != "Intro Screen")
+        {
+            Music[2].Stop();
         }
     }
 }
