@@ -23,5 +23,9 @@ public class AudioManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        if (SceneManager.GetActiveScene().name == "Intro Screen")
+        {
+            Music[2].Play();
+        }
     }
 }
