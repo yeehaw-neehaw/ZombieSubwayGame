@@ -31,10 +31,17 @@ public class SubwayOffSubway : MonoBehaviour
                 }
             }
             AudioManager.Instance.Music[0].Stop();
-            SceneManager.LoadScene("On Subway");
-            PlayerStats.CurrentLevel += 1;
-            TimerText.subwayDoorsOpen = false;
-            AudioManager.Instance.Music[3].Play();
+            if (PlayerStats.CurrentLevel == 5)
+            {
+                SceneManager.LoadScene("WinScreen");
+            }
+            else
+            {
+                SceneManager.LoadScene("On Subway");
+                PlayerStats.CurrentLevel += 1;
+                TimerText.subwayDoorsOpen = false;
+                AudioManager.Instance.Music[3].Play();
+            }
         }
     }
 
