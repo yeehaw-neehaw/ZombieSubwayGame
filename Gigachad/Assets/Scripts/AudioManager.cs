@@ -31,6 +31,7 @@ public class AudioManager : MonoBehaviour
 
     }
 
+    //this was written by the audio student please dont hurt me, checks if the level is not intro and stops intro music
     private void Update()
     {
         if (SceneManager.GetActiveScene().name != "Intro Screen")
