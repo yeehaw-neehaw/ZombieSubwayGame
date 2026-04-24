@@ -34,7 +34,15 @@ public class TimerText : MonoBehaviour
         {
             levelCountdown -= Time.deltaTime; // decrease zombie timer
             roundedCountdown = Mathf.RoundToInt(levelCountdown); // round that timer
-            visualCountdown.text = "W4RD TH3M 0FF FOR " + roundedCountdown.ToString(); // VISUALLY display the rounded value
+            if (PlayerStats.CurrentLevel == 0)
+            {
+                visualCountdown.text = "- explore! f0r " + roundedCountdown.ToString() + "s";
+            }
+            else
+            {
+                visualCountdown.text = "- k!ll them all f0r " + roundedCountdown.ToString() + "s"; // VISUALLY display the rounded value
+            }
+            
         }
         else // if level ends (zombies STOP spawning)
         {
@@ -42,19 +50,16 @@ public class TimerText : MonoBehaviour
             {
                 ticketCountdown -= Time.deltaTime; //  decrease ticket timer
                 roundedCountdown = Mathf.RoundToInt(ticketCountdown); // round that countdown
-                visualCountdown.color = Color.red; // the text is now RED!! URGENCY RAGHHHHH
-                visualCountdown.text = "F1ND THEM F4ST!! " + roundedCountdown.ToString(); // VISUALLY display the rounded value
+                visualCountdown.text = "- f1nd those t1ck3ts!! " + roundedCountdown.ToString() + "s"; // VISUALLY display the rounded value
                 if (ticketCountdown <= 0) // if the ticket countdown is over (not all tix collected)
                 {
-                    visualCountdown.color = Color.white;
-                    visualCountdown.text = "GET 0N TH3 TR41N!!!"; // stop displaying countdown
+                    visualCountdown.text = "- GET 0N TH3 TR41N!!!"; // stop displaying countdown
                     subwayDoorsOpen = true; // player can enter train
                 }
             }
             else // if player has all tickets needed
             {
-                visualCountdown.color = Color.green; 
-                visualCountdown.text = "GET 0N TH3 TR41N!!!"; // stop displaying countdown
+                visualCountdown.text = " - GET 0N TH3 TR41N!!!"; // stop displaying countdown
                 subwayDoorsOpen = true; // player can enter train
             }
             
