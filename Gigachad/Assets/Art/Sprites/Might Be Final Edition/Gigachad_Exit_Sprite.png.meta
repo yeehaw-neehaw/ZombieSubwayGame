@@ -125,10 +125,10 @@ TextureImporter:
       name: Gigachad_Exit_Sprite_0
       rect:
         serializedVersion: 2
-        x: 319
-        y: 2105
-        width: 1594
-        height: 893
+        x: 317
+        y: 2104
+        width: 1597
+        height: 895
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,10 +147,10 @@ TextureImporter:
       name: Gigachad_Exit_Sprite_1
       rect:
         serializedVersion: 2
-        x: 2627
-        y: 2013
-        width: 1800
-        height: 1096
+        x: 2624
+        y: 2012
+        width: 1805
+        height: 1099
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,8 +171,8 @@ TextureImporter:
         serializedVersion: 2
         x: 258
         y: 315
-        width: 1907
-        height: 1189
+        width: 1908
+        height: 1191
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +191,10 @@ TextureImporter:
       name: Gigachad_Exit_Sprite_3
       rect:
         serializedVersion: 2
-        x: 2559
-        y: 269
-        width: 2056
-        height: 1309
+        x: 2435
+        y: 267
+        width: 2059
+        height: 1312
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 501f55815df423745bbaa93ae5bf9f13
     internalID: 0
     vertices: []
     indices: 
