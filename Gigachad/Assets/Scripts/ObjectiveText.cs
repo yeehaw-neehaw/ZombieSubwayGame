@@ -15,6 +15,6 @@ public class ObjectiveText : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        WrittenObjectives.text = "FIND " + (PlayerStats.TicketsNeeded - PlayerStats.TicketsCollected) + " TICK3TZ";
+        WrittenObjectives.text = "- f1nd " + (PlayerStats.TicketsNeeded - PlayerStats.TicketsCollected) + " t1ck3ts!!!";
     }
 }
