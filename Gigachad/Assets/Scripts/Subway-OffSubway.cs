@@ -25,7 +25,7 @@ public class SubwayOffSubway : MonoBehaviour
         {
             for (int i = 0; i < 5; i++)
             {
-                if (PlayerStats.CurrentLevel == i)
+                if (PlayerStats.CurrentLevel - 1 == i)
                 {
                     AudioManager.Instance.Music[i].Stop();
                 }
@@ -40,7 +40,7 @@ public class SubwayOffSubway : MonoBehaviour
                 SceneManager.LoadScene("On Subway");
                 PlayerStats.CurrentLevel += 1;
                 TimerText.subwayDoorsOpen = false;
-                AudioManager.Instance.Music[3].Play();
+                AudioManager.Instance.Music[6].Play();
             }
         }
     }
@@ -55,30 +55,33 @@ public class SubwayOffSubway : MonoBehaviour
             EnemySpawning.NoMoreTickets = false;
             if (PlayerStats.CurrentLevel == 1)
             {
-                AudioManager.Instance.Music[3].Stop();
+                AudioManager.Instance.Music[6].Stop();
                 SceneManager.LoadScene("Level Designer Type Level 1");
                 AudioManager.Instance.Music[0].Play();
             }
             else if (PlayerStats.CurrentLevel == 2)
             {
-                AudioManager.Instance.Music[3].Stop();
+                AudioManager.Instance.Music[6].Stop();
                 SceneManager.LoadScene("Level Designer Type Level 2");
                 AudioManager.Instance.Music[1].Play();
             }
             else if (PlayerStats.CurrentLevel == 3)
             {
-                AudioManager.Instance.Music[3].Stop();
+                AudioManager.Instance.Music[6].Stop();
                 SceneManager.LoadScene("Level Designer Type Level 3");
+                AudioManager.Instance.Music[2].Play();
             }
             else if (PlayerStats.CurrentLevel == 4)
             {
-                AudioManager.Instance.Music[3].Stop();
+                AudioManager.Instance.Music[6].Stop();
                 SceneManager.LoadScene("Level Designer Type Level 4");
+                AudioManager.Instance.Music[3].Play();
             }
             else if (PlayerStats.CurrentLevel == 5)
             {
-                AudioManager.Instance.Music[3].Stop();
+                AudioManager.Instance.Music[6].Stop();
                 SceneManager.LoadScene("Level Designer Type Level 5");
+                AudioManager.Instance.Music[4].Play();
             }
         }
     }
