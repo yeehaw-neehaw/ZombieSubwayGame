@@ -34,7 +34,7 @@ public class PlayerFire : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ammoVisual.text = currentbullets.ToString() + "/" + maxbullets.ToString();
+        ammoVisual.text = "Ammo: " + currentbullets.ToString() + "/" + maxbullets.ToString();
 
         if (Input.GetKeyDown(KeyCode.R) && currentbullets > 0 && currentbullets < 20)
         {
