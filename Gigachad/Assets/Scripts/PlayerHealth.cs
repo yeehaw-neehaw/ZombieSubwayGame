@@ -64,7 +64,7 @@ public class PlayerHealthBar : MonoBehaviour
             AudioManager.Instance.SFX[5].Play();
             for (int i = 0; i < 5; i++)
             {
-                if (PlayerStats.CurrentLevel == i)
+                if (PlayerStats.CurrentLevel - 1 == i)
                 {
                     AudioManager.Instance.Music[i].Stop();
                 }
