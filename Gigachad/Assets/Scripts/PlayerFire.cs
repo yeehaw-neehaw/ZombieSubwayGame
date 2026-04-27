@@ -25,10 +25,15 @@ public class PlayerFire : MonoBehaviour
     private float reloadElapsedTime = 0;
     public TMP_Text ammoVisual;
     public static bool pauseOn = false;
+    private Animator anim;
+    private float shootAnimCooldown = 1f;
+    private float shootAnimTimer = 0;
+    private bool startShootTimer = false;
 
     void Start()
     {
         pauseText.gameObject.SetActive(false);
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -58,6 +63,9 @@ public class PlayerFire : MonoBehaviour
         else if (Input.GetMouseButton(0))
         {
             AudioManager.Instance.SFX[2].Play();
+            anim.SetBool("Shooting", true);
+            startShootTimer = true;
+            shootAnimTimer = 0;
             //calculate direction and fire
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             mousePos.z = 0;
@@ -76,6 +84,16 @@ public class PlayerFire : MonoBehaviour
             Time.timeScale = 1;
             pauseOn = false;
             pauseText.gameObject.SetActive(false);
+        }
+        if (startShootTimer && shootAnimTimer < shootAnimCooldown)
+        {
+            shootAnimTimer += Time.deltaTime;
+        }
+        else if (startShootTimer && shootAnimTimer >= shootAnimCooldown)
+        {
+            shootAnimTimer = 0;
+            startShootTimer = false;
+            anim.SetBool("Shooting", false);
         }
     }
 

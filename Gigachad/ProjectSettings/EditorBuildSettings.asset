@@ -41,5 +41,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level Designer Type Level 5.unity
     guid: 4a13c930a7f733d419a82018e6f9c0b7
+  - enabled: 1
+    path: Assets/Scenes/WinScreen.unity
+    guid: 3da3e80fe13324445a2bf5e2ced3a03a
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
