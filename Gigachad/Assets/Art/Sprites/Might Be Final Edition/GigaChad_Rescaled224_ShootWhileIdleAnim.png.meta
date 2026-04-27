@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 42f1e84965b45b944be4bbfd688c8f53
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3088399521710752548
+    second: GigaChad_Rescaled224_ShootWhileIdleAnim_0
+  - first:
+      213: -8490910453769295105
+    second: GigaChad_Rescaled224_ShootWhileIdleAnim_1
+  - first:
+      213: -3077848327410442381
+    second: GigaChad_Rescaled224_ShootWhileIdleAnim_2
+  - first:
+      213: 6241803736313003299
+    second: GigaChad_Rescaled224_ShootWhileIdleAnim_3
+  - first:
+      213: 5813131954284545872
+    second: GigaChad_Rescaled224_ShootWhileIdleAnim_4
+  - first:
+      213: 3836184970820220132
+    second: GigaChad_Rescaled224_ShootWhileIdleAnim_5
+  - first:
+      213: -9089254828990121454
+    second: GigaChad_Rescaled224_ShootWhileIdleAnim_6
+  - first:
+      213: -6737139956362157996
+    second: GigaChad_Rescaled224_ShootWhileIdleAnim_7
+  - first:
+      213: -2559566796487202004
+    second: GigaChad_Rescaled224_ShootWhileIdleAnim_8
+  - first:
+      213: 1487786430906832257
+    second: GigaChad_Rescaled224_ShootWhileIdleAnim_9
+  - first:
+      213: 5193453729808721460
+    second: GigaChad_Rescaled224_ShootWhileIdleAnim_10
+  - first:
+      213: -8926612914825170363
+    second: GigaChad_Rescaled224_ShootWhileIdleAnim_11
+  - first:
+      213: -8865151025820766060
+    second: GigaChad_Rescaled224_ShootWhileIdleAnim_12
+  - first:
+      213: -3902705420109176059
+    second: GigaChad_Rescaled224_ShootWhileIdleAnim_13
+  - first:
+      213: -2382264497706588928
+    second: GigaChad_Rescaled224_ShootWhileIdleAnim_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GigaChad_Rescaled224_ShootWhileIdleAnim_0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 673
+        width: 136
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4234e0080033cda20800000000000000
+      internalID: 3088399521710752548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescaled224_ShootWhileIdleAnim_1
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 673
+        width: 136
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa2e67dde93a2a80800000000000000
+      internalID: -8490910453769295105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescaled224_ShootWhileIdleAnim_2
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 673
+        width: 103
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f9b2cd0494945d0800000000000000
+      internalID: -3077848327410442381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescaled224_ShootWhileIdleAnim_3
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 673
+        width: 103
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d74ac7d675f9650800000000000000
+      internalID: 6241803736313003299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescaled224_ShootWhileIdleAnim_4
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 449
+        width: 100
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0574a9f86b46ca050800000000000000
+      internalID: 5813131954284545872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescaled224_ShootWhileIdleAnim_5
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 449
+        width: 100
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e47e6ee7eddc3530800000000000000
+      internalID: 3836184970820220132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescaled224_ShootWhileIdleAnim_6
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 449
+        width: 105
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a3a05d3ea7cd180800000000000000
+      internalID: -9089254828990121454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescaled224_ShootWhileIdleAnim_7
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 449
+        width: 105
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45061f297eed082a0800000000000000
+      internalID: -6737139956362157996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescaled224_ShootWhileIdleAnim_8
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 225
+        width: 121
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2bee7c4f879a7cd0800000000000000
+      internalID: -2559566796487202004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescaled224_ShootWhileIdleAnim_9
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 225
+        width: 121
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18519d350eda5a410800000000000000
+      internalID: 1487786430906832257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescaled224_ShootWhileIdleAnim_10
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 225
+        width: 135
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4362da2b6aad21840800000000000000
+      internalID: 5193453729808721460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescaled224_ShootWhileIdleAnim_11
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 225
+        width: 135
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5427e6469dc4e1480800000000000000
+      internalID: -8926612914825170363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescaled224_ShootWhileIdleAnim_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1
+        width: 139
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49073c19c18a8f480800000000000000
+      internalID: -8865151025820766060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescaled224_ShootWhileIdleAnim_13
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1
+        width: 139
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503a66b091ec6d9c0800000000000000
+      internalID: -3902705420109176059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_Rescaled224_ShootWhileIdleAnim_14
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1
+        width: 136
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005ac25af0f70fed0800000000000000
+      internalID: -2382264497706588928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GigaChad_Rescaled224_ShootWhileIdleAnim_0: 3088399521710752548
+      GigaChad_Rescaled224_ShootWhileIdleAnim_1: -8490910453769295105
+      GigaChad_Rescaled224_ShootWhileIdleAnim_10: 5193453729808721460
+      GigaChad_Rescaled224_ShootWhileIdleAnim_11: -8926612914825170363
+      GigaChad_Rescaled224_ShootWhileIdleAnim_12: -8865151025820766060
+      GigaChad_Rescaled224_ShootWhileIdleAnim_13: -3902705420109176059
+      GigaChad_Rescaled224_ShootWhileIdleAnim_14: -2382264497706588928
+      GigaChad_Rescaled224_ShootWhileIdleAnim_2: -3077848327410442381
+      GigaChad_Rescaled224_ShootWhileIdleAnim_3: 6241803736313003299
+      GigaChad_Rescaled224_ShootWhileIdleAnim_4: 5813131954284545872
+      GigaChad_Rescaled224_ShootWhileIdleAnim_5: 3836184970820220132
+      GigaChad_Rescaled224_ShootWhileIdleAnim_6: -9089254828990121454
+      GigaChad_Rescaled224_ShootWhileIdleAnim_7: -6737139956362157996
+      GigaChad_Rescaled224_ShootWhileIdleAnim_8: -2559566796487202004
+      GigaChad_Rescaled224_ShootWhileIdleAnim_9: 1487786430906832257
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

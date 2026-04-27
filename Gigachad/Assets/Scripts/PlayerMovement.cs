@@ -42,9 +42,11 @@ public class PlayerMovement : MonoBehaviour
             if (MovementInput.x < 0 && !updown)
             {
                 sr.flipX = true;
+                anim.SetBool("Moving", true);
             }
             else if (MovementInput.x > 0)
             {
+                anim.SetBool("Moving", true);
             }
             else
             {
@@ -53,11 +55,15 @@ public class PlayerMovement : MonoBehaviour
             if (MovementInput.y < 0 || MovementInput.y > 0)
             {
                 updown = true;
-
+                anim.SetBool("Moving", true);
             }
             else
             {
                 updown = false;
+            }
+            if (MovementInput.y == 0 && MovementInput.x == 0)
+            {
+                anim.SetBool("Moving", false);
             }
         }
     }
