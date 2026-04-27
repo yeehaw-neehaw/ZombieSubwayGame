@@ -12,6 +12,8 @@ public class AudioManager : MonoBehaviour
     [Header("SFX")]
     public List<AudioSource> SFX = new List<AudioSource>();
 
+    private bool introScreen = false;
+
     private void Awake()
     {
         if(Instance == null)
@@ -26,17 +28,27 @@ public class AudioManager : MonoBehaviour
         //plays title screen music if on title, stops otherwise, no clue where the other music is handled
         if (SceneManager.GetActiveScene().name == "Intro Screen")
         {
-            Music[2].Play();
+            Music[5].Play();
         }
-
+        if (SceneManager.GetActiveScene().name == "Intro Screen")
+        {
+            Music[5].Play();
+            introScreen = true;
+        }
     }
 
     //this was written by the audio student please dont hurt me, checks if the level is not intro and stops intro music
     private void Update()
     {
-        if (SceneManager.GetActiveScene().name != "Intro Screen")
+        if (SceneManager.GetActiveScene().name == "Intro Screen" && !introScreen)
         {
-            Music[2].Stop();
+            Music[5].Play();
+            introScreen = true;
+        }
+        else if (SceneManager.GetActiveScene().name != "Intro Screen")
+        {
+            Music[5].Stop();
+            introScreen = false;
         }
     }
 }
