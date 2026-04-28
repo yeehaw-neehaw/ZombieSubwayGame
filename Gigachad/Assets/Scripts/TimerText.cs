@@ -30,6 +30,7 @@ public class TimerText : MonoBehaviour
         {
             levelCountdown = 30f;
         }
+        arrow.SetActive(false);
     }
 
     // Update is called once per frame
@@ -59,12 +60,14 @@ public class TimerText : MonoBehaviour
                 if (ticketCountdown <= 0) // if the ticket countdown is over (not all tix collected)
                 {
                     visualCountdown.text = "- GET 0N TH3 TR41N!!!"; // stop displaying countdown
+                    arrow.SetActive(true);
                     subwayDoorsOpen = true; // player can enter train
                 }
             }
             else // if player has all tickets needed
             {
                 visualCountdown.text = " - GET 0N TH3 TR41N!!!"; // stop displaying countdown
+                arrow.SetActive(true);
                 subwayDoorsOpen = true; // player can enter train
             }
             
