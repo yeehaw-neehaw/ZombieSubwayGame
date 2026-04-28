@@ -146,14 +146,14 @@ RectTransform:
   m_GameObject: {fileID: 284719631}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.93, y: 3.590461, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1293098732}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -433, y: 246}
+  m_AnchoredPosition: {x: -433, y: 141}
   m_SizeDelta: {x: 413.3069, y: 205.1324}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &284719633
@@ -178,8 +178,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: this is where the intro comic will be. wip!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2234f5e4bb88ced47a686125acff70b5, type: 2}
+  m_sharedMaterial: {fileID: 5811038355992040212, guid: 2234f5e4bb88ced47a686125acff70b5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
