@@ -1,0 +1,21 @@
+Patch Notes 4/28/2026:
+
+- Shooting animation finished
+
+- Fixed timer text
+
+- Added an arrow to point to the door the player has to go through at the end of a level
+
+- Tutorial timer adjusted to be shorter
+
+- Fixed walking animation audio
+
+- Added more level music to each level that did not previously have any
+
+- Implemented being sent to the lose screen if you don't collect any tickets
+
+- Adjusted size of the objectives text
+
+- Put in the comic for both the start and the ending, as well as redesigning some buttons to make them fit in more
+
+- Put font on every piece of text
