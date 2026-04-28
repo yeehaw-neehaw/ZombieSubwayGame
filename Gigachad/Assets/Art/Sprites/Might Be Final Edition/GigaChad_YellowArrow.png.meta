@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: 4bbeecfb23eba65419c3be5960d5f021
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5953183667569247162
+    second: GigaChad_YellowArrow_0
+  - first:
+      213: 2199486728700706576
+    second: GigaChad_YellowArrow_1
+  - first:
+      213: 13645308716919998
+    second: GigaChad_YellowArrow_2
+  - first:
+      213: 3815314276468154419
+    second: GigaChad_YellowArrow_3
+  - first:
+      213: 2388064530558156655
+    second: GigaChad_YellowArrow_4
+  - first:
+      213: 5061902228741236778
+    second: GigaChad_YellowArrow_5
+  - first:
+      213: 8716821211692397422
+    second: GigaChad_YellowArrow_6
+  - first:
+      213: 1134860023877539056
+    second: GigaChad_YellowArrow_7
+  - first:
+      213: 3075352376298239912
+    second: GigaChad_YellowArrow_8
+  - first:
+      213: -1976918302485626936
+    second: GigaChad_YellowArrow_9
+  - first:
+      213: 3631666864377628745
+    second: GigaChad_YellowArrow_10
+  - first:
+      213: -3977250892514732941
+    second: GigaChad_YellowArrow_11
+  - first:
+      213: 9133768874655126784
+    second: GigaChad_YellowArrow_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GigaChad_YellowArrow_0
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1922
+        width: 298
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab34f1c1105fd9250800000000000000
+      internalID: 5953183667569247162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_YellowArrow_1
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1925
+        width: 298
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f3460c685268e10800000000000000
+      internalID: 2199486728700706576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_YellowArrow_2
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 1925
+        width: 298
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc2ce2065a703000800000000000000
+      internalID: 13645308716919998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_YellowArrow_3
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 1935
+        width: 298
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3306c5bbe18b2f430800000000000000
+      internalID: 3815314276468154419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_YellowArrow_4
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1339
+        width: 298
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ff0acb90c142120800000000000000
+      internalID: 2388064530558156655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_YellowArrow_5
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 1339
+        width: 298
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2821e7024d7f3640800000000000000
+      internalID: 5061902228741236778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_YellowArrow_6
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 1354
+        width: 298
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63f38555be58f870800000000000000
+      internalID: 8716821211692397422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_YellowArrow_7
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 1354
+        width: 298
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f41301dd25dfbf00800000000000000
+      internalID: 1134860023877539056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_YellowArrow_8
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 754
+        width: 298
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7f86c31b8ddaa20800000000000000
+      internalID: 3075352376298239912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_YellowArrow_9
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 731
+        width: 298
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf306e27439094e0800000000000000
+      internalID: -1976918302485626936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_YellowArrow_10
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 731
+        width: 298
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94809c195c5466230800000000000000
+      internalID: 3631666864377628745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_YellowArrow_11
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 731
+        width: 298
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374dd09b267fdc8c0800000000000000
+      internalID: -3977250892514732941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_YellowArrow_12
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 122
+        width: 298
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0059652166aa1ce70800000000000000
+      internalID: 9133768874655126784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GigaChad_YellowArrow_0: 5953183667569247162
+      GigaChad_YellowArrow_1: 2199486728700706576
+      GigaChad_YellowArrow_10: 3631666864377628745
+      GigaChad_YellowArrow_11: -3977250892514732941
+      GigaChad_YellowArrow_12: 9133768874655126784
+      GigaChad_YellowArrow_2: 13645308716919998
+      GigaChad_YellowArrow_3: 3815314276468154419
+      GigaChad_YellowArrow_4: 2388064530558156655
+      GigaChad_YellowArrow_5: 5061902228741236778
+      GigaChad_YellowArrow_6: 8716821211692397422
+      GigaChad_YellowArrow_7: 1134860023877539056
+      GigaChad_YellowArrow_8: 3075352376298239912
+      GigaChad_YellowArrow_9: -1976918302485626936
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
