@@ -29,10 +29,6 @@ public class AudioManager : MonoBehaviour
         if (SceneManager.GetActiveScene().name == "Intro Screen")
         {
             Music[5].Play();
-        }
-        if (SceneManager.GetActiveScene().name == "Intro Screen")
-        {
-            Music[5].Play();
             introScreen = true;
         }
     }
