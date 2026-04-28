@@ -313,7 +313,7 @@ RectTransform:
   m_GameObject: {fileID: 945260564}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1768, y: 1.1768, z: 1.1768}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1439052101}
@@ -347,8 +347,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2234f5e4bb88ced47a686125acff70b5, type: 2}
+  m_sharedMaterial: {fileID: 5811038355992040212, guid: 2234f5e4bb88ced47a686125acff70b5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -380,7 +380,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
+  m_VerticalAlignment: 4096
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -453,7 +453,7 @@ RectTransform:
   m_GameObject: {fileID: 1439052100}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1697, y: 1.1697, z: 1.1697}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 945260565}
@@ -461,8 +461,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000061035, y: -246}
-  m_SizeDelta: {x: 376.5583, y: 60.6932}
+  m_AnchoredPosition: {x: 1.5643e-10, y: -387}
+  m_SizeDelta: {x: 376.5583, y: 85.1169}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1439052102
 MonoBehaviour:
@@ -770,14 +770,14 @@ RectTransform:
   m_GameObject: {fileID: 1750639726}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.8414, y: 1.8414, z: 1.8414}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1571246752}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 18.843307}
+  m_AnchoredPosition: {x: 0, y: 64}
   m_SizeDelta: {x: 500, y: 409.6194}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1750639728
@@ -802,15 +802,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Credits:
 
+    ---------------
 
     Bishep Clous
 
     Evelyn McManus
 
-    Sunny Pal
+    Sunny
+    Pal
 
-    Neha
-    Sankarkumar
+    Neha Sankarkumar
 
     Mikey Chiodo
 
@@ -818,8 +819,8 @@ MonoBehaviour:
 
     Henry Faaland'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2234f5e4bb88ced47a686125acff70b5, type: 2}
+  m_sharedMaterial: {fileID: 5811038355992040212, guid: 2234f5e4bb88ced47a686125acff70b5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
