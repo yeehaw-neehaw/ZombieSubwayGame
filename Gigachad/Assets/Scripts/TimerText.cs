@@ -17,6 +17,7 @@ public class TimerText : MonoBehaviour
 {
     public TMP_Text visualCountdown; // the textbox
     public GameObject arrow;
+    public GameObject Objectives;
     private float levelCountdown = 50f; // time until zombies stop spawning
     private float ticketCountdown = 30f; // time until tickets stop spawning
     private int roundedCountdown = 50; // rounded (int) version of countdowns
@@ -30,6 +31,7 @@ public class TimerText : MonoBehaviour
         {
             levelCountdown = 30f;
         }
+        arrow.SetActive(false);
     }
 
     // Update is called once per frame
@@ -46,6 +48,10 @@ public class TimerText : MonoBehaviour
             else
             {
                 visualCountdown.text = "- k!ll them all f0r " + roundedCountdown.ToString() + "s"; // VISUALLY display the rounded value
+                if (Time.deltaTime >= 10f)
+                {
+                    Objectives.SetActive(false);
+                }
             }
             
         }
@@ -58,13 +64,16 @@ public class TimerText : MonoBehaviour
                 visualCountdown.text = "- f1nd those t1ck3ts!! " + roundedCountdown.ToString() + "s"; // VISUALLY display the rounded value
                 if (ticketCountdown <= 0) // if the ticket countdown is over (not all tix collected)
                 {
+                    Objectives.SetActive(true);
                     visualCountdown.text = "- GET 0N TH3 TR41N!!!"; // stop displaying countdown
+                    arrow.SetActive(true);
                     subwayDoorsOpen = true; // player can enter train
                 }
             }
             else // if player has all tickets needed
             {
                 visualCountdown.text = " - GET 0N TH3 TR41N!!!"; // stop displaying countdown
+                arrow.SetActive(true);
                 subwayDoorsOpen = true; // player can enter train
             }
             
