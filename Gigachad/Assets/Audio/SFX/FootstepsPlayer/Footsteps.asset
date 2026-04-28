@@ -106,8 +106,7 @@ AudioRandomContainer:
   - {fileID: -8604786164695926392}
   - {fileID: -4321919238466551348}
   - {fileID: -1667657244895919816}
-  - {fileID: 8812004563942692453}
-  m_AvoidRepeatingLast: 10
+  m_AvoidRepeatingLast: 9
   m_PlaybackMode: 2
   m_TriggerMode: 1
   m_AutomaticTriggerMode: 1
@@ -134,15 +133,5 @@ AudioContainerElement:
   m_PrefabAsset: {fileID: 0}
   m_Name: footstepsG-001_{8395161911468870401}
   m_AudioClip: {fileID: 8300000, guid: 279fbedfdb080154bbfee7e3d6d41136, type: 3}
-  m_Volume: 0
-  m_Enabled: 1
---- !u!1233149941 &8812004563942692453
-AudioContainerElement:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: footstepsG-011_{8812004563942692453}
-  m_AudioClip: {fileID: 8300000, guid: f92c8ef2ed5cfa64391cf861adb3ae9d, type: 3}
   m_Volume: 0
   m_Enabled: 1
