@@ -12,6 +12,7 @@
 
 using System.Net.Sockets;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemySpawning : MonoBehaviour
 {
@@ -77,6 +78,10 @@ public class EnemySpawning : MonoBehaviour
             else
             {
                 NoMoreTickets = true;
+                if (PlayerStats.TicketsCollected == 0)
+                {
+                    SceneManager.LoadScene("Game Over");
+                }
             }
         }
     }
