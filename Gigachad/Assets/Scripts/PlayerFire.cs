@@ -26,7 +26,7 @@ public class PlayerFire : MonoBehaviour
     public TMP_Text ammoVisual;
     public static bool pauseOn = false;
     private Animator anim;
-    private float shootAnimCooldown = 1f;
+    private float shootAnimCooldown = 0.58f; // sprite animated on 24 frames, 14 frames per loop, 14:24 = 0.58:1
     private float shootAnimTimer = 0;
     private bool startShootTimer = false;
 
