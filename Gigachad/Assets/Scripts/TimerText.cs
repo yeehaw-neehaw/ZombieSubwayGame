@@ -16,11 +16,8 @@ using TMPro;
 public class TimerText : MonoBehaviour
 {
     public TMP_Text visualCountdown; // the textbox
-<<<<<<< Updated upstream
     public GameObject arrow;
-=======
     public GameObject Objectives;
->>>>>>> Stashed changes
     private float levelCountdown = 50f; // time until zombies stop spawning
     private float ticketCountdown = 30f; // time until tickets stop spawning
     private int roundedCountdown = 50; // rounded (int) version of countdowns
