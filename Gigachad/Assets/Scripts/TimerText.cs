@@ -16,6 +16,7 @@ using TMPro;
 public class TimerText : MonoBehaviour
 {
     public TMP_Text visualCountdown; // the textbox
+    public GameObject arrow;
     private float levelCountdown = 50f; // time until zombies stop spawning
     private float ticketCountdown = 30f; // time until tickets stop spawning
     private int roundedCountdown = 50; // rounded (int) version of countdowns
@@ -25,6 +26,10 @@ public class TimerText : MonoBehaviour
     void Start()
     {
         visualCountdown = GetComponent<TMP_Text>();
+        if (PlayerStats.CurrentLevel == 0)
+        {
+            levelCountdown = 30f;
+        }
     }
 
     // Update is called once per frame
