@@ -961,8 +961,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4076783708805462260, guid: f7dc2f5752ac80f40b3a29f7f5c21a8b, type: 3}
       propertyPath: m_Transition
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4076783708805462260, guid: f7dc2f5752ac80f40b3a29f7f5c21a8b, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: -4930520800884292778, guid: c8be9f01571a896469cb7f2ad09e9938, type: 3}
+    - target: {fileID: 4076783708805462260, guid: f7dc2f5752ac80f40b3a29f7f5c21a8b, type: 3}
+      propertyPath: m_SpriteState.m_DisabledSprite
+      value: 
+      objectReference: {fileID: 4545414822680757386, guid: c8be9f01571a896469cb7f2ad09e9938, type: 3}
+    - target: {fileID: 4076783708805462260, guid: f7dc2f5752ac80f40b3a29f7f5c21a8b, type: 3}
+      propertyPath: m_SpriteState.m_SelectedSprite
+      value: 
+      objectReference: {fileID: -4930520800884292778, guid: c8be9f01571a896469cb7f2ad09e9938, type: 3}
+    - target: {fileID: 4076783708805462260, guid: f7dc2f5752ac80f40b3a29f7f5c21a8b, type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: -4930520800884292778, guid: c8be9f01571a896469cb7f2ad09e9938, type: 3}
     - target: {fileID: 4076783708805462260, guid: f7dc2f5752ac80f40b3a29f7f5c21a8b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1115,7 +1131,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5507343666853394928, guid: 95d8243848feadf479bf99285feceb56, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -180
+      value: -102
       objectReference: {fileID: 0}
     - target: {fileID: 5507343666853394928, guid: 95d8243848feadf479bf99285feceb56, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
