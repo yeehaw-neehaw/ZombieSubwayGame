@@ -18,7 +18,8 @@ public class PlayerMovement : MonoBehaviour
     private float MoveSpeed = PlayerStats.PlayerMovementSpeed;
     private Animator anim;
     private SpriteRenderer sr;
-    private bool updown = false; 
+    private bool updown = false;
+    public bool left = false;
 
     void Start()
     {
@@ -39,18 +40,21 @@ public class PlayerMovement : MonoBehaviour
             anim.SetFloat("xVelocity", MovementInput.x);
             anim.SetBool("updown", updown);
             anim.SetFloat("yVelocity", MovementInput.y);
+
+            if (left)
+                sr.flipX = true;
+            else
+                sr.flipX= false;
+
             if (MovementInput.x < 0 && !updown)
             {
-                sr.flipX = true;
                 anim.SetBool("Moving", true);
+                left = true;
             }
-            else if (MovementInput.x > 0)
+            else if (MovementInput.x > 0.1)
             {
                 anim.SetBool("Moving", true);
-            }
-            else
-            {
-                sr.flipX = false;
+                left = false;
             }
             if (MovementInput.y < 0 || MovementInput.y > 0)
             {
