@@ -1,3 +1,12 @@
+/****************************************************************************
+* File Name: WalletManager.cs
+* Author: Neha Sankarkumar
+* DigiPen Email: neha.sankarkumar@digipen.edu
+* Course: Game Projects
+*
+* Description: Script within every spawned wallet. Manages interaction
+* with player sprite---increments player cash on collection.
+****************************************************************************/
 using System.Net.Sockets;
 using UnityEngine;
 
@@ -11,8 +20,8 @@ public class WalletManager : MonoBehaviour
         if (collision.gameObject.CompareTag("Player")) // collides with player
         {
             AudioManager.Instance.SFX[0].Play();
-            Destroy(gameObject); // ticket disappears
-            PlayerStats.PlayerCash += UnityEngine.Random.Range(3, 6); // cash 3-5
+            Destroy(gameObject); // wallet disappears
+            PlayerStats.PlayerCash += UnityEngine.Random.Range(3, 6); // + cash 3-5
         }
     }
 }
