@@ -1,0 +1,11 @@
+Patch Notes 4/29/2026
+
+- Fixed intro screen buttons
+
+- Added in menu outline art
+
+- Win comic colored version put in
+
+- Some comments added to scripts
+
+- Player now stays left in idle animation if the last direction they moved was left, along with the inverse
