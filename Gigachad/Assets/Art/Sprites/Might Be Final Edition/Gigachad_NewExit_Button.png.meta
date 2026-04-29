@@ -1,22 +1,19 @@
 fileFormatVersion: 2
-guid: 869a057b124a07141a04615160fc8387
+guid: c8be9f01571a896469cb7f2ad09e9938
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1161943341402191878
-    second: Gigachad_Credits_Sprite_0
+      213: 4545414822680757386
+    second: Gigachad_NewExit_Button_0
   - first:
-      213: -6969570186573499432
-    second: Gigachad_Credits_Sprite_1
+      213: 862119134958017224
+    second: Gigachad_NewExit_Button_1
   - first:
-      213: 4568390301626773659
-    second: Gigachad_Credits_Sprite_2
+      213: -6344461155042632565
+    second: Gigachad_NewExit_Button_2
   - first:
-      213: 5509446989068682859
-    second: Gigachad_Credits_Sprite_3
-  - first:
-      213: -1356061945027458677
-    second: Gigachad_Credits_Sprite_4
+      213: -4930520800884292778
+    second: Gigachad_NewExit_Button_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gigachad_Credits_Sprite_0
+      name: Gigachad_NewExit_Button_0
       rect:
         serializedVersion: 2
-        x: 51
-        y: 670
-        width: 1151
-        height: 504
+        x: 0
+        y: 1664
+        width: 2346
+        height: 1664
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6087861105d002010800000000000000
-      internalID: 1161943341402191878
+      spriteID: a848ea6d2be841f30800000000000000
+      internalID: 4545414822680757386
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gigachad_Credits_Sprite_1
+      name: Gigachad_NewExit_Button_1
       rect:
         serializedVersion: 2
-        x: 1305
-        y: 670
-        width: 1151
-        height: 504
+        x: 2346
+        y: 1664
+        width: 2346
+        height: 1664
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d3322877dc174f90800000000000000
-      internalID: -6969570186573499432
+      spriteID: 8ca5d3919ccd6fb00800000000000000
+      internalID: 862119134958017224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gigachad_Credits_Sprite_2
+      name: Gigachad_NewExit_Button_2
       rect:
         serializedVersion: 2
-        x: 2559
-        y: 670
-        width: 1151
-        height: 504
+        x: 0
+        y: 0
+        width: 2346
+        height: 1664
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b90bdc366ce266f30800000000000000
-      internalID: 4568390301626773659
+      spriteID: b8c5b62a132f3f7a0800000000000000
+      internalID: -6344461155042632565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gigachad_Credits_Sprite_3
+      name: Gigachad_NewExit_Button_3
       rect:
         serializedVersion: 2
-        x: 51
-        y: 55
-        width: 1151
-        height: 504
+        x: 2346
+        y: 0
+        width: 2346
+        height: 1664
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,30 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b66c844a8dc757c40800000000000000
-      internalID: 5509446989068682859
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Gigachad_Credits_Sprite_4
-      rect:
-        serializedVersion: 2
-        x: 1305
-        y: 55
-        width: 1151
-        height: 504
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b89863188dc4e2de0800000000000000
-      internalID: -1356061945027458677
+      spriteID: 6530e916475439bb0800000000000000
+      internalID: -4930520800884292778
       vertices: []
       indices: 
       edges: []
@@ -238,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1e930fb4168ca86489a9de8151c72c20
     internalID: 0
     vertices: []
     indices: 
@@ -248,11 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Gigachad_Credits_Sprite_0: 1161943341402191878
-      Gigachad_Credits_Sprite_1: -6969570186573499432
-      Gigachad_Credits_Sprite_2: 4568390301626773659
-      Gigachad_Credits_Sprite_3: 5509446989068682859
-      Gigachad_Credits_Sprite_4: -1356061945027458677
+      Gigachad_NewExit_Button_0: 4545414822680757386
+      Gigachad_NewExit_Button_1: 862119134958017224
+      Gigachad_NewExit_Button_2: -6344461155042632565
+      Gigachad_NewExit_Button_3: -4930520800884292778
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: e725355e3be0e0e44b9773f6c17f0a5e
+guid: 39fbcfddae3e85a44a253cfcbb5fa57d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 663708297345028258
-    second: Gigachad_Exit_Sprite_0
+      213: 1863355327639241434
+    second: Gigachad_NewCredit_Button_0
   - first:
-      213: -8189158963286684495
-    second: Gigachad_Exit_Sprite_1
+      213: 5268330127253678548
+    second: Gigachad_NewCredit_Button_1
   - first:
-      213: -8392621670892855412
-    second: Gigachad_Exit_Sprite_2
+      213: -139001395131229583
+    second: Gigachad_NewCredit_Button_2
   - first:
-      213: 3184620177682479678
-    second: Gigachad_Exit_Sprite_3
+      213: 552790487180398816
+    second: Gigachad_NewCredit_Button_3
+  - first:
+      213: 6188766629672293973
+    second: Gigachad_NewCredit_Button_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gigachad_Exit_Sprite_0
+      name: Gigachad_NewCredit_Button_0
       rect:
         serializedVersion: 2
-        x: 317
-        y: 2104
-        width: 1597
-        height: 895
+        x: 51
+        y: 670
+        width: 1151
+        height: 504
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2a0dab11e27f53900800000000000000
-      internalID: 663708297345028258
+      spriteID: ad2c44a4cc7fbd910800000000000000
+      internalID: 1863355327639241434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gigachad_Exit_Sprite_1
+      name: Gigachad_NewCredit_Button_1
       rect:
         serializedVersion: 2
-        x: 2624
-        y: 2012
-        width: 1805
-        height: 1099
+        x: 1305
+        y: 670
+        width: 1151
+        height: 504
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1bc47189f434a5e80800000000000000
-      internalID: -8189158963286684495
+      spriteID: 4d9a172865edc1940800000000000000
+      internalID: 5268330127253678548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gigachad_Exit_Sprite_2
+      name: Gigachad_NewCredit_Button_2
       rect:
         serializedVersion: 2
-        x: 258
-        y: 315
-        width: 1908
-        height: 1191
+        x: 2559
+        y: 670
+        width: 1151
+        height: 504
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c8f9f2c6e0b678b80800000000000000
-      internalID: -8392621670892855412
+      spriteID: 17a5be3b7fa221ef0800000000000000
+      internalID: -139001395131229583
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gigachad_Exit_Sprite_3
+      name: Gigachad_NewCredit_Button_3
       rect:
         serializedVersion: 2
-        x: 2435
-        y: 267
-        width: 2059
-        height: 1312
+        x: 51
+        y: 55
+        width: 1151
+        height: 504
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,8 +206,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e3a3e43cd2b023c20800000000000000
-      internalID: 3184620177682479678
+      spriteID: 0e05a9fe408eba700800000000000000
+      internalID: 552790487180398816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_NewCredit_Button_4
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 55
+        width: 1151
+        height: 504
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556986fc57ae2e550800000000000000
+      internalID: 6188766629672293973
       vertices: []
       indices: 
       edges: []
@@ -213,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 501f55815df423745bbaa93ae5bf9f13
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -223,10 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Gigachad_Exit_Sprite_0: 663708297345028258
-      Gigachad_Exit_Sprite_1: -8189158963286684495
-      Gigachad_Exit_Sprite_2: -8392621670892855412
-      Gigachad_Exit_Sprite_3: 3184620177682479678
+      Gigachad_NewCredit_Button_0: 1863355327639241434
+      Gigachad_NewCredit_Button_1: 5268330127253678548
+      Gigachad_NewCredit_Button_2: -139001395131229583
+      Gigachad_NewCredit_Button_3: 552790487180398816
+      Gigachad_NewCredit_Button_4: 6188766629672293973
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
