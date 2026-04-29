@@ -542,10 +542,10 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: -1356061945027458677, guid: 869a057b124a07141a04615160fc8387, type: 3}
-    m_PressedSprite: {fileID: -1356061945027458677, guid: 869a057b124a07141a04615160fc8387, type: 3}
-    m_SelectedSprite: {fileID: -1356061945027458677, guid: 869a057b124a07141a04615160fc8387, type: 3}
-    m_DisabledSprite: {fileID: 1161943341402191878, guid: 869a057b124a07141a04615160fc8387, type: 3}
+    m_HighlightedSprite: {fileID: 6188766629672293973, guid: 39fbcfddae3e85a44a253cfcbb5fa57d, type: 3}
+    m_PressedSprite: {fileID: 6188766629672293973, guid: 39fbcfddae3e85a44a253cfcbb5fa57d, type: 3}
+    m_SelectedSprite: {fileID: 6188766629672293973, guid: 39fbcfddae3e85a44a253cfcbb5fa57d, type: 3}
+    m_DisabledSprite: {fileID: 1863355327639241434, guid: 39fbcfddae3e85a44a253cfcbb5fa57d, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
@@ -589,7 +589,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1161943341402191878, guid: 869a057b124a07141a04615160fc8387, type: 3}
+  m_Sprite: {fileID: 1863355327639241434, guid: 39fbcfddae3e85a44a253cfcbb5fa57d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -863,6 +863,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1313879594}
     m_Modifications:
+    - target: {fileID: 1086639856707498170, guid: f7dc2f5752ac80f40b3a29f7f5c21a8b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4545414822680757386, guid: c8be9f01571a896469cb7f2ad09e9938, type: 3}
     - target: {fileID: 1838278078537560579, guid: f7dc2f5752ac80f40b3a29f7f5c21a8b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -889,11 +893,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1838278078537560579, guid: f7dc2f5752ac80f40b3a29f7f5c21a8b, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 80
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 1838278078537560579, guid: f7dc2f5752ac80f40b3a29f7f5c21a8b, type: 3}
       propertyPath: m_SizeDelta.y
       value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 1838278078537560579, guid: f7dc2f5752ac80f40b3a29f7f5c21a8b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1838278078537560579, guid: f7dc2f5752ac80f40b3a29f7f5c21a8b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1838278078537560579, guid: f7dc2f5752ac80f40b3a29f7f5c21a8b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1838278078537560579, guid: f7dc2f5752ac80f40b3a29f7f5c21a8b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -925,11 +941,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1838278078537560579, guid: f7dc2f5752ac80f40b3a29f7f5c21a8b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1838278078537560579, guid: f7dc2f5752ac80f40b3a29f7f5c21a8b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -420
+      value: -430
       objectReference: {fileID: 0}
     - target: {fileID: 1838278078537560579, guid: f7dc2f5752ac80f40b3a29f7f5c21a8b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -942,6 +958,10 @@ PrefabInstance:
     - target: {fileID: 1838278078537560579, guid: f7dc2f5752ac80f40b3a29f7f5c21a8b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4076783708805462260, guid: f7dc2f5752ac80f40b3a29f7f5c21a8b, type: 3}
+      propertyPath: m_Transition
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4076783708805462260, guid: f7dc2f5752ac80f40b3a29f7f5c21a8b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
