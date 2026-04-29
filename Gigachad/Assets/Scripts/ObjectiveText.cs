@@ -1,3 +1,5 @@
+// Updates the part of the objectives bar that says how many tickets are left.
+
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;

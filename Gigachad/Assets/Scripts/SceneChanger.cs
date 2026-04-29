@@ -16,7 +16,7 @@ public class SceneChanger : MonoBehaviour
     {
         AudioManager.Instance.SFX[13].Play();
         SceneManager.LoadScene(sceneName);
-        if (sceneName == "Intro Screen")
+        if (sceneName == "Intro Screen") // resets all stats if game is reset to main menu
         {
             PlayerStats.BulletDamage = 2;
             PlayerStats.PlayerCash = 0;
