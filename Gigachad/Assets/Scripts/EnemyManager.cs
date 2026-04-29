@@ -79,7 +79,7 @@ public class EnemyManager : MonoBehaviour
             AudioManager.Instance.SFX[19].Play();
             if (enemyHealth <= 0)
             {
-                if ((UnityEngine.Random.Range(1,9) == 4) || (WalletManager.WalletPity >= 10)) // 1/8 chance OR if pity reached
+                if ((UnityEngine.Random.Range(1,7) == 4) || (WalletManager.WalletPity >= 10)) // 1/8 chance OR if pity reached
                 {
                     Instantiate(walletPrefab, gameObject.transform.position, Quaternion.identity); // spawn wallet
                     WalletManager.WalletPity = 0; // reset pity

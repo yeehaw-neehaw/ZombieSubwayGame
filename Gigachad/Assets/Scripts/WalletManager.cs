@@ -12,7 +12,7 @@ public class WalletManager : MonoBehaviour
         {
             AudioManager.Instance.SFX[0].Play();
             Destroy(gameObject); // ticket disappears
-            PlayerStats.PlayerCash += UnityEngine.Random.Range(1, 6); // cash 1-5
+            PlayerStats.PlayerCash += UnityEngine.Random.Range(3, 6); // cash 3-5
         }
     }
 }
