@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: fab36a6d49826c541add7f534423d8fa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8639594453005221440
+    second: GigaChad_HealthUI_1to15_0
+  - first:
+      213: -2214468387615206806
+    second: GigaChad_HealthUI_1to15_1
+  - first:
+      213: -3400582954951293020
+    second: GigaChad_HealthUI_1to15_2
+  - first:
+      213: 4571089675680324634
+    second: GigaChad_HealthUI_1to15_3
+  - first:
+      213: -4899664167819987936
+    second: GigaChad_HealthUI_1to15_4
+  - first:
+      213: -7194875471132462241
+    second: GigaChad_HealthUI_1to15_5
+  - first:
+      213: 2078755894340793523
+    second: GigaChad_HealthUI_1to15_6
+  - first:
+      213: 5129732728699335343
+    second: GigaChad_HealthUI_1to15_7
+  - first:
+      213: 4321343145166270042
+    second: GigaChad_HealthUI_1to15_8
+  - first:
+      213: 3957544111610583586
+    second: GigaChad_HealthUI_1to15_9
+  - first:
+      213: -8419820640374958282
+    second: GigaChad_HealthUI_1to15_10
+  - first:
+      213: -7168421038728839737
+    second: GigaChad_HealthUI_1to15_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GigaChad_HealthUI_1to15_0
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1766
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ebfc6616106e770800000000000000
+      internalID: 8639594453005221440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HealthUI_1to15_1
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1766
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a621dd5fbb0a441e0800000000000000
+      internalID: -2214468387615206806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HealthUI_1to15_2
+      rect:
+        serializedVersion: 2
+        x: 2613
+        y: 1766
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a741ecc1d3bec0d0800000000000000
+      internalID: -3400582954951293020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HealthUI_1to15_3
+      rect:
+        serializedVersion: 2
+        x: 3864
+        y: 1766
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c916367d5cf6f30800000000000000
+      internalID: 4571089675680324634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HealthUI_1to15_4
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 998
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024316e1665e00cb0800000000000000
+      internalID: -4899664167819987936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HealthUI_1to15_5
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 998
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f537afb01eaa62c90800000000000000
+      internalID: -7194875471132462241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HealthUI_1to15_6
+      rect:
+        serializedVersion: 2
+        x: 2613
+        y: 998
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4bee0e87939dc10800000000000000
+      internalID: 2078755894340793523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HealthUI_1to15_7
+      rect:
+        serializedVersion: 2
+        x: 3864
+        y: 998
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2b1defcb8703740800000000000000
+      internalID: 5129732728699335343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HealthUI_1to15_8
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 230
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e6430f1be78fb30800000000000000
+      internalID: 4321343145166270042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HealthUI_1to15_9
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 230
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22adc7bc6650ce630800000000000000
+      internalID: 3957544111610583586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HealthUI_1to15_10
+      rect:
+        serializedVersion: 2
+        x: 2613
+        y: 230
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637d2f9dcb9c62b80800000000000000
+      internalID: -8419820640374958282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HealthUI_1to15_11
+      rect:
+        serializedVersion: 2
+        x: 3864
+        y: 230
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd71229b07a48c90800000000000000
+      internalID: -7168421038728839737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GigaChad_HealthUI_1to15_0: 8639594453005221440
+      GigaChad_HealthUI_1to15_1: -2214468387615206806
+      GigaChad_HealthUI_1to15_10: -8419820640374958282
+      GigaChad_HealthUI_1to15_11: -7168421038728839737
+      GigaChad_HealthUI_1to15_2: -3400582954951293020
+      GigaChad_HealthUI_1to15_3: 4571089675680324634
+      GigaChad_HealthUI_1to15_4: -4899664167819987936
+      GigaChad_HealthUI_1to15_5: -7194875471132462241
+      GigaChad_HealthUI_1to15_6: 2078755894340793523
+      GigaChad_HealthUI_1to15_7: 5129732728699335343
+      GigaChad_HealthUI_1to15_8: 4321343145166270042
+      GigaChad_HealthUI_1to15_9: 3957544111610583586
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
