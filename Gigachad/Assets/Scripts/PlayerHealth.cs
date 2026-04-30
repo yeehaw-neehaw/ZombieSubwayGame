@@ -25,6 +25,7 @@ public class PlayerHealthBar : MonoBehaviour
     public bool red = false;
     private bool damaging = false;
     private SpriteRenderer spriteRenderer;
+    private Animator anim;
 
     void Start()
     {
@@ -32,10 +33,12 @@ public class PlayerHealthBar : MonoBehaviour
         healthBar.maxValue = maxHealth;
         healthBar.value = currentHealth;
         spriteRenderer = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
     }
 
     void Update()
     {
+        anim.SetFloat("currentHealth", currentHealth);
         if (red && redTimer < redCooldown)
         {
             redTimer += Time.deltaTime;

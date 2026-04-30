@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: ece81622335df2b4fb17db67570f1c70
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8808639031042601054
+    second: GigaChad_HeathUI_40to69_0
+  - first:
+      213: 6695194295261297312
+    second: GigaChad_HeathUI_40to69_1
+  - first:
+      213: 1826114145069641899
+    second: GigaChad_HeathUI_40to69_2
+  - first:
+      213: -5012868802004820293
+    second: GigaChad_HeathUI_40to69_3
+  - first:
+      213: -5135270156084300196
+    second: GigaChad_HeathUI_40to69_4
+  - first:
+      213: 6864219652481379000
+    second: GigaChad_HeathUI_40to69_5
+  - first:
+      213: 8480589562020922247
+    second: GigaChad_HeathUI_40to69_6
+  - first:
+      213: -4647521395989569350
+    second: GigaChad_HeathUI_40to69_7
+  - first:
+      213: -838111755418163837
+    second: GigaChad_HeathUI_40to69_8
+  - first:
+      213: 6916628492957787500
+    second: GigaChad_HeathUI_40to69_9
+  - first:
+      213: 8435127027671496937
+    second: GigaChad_HeathUI_40to69_10
+  - first:
+      213: 8086591038801343461
+    second: GigaChad_HeathUI_40to69_11
+  - first:
+      213: -1898580302178540366
+    second: GigaChad_HeathUI_40to69_12
+  - first:
+      213: 1545537876958382380
+    second: GigaChad_HeathUI_40to69_13
+  - first:
+      213: -4352500772835620276
+    second: GigaChad_HeathUI_40to69_14
+  - first:
+      213: 4195678347864404484
+    second: GigaChad_HeathUI_40to69_15
+  - first:
+      213: 1524659719521431417
+    second: GigaChad_HeathUI_40to69_16
+  - first:
+      213: 1892442111993172127
+    second: GigaChad_HeathUI_40to69_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GigaChad_HeathUI_40to69_0
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 2534
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e507fef47829e3a70800000000000000
+      internalID: 8808639031042601054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HeathUI_40to69_1
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 2534
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa75472dbb1aec50800000000000000
+      internalID: 6695194295261297312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HeathUI_40to69_2
+      rect:
+        serializedVersion: 2
+        x: 2613
+        y: 2534
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba03138c329a75910800000000000000
+      internalID: 1826114145069641899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HeathUI_40to69_3
+      rect:
+        serializedVersion: 2
+        x: 3864
+        y: 2534
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe5dd64266be6ab0800000000000000
+      internalID: -5012868802004820293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HeathUI_40to69_4
+      rect:
+        serializedVersion: 2
+        x: 5115
+        y: 2534
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c563ee8300bdbb8b0800000000000000
+      internalID: -5135270156084300196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HeathUI_40to69_5
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1766
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba686ed76b924f50800000000000000
+      internalID: 6864219652481379000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HeathUI_40to69_6
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1766
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783842a464b11b570800000000000000
+      internalID: 8480589562020922247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HeathUI_40to69_7
+      rect:
+        serializedVersion: 2
+        x: 2613
+        y: 1766
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0a30af9efa08fb0800000000000000
+      internalID: -4647521395989569350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HeathUI_40to69_8
+      rect:
+        serializedVersion: 2
+        x: 3864
+        y: 1766
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385a8388ccd6e54f0800000000000000
+      internalID: -838111755418163837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HeathUI_40to69_9
+      rect:
+        serializedVersion: 2
+        x: 5115
+        y: 1766
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65281ee7fcccff50800000000000000
+      internalID: 6916628492957787500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HeathUI_40to69_10
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 998
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8f7a727579f0570800000000000000
+      internalID: 8435127027671496937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HeathUI_40to69_11
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 998
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e37c9784b7593070800000000000000
+      internalID: 8086591038801343461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HeathUI_40to69_12
+      rect:
+        serializedVersion: 2
+        x: 2613
+        y: 998
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b428173643e6a5e0800000000000000
+      internalID: -1898580302178540366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HeathUI_40to69_13
+      rect:
+        serializedVersion: 2
+        x: 3864
+        y: 998
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29040fa28ad27510800000000000000
+      internalID: 1545537876958382380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HeathUI_40to69_14
+      rect:
+        serializedVersion: 2
+        x: 5115
+        y: 998
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a058e8b9fc893c0800000000000000
+      internalID: -4352500772835620276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HeathUI_40to69_15
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 230
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402714c4a3b0a3a30800000000000000
+      internalID: 4195678347864404484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HeathUI_40to69_16
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 230
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97feb69dfeda82510800000000000000
+      internalID: 1524659719521431417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GigaChad_HeathUI_40to69_17
+      rect:
+        serializedVersion: 2
+        x: 2613
+        y: 230
+        width: 1120
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90d753031e434a10800000000000000
+      internalID: 1892442111993172127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GigaChad_HeathUI_40to69_0: 8808639031042601054
+      GigaChad_HeathUI_40to69_1: 6695194295261297312
+      GigaChad_HeathUI_40to69_10: 8435127027671496937
+      GigaChad_HeathUI_40to69_11: 8086591038801343461
+      GigaChad_HeathUI_40to69_12: -1898580302178540366
+      GigaChad_HeathUI_40to69_13: 1545537876958382380
+      GigaChad_HeathUI_40to69_14: -4352500772835620276
+      GigaChad_HeathUI_40to69_15: 4195678347864404484
+      GigaChad_HeathUI_40to69_16: 1524659719521431417
+      GigaChad_HeathUI_40to69_17: 1892442111993172127
+      GigaChad_HeathUI_40to69_2: 1826114145069641899
+      GigaChad_HeathUI_40to69_3: -5012868802004820293
+      GigaChad_HeathUI_40to69_4: -5135270156084300196
+      GigaChad_HeathUI_40to69_5: 6864219652481379000
+      GigaChad_HeathUI_40to69_6: 8480589562020922247
+      GigaChad_HeathUI_40to69_7: -4647521395989569350
+      GigaChad_HeathUI_40to69_8: -838111755418163837
+      GigaChad_HeathUI_40to69_9: 6916628492957787500
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
