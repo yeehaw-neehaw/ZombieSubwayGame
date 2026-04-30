@@ -1,0 +1,11 @@
+Patch Notes 4/30/2026
+
+- Put in Health Bar animations, but they are not functional
+
+- Finalized fonts on all pieces of text
+
+- Put in moving subway background
+
+- Resized all levels for WebGL
+
+- Fixed the finicky slicing on the menu art
