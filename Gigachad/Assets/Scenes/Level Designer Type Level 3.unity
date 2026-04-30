@@ -742,6 +742,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 45391677130366652, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
   m_PrefabInstance: {fileID: 203672209}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &203672212 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2311900943310600011, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+  m_PrefabInstance: {fileID: 203672209}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &218967990
 GameObject:
   m_ObjectHideFlags: 0
@@ -932,6 +937,10 @@ PrefabInstance:
       propertyPath: maxHealth
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -6798345304761649743, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
+      propertyPath: healthOutline
+      value: 
+      objectReference: {fileID: 203672212}
     - target: {fileID: -6543718195929317761, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
       propertyPath: pauseText
       value: 

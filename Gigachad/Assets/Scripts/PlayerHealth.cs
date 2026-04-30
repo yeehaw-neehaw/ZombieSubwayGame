@@ -25,6 +25,7 @@ public class PlayerHealthBar : MonoBehaviour
     public bool red = false;
     private bool damaging = false;
     private SpriteRenderer spriteRenderer;
+    public GameObject healthOutline;
     private Animator anim;
 
     void Start()
@@ -33,7 +34,7 @@ public class PlayerHealthBar : MonoBehaviour
         healthBar.maxValue = maxHealth;
         healthBar.value = currentHealth;
         spriteRenderer = GetComponent<SpriteRenderer>();
-        anim = GetComponent<Animator>();
+        anim = healthOutline.GetComponent<Animator>();
     }
 
     void Update()
@@ -59,6 +60,7 @@ public class PlayerHealthBar : MonoBehaviour
         {
             currentHealth -= 0.1f;
             healthBar.value = currentHealth;
+            anim.SetFloat("currentHealth", currentHealth);
             damageTimer = 0;
             red = true;
         }
@@ -83,6 +85,7 @@ public class PlayerHealthBar : MonoBehaviour
             AudioManager.Instance.SFX[6].Play();
             currentHealth -= 0.1f;
             healthBar.value = currentHealth;
+            anim.SetFloat("currentHealth", currentHealth);
             damaging = true;
             red = true;
         }

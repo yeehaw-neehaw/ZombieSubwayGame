@@ -33,7 +33,11 @@ public class SubwayTimer : MonoBehaviour
             TimerText.subwayDoorsOpen = false;
             TicketSpawner.TicketSpawned = false;
             EnemySpawning.NoMoreTickets = false;
-            if (PlayerStats.CurrentLevel == 2)
+            if (PlayerStats.CurrentLevel == 1)
+            {
+                SceneManager.LoadScene("Level Designer Type Level 1");
+            }
+            else if (PlayerStats.CurrentLevel == 2)
             {
                 SceneManager.LoadScene("Level Designer Type Level 2");
             }

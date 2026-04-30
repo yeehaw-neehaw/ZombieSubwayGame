@@ -910,6 +910,10 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 2222653868790390498}
+    - target: {fileID: -6798345304761649743, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
+      propertyPath: healthOutline
+      value: 
+      objectReference: {fileID: 4346756020518179535}
     - target: {fileID: -6543718195929317761, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
       propertyPath: pauseText
       value: 
@@ -18785,6 +18789,11 @@ PrefabInstance:
 --- !u!1 &4346756020518179534 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 45391677130366652, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
+  m_PrefabInstance: {fileID: 4346756020518179533}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4346756020518179535 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2311900943310600011, guid: 00434b27c4049ff44b8969ce8b4dec09, type: 3}
   m_PrefabInstance: {fileID: 4346756020518179533}
   m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
