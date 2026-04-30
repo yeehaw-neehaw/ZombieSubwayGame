@@ -67,8 +67,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Game Is Paused
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2234f5e4bb88ced47a686125acff70b5, type: 2}
-  m_sharedMaterial: {fileID: 5811038355992040212, guid: 2234f5e4bb88ced47a686125acff70b5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f6fa69b06d926c04aa18d4a6c601bd3c, type: 2}
+  m_sharedMaterial: {fileID: 1548016651693222348, guid: f6fa69b06d926c04aa18d4a6c601bd3c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -442,8 +442,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '- f1nd X t1ck3ts!!!'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2234f5e4bb88ced47a686125acff70b5, type: 2}
-  m_sharedMaterial: {fileID: 5811038355992040212, guid: 2234f5e4bb88ced47a686125acff70b5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f6fa69b06d926c04aa18d4a6c601bd3c, type: 2}
+  m_sharedMaterial: {fileID: 1548016651693222348, guid: f6fa69b06d926c04aa18d4a6c601bd3c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -690,8 +690,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Ammo: 14/14'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2234f5e4bb88ced47a686125acff70b5, type: 2}
-  m_sharedMaterial: {fileID: 5811038355992040212, guid: 2234f5e4bb88ced47a686125acff70b5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f6fa69b06d926c04aa18d4a6c601bd3c, type: 2}
+  m_sharedMaterial: {fileID: 1548016651693222348, guid: f6fa69b06d926c04aa18d4a6c601bd3c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1053,8 +1053,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Objectives:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2234f5e4bb88ced47a686125acff70b5, type: 2}
-  m_sharedMaterial: {fileID: 5811038355992040212, guid: 2234f5e4bb88ced47a686125acff70b5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f6fa69b06d926c04aa18d4a6c601bd3c, type: 2}
+  m_sharedMaterial: {fileID: 1548016651693222348, guid: f6fa69b06d926c04aa18d4a6c601bd3c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1204,8 +1204,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: $0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2234f5e4bb88ced47a686125acff70b5, type: 2}
-  m_sharedMaterial: {fileID: 5811038355992040212, guid: 2234f5e4bb88ced47a686125acff70b5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f6fa69b06d926c04aa18d4a6c601bd3c, type: 2}
+  m_sharedMaterial: {fileID: 1548016651693222348, guid: f6fa69b06d926c04aa18d4a6c601bd3c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1569,8 +1569,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '- k!ll them all!! f0r XXs'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2234f5e4bb88ced47a686125acff70b5, type: 2}
-  m_sharedMaterial: {fileID: 5811038355992040212, guid: 2234f5e4bb88ced47a686125acff70b5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f6fa69b06d926c04aa18d4a6c601bd3c, type: 2}
+  m_sharedMaterial: {fileID: 1548016651693222348, guid: f6fa69b06d926c04aa18d4a6c601bd3c, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
