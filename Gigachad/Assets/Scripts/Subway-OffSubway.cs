@@ -34,10 +34,12 @@ public class SubwayOffSubway : MonoBehaviour
             if (PlayerStats.CurrentLevel == 5)
             {
                 SceneManager.LoadScene("WinScreen");
+                EnemyManager.validLevel = false;
             }
             else
             {
                 SceneManager.LoadScene("On Subway");
+                EnemyManager.validLevel = false;
                 PlayerStats.CurrentLevel += 1;
                 TimerText.subwayDoorsOpen = false;
                 AudioManager.Instance.Music[6].Play();
@@ -49,6 +51,7 @@ public class SubwayOffSubway : MonoBehaviour
     {
         if (gameObject.name == "ToStation1" && !PassengerClicked.clicked)
         {
+            EnemyManager.validLevel = true;
             winText.gameObject.SetActive(false);
             TimerText.subwayDoorsOpen = false;
             TicketSpawner.TicketSpawned = false;

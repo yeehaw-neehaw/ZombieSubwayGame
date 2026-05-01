@@ -23,6 +23,9 @@ public class EnemyManager : MonoBehaviour
     public GameObject EnemyDeathAnim;
     Animator anim;
     SpriteRenderer sr;
+    public float voiceCooldown = 10f;
+    public float voiceTimer = 0;
+    public static bool validLevel = true;
 
     void Start()
     {
@@ -53,6 +56,16 @@ public class EnemyManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (voiceTimer < voiceCooldown && validLevel)
+        {
+            voiceTimer += Time.deltaTime;
+        }
+        else if (voiceTimer >= voiceCooldown && validLevel)
+        {
+            voiceTimer = 0;
+            AudioManager.Instance.SFX[17].Play();
+            Debug.Log("Zombie voice played");
+        }
         if (playerPos == null)
         {
             playerPos = GameObject.FindAnyObjectByType<PlayerMovement>().gameObject.transform;
@@ -77,6 +90,7 @@ public class EnemyManager : MonoBehaviour
         {
             enemyHealth -= playerDamage; // enemy health goes down
             AudioManager.Instance.SFX[19].Play();
+            Debug.Log("Zombie hurt sound played");
             if (enemyHealth <= 0)
             {
                 if ((UnityEngine.Random.Range(1,7) == 4) || (WalletManager.WalletPity >= 10)) // 1/8 chance OR if pity reached
