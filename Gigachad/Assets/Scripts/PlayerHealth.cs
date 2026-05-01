@@ -63,7 +63,25 @@ public class PlayerHealthBar : MonoBehaviour
         {
             currentHealth -= 0.1f;
             healthBar.value = currentHealth;
-            anim.SetFloat("currentHealth", currentHealth);
+            // anim.SetFloat("currentHealth", currentHealth);
+
+            if (currentHealth <= 0.2)
+            {
+                anim.SetTrigger("Under20");
+            }
+            else if (currentHealth <= 0.4)
+            {
+                anim.SetTrigger("Under40");
+            }
+            else if (currentHealth <= 0.7)
+            {
+                anim.SetTrigger("Under70");
+            }
+            else if (currentHealth <= 1.0)
+            {
+                anim.SetTrigger("Above70");
+            }
+            Debug.Log(currentHealth);
             damageTimer = 0;
             red = true;
         }
@@ -93,7 +111,24 @@ public class PlayerHealthBar : MonoBehaviour
             AudioManager.Instance.SFX[6].Play();
             currentHealth -= 0.1f;
             healthBar.value = currentHealth;
-            anim.SetFloat("currentHealth", currentHealth);
+            // anim.SetFloat("currentHealth", currentHealth);
+            if (currentHealth <= 0.2)
+            {
+                anim.SetTrigger("Under20");
+            }
+            else if (currentHealth <= 0.4)
+            {
+                anim.SetTrigger("Under40");
+            }
+            else if (currentHealth <= 0.7)
+            {
+                anim.SetTrigger("Under70");
+            }
+            else if (currentHealth <= 1.0)
+            {
+                anim.SetTrigger("Above70");
+            }
+            Debug.Log(currentHealth);
             damaging = true;
             red = true;
         }
