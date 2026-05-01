@@ -18,6 +18,7 @@ public class SceneChanger : MonoBehaviour
         SceneManager.LoadScene(sceneName);
         if (sceneName == "Intro Screen") // resets all stats if game is reset to main menu
         {
+            EnemyManager.validLevel = false;
             PlayerStats.BulletDamage = 2;
             PlayerStats.PlayerCash = 0;
             PlayerStats.ReloadSpeed = 2.5f;
@@ -34,6 +35,7 @@ public class SceneChanger : MonoBehaviour
     {
         AudioManager.Instance.SFX[13].Play();
         SceneManager.LoadScene(sceneName + PlayerStats.CurrentLevel);
+        EnemyManager.validLevel = true;
     }
     public void GameExit()
     {
