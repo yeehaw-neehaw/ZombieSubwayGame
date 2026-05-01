@@ -59,6 +59,7 @@ MonoBehaviour:
   redCooldown: 0.3
   redTimer: 0
   red: 0
+  healthOutline: {fileID: 0}
 --- !u!114 &-3742872688841138357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86,6 +87,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 054ede35aa57e924eb0b48a39bbc31c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathPose: {fileID: 0}
   left: 0
 --- !u!114 &-6543718195929317761
 MonoBehaviour:

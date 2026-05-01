@@ -17,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 MovementInput;
     private float MoveSpeed = PlayerStats.PlayerMovementSpeed;
     private Animator anim;
+    public Sprite deathPose;
     private SpriteRenderer sr;
     private bool updown = false;
     public bool left = false;
@@ -28,14 +29,19 @@ public class PlayerMovement : MonoBehaviour
         sr = GetComponent<SpriteRenderer>();
         //Stops the object being moved from spinning all over the place
         MyRb.freezeRotation = true;
+        anim.SetBool("playerDead", false);
     }
 
     void Update()
     {
         if (!PlayerFire.pauseOn)
         {
-            MovementInput.x = Input.GetAxisRaw("Horizontal");
-            MovementInput.y = Input.GetAxisRaw("Vertical");
+            if (!PlayerHealthBar.playerDead)
+            {
+                MovementInput.x = Input.GetAxisRaw("Horizontal");
+                MovementInput.y = Input.GetAxisRaw("Vertical");
+            }
+            
 
             anim.SetFloat("xVelocity", MovementInput.x);
             anim.SetBool("updown", updown);
@@ -68,6 +74,12 @@ public class PlayerMovement : MonoBehaviour
             if (MovementInput.y == 0 && MovementInput.x == 0)
             {
                 anim.SetBool("Moving", false);
+            }
+            if (PlayerHealthBar.playerDead)
+            {
+                anim.SetBool("playerDead", true);
+                MovementInput.y = 0;
+                MovementInput.x = 0;
             }
         }
     }
