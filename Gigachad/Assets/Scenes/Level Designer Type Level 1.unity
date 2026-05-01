@@ -741,6 +741,10 @@ PrefabInstance:
       propertyPath: ammoVisual
       value: 
       objectReference: {fileID: 1665545813}
+    - target: {fileID: 1391597586627611797, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
+      propertyPath: deathPose
+      value: 
+      objectReference: {fileID: -8160442997944119164, guid: eb7f2d32db4fa6c4491681a3107748ac, type: 3}
     - target: {fileID: 5604905270729558800, guid: 998f101cdeca6d843beba797ccafa42d, type: 3}
       propertyPath: m_Name
       value: Player-Placeholder

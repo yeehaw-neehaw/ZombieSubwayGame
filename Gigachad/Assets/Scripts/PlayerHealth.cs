@@ -27,6 +27,8 @@ public class PlayerHealthBar : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     public GameObject healthOutline;
     private Animator anim;
+    public static bool playerDead;
+    private float deathTimer = 0;
 
     void Start()
     {
@@ -35,12 +37,13 @@ public class PlayerHealthBar : MonoBehaviour
         healthBar.value = currentHealth;
         spriteRenderer = GetComponent<SpriteRenderer>();
         anim = healthOutline.GetComponent<Animator>();
-    }
+        playerDead = false;
+}
 
     void Update()
     {
         anim.SetFloat("currentHealth", currentHealth);
-        if (red && redTimer < redCooldown)
+        if (red && redTimer < redCooldown && !playerDead)
         {
             redTimer += Time.deltaTime;
             spriteRenderer.color = Color.red;
@@ -74,8 +77,13 @@ public class PlayerHealthBar : MonoBehaviour
                     AudioManager.Instance.Music[i].Stop();
                 }
             }
-            SceneManager.LoadScene("Game Over"); // Game over screen loaded upon 0 health
-
+            playerDead = true;
+            red = false;
+            deathTimer += Time.deltaTime;
+            if (deathTimer >= 1f)
+            {
+                SceneManager.LoadScene("Game Over"); // Game over screen loaded upon 0 health
+            }
         }
     }
     void OnCollisionEnter2D(Collision2D collision)
