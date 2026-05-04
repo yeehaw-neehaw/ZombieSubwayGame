@@ -1,0 +1,15 @@
+Patch Notes 5/4/2026
+
+- Commenting scripts
+
+- Put in Digipen splash screen
+
+- Changed the cursor mode to software
+
+- Finalized video implementation using file pathing instead of in editor
+
+- Wallets spawn less frequently
+
+- First names only in credits
+
+- Start button now goes to tutorial instead of intro graphic
