@@ -93,7 +93,7 @@ public class EnemyManager : MonoBehaviour
             Debug.Log("Zombie hurt sound played");
             if (enemyHealth <= 0)
             {
-                if ((UnityEngine.Random.Range(1,7) == 4) || (WalletManager.WalletPity >= 10)) // 1/8 chance OR if pity reached
+                if ((UnityEngine.Random.Range(1,9) == 3) || (WalletManager.WalletPity >= 7)) // 1/8 chance OR if pity reached
                 {
                     Instantiate(walletPrefab, gameObject.transform.position, Quaternion.identity); // spawn wallet
                     WalletManager.WalletPity = 0; // reset pity
