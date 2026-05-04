@@ -1,6 +1,6 @@
 /****************************************************************************
 * File Name: SceneChanger
-* Author: Neha Sankarkumar
+* Author: Neha Sankarkumar, Mikey Chiodo
 * DigiPen Email: neha.sankarkumar@digipen.edu
 * Course: Video Game Programming (Game Projects)
 *
@@ -11,8 +11,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
-{
-    public void ChangeScene(string sceneName) // applies to the start button in the intro menu
+{   
+    // applies to the start button in the intro menu
+    public void ChangeScene(string sceneName) 
     {
         AudioManager.Instance.SFX[13].Play();
         SceneManager.LoadScene(sceneName);
@@ -31,12 +32,16 @@ public class SceneChanger : MonoBehaviour
             PlayerStats.CurrentLevel = 0;
         }
     }
+
+    // if the player dies and restarts level
     public void TryAgainChanger(string sceneName)
     {
         AudioManager.Instance.SFX[13].Play();
         SceneManager.LoadScene(sceneName + PlayerStats.CurrentLevel);
         EnemyManager.validLevel = true;
     }
+    
+    // game is closed
     public void GameExit()
     {
         AudioManager.Instance.SFX[13].Play();

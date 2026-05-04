@@ -1,4 +1,12 @@
-// Updates the part of the objectives bar that says how many tickets are left.
+/****************************************************************************
+* File Name: ObjectiveText.cs
+* Author: Neha Sankarkumar
+* DigiPen Email: neha.sankarkumar@digipen.edu
+* Course: Game Projects
+*
+* Description: Script within every spawned wallet. Manages interaction
+* with player sprite---increments player cash on collection.
+****************************************************************************/
 
 using UnityEngine;
 using UnityEngine.UI;
