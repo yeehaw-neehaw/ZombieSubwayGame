@@ -42,7 +42,9 @@ public class PlayerHealthBar : MonoBehaviour
 
     void Update()
     {
+        //Sets the animation value for animating the health bar
         anim.SetFloat("currentHealth", currentHealth);
+        //When you take damage, turn the player sprite red for a second
         if (red && redTimer < redCooldown && !playerDead)
         {
             redTimer += Time.deltaTime;
@@ -54,17 +56,17 @@ public class PlayerHealthBar : MonoBehaviour
             redTimer = 0;
             red = false;
         }
+        //Sets the players color back to default and provides i frames
         if (damageTimer < damageCooldown && damaging && !red)
         {
             damageTimer += Time.deltaTime;
             spriteRenderer.color = Color.white;
         }
+        //Animates the health bar base don the health
         else if (damageTimer > damageCooldown && damaging && !red)
         {
             currentHealth -= 0.1f;
             healthBar.value = currentHealth;
-            // anim.SetFloat("currentHealth", currentHealth);
-
             if (currentHealth <= 0.2)
             {
                 anim.SetTrigger("Under20");
@@ -85,6 +87,7 @@ public class PlayerHealthBar : MonoBehaviour
             damageTimer = 0;
             red = true;
         }
+        //Controls death effects
         if (currentHealth <= 0)
         {
             AudioManager.Instance.SFX[5].Play();
@@ -106,12 +109,12 @@ public class PlayerHealthBar : MonoBehaviour
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
+        //On entering a collision with the enemy, update health as well as health bar animation
         if (collision.gameObject.CompareTag("Enemy") && !red && !damaging)
         {
             AudioManager.Instance.SFX[6].Play();
             currentHealth -= 0.1f;
             healthBar.value = currentHealth;
-            // anim.SetFloat("currentHealth", currentHealth);
             if (currentHealth <= 0.2)
             {
                 anim.SetTrigger("Under20");
@@ -135,6 +138,7 @@ public class PlayerHealthBar : MonoBehaviour
     }
     void OnCollisionExit2D(Collision2D collision)
     {
+        //On exiting a collision, make sure the player turns back to regular color and is no longer being damaged
         if (collision.gameObject.CompareTag("Enemy"))
         {
             spriteRenderer.color = Color.white;

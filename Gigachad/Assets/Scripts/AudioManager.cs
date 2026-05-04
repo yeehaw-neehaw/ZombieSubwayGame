@@ -1,3 +1,14 @@
+/****************************************************************************
+* File Name: AudioManager.cs
+* Author: Bishep Clous
+* DigiPen Email: bishep.clous@digipen.edu
+* Course: Game Projects
+*
+* Description: Holds the lists of sound effects and music to be played on the
+* different levels
+*
+****************************************************************************/
+
 using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
@@ -16,6 +27,7 @@ public class AudioManager : MonoBehaviour
 
     private void Awake()
     {
+        //If there is not another gameObject of this name, make this gameObject permanent, if there is destroy this and keep the other
         if(Instance == null)
         {
             Instance = this;
@@ -33,7 +45,7 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    //this was written by the audio student please dont hurt me, checks if the level is not intro and stops intro music
+    //Checks if the level is not intro and stops intro music
     private void Update()
     {
         if (SceneManager.GetActiveScene().name == "Intro Screen" && !introScreen)

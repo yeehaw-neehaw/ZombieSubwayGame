@@ -91,7 +91,7 @@ public class TicketSpawner : MonoBehaviour
             TicketsCreated += 1; // more tix created
             TicketSpawned = true; // the current ticket HAS spawned -- prevents infinite cloning
         }
-
+        //Not used anymore, but other things depend on this and it is too late to remove
         if (PlayerStats.TicketsCollected >= PlayerStats.TicketsNeeded)
         {
             winText.gameObject.SetActive(true);

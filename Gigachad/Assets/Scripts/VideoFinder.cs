@@ -1,3 +1,13 @@
+/****************************************************************************
+* File Name: VideoFinder.cs
+* Author: Michael Chiodo
+* DigiPen Email: michael.chiodo@digipen.edu
+* Course: Game Projects
+*
+* Description: Finds and applies videos to be played so they work in the WebGL
+*
+****************************************************************************/
+
 using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.SceneManagement;
@@ -10,14 +20,17 @@ public class VideoFinder : MonoBehaviour
     void Start()
     {
         currentScene = SceneManager.GetActiveScene();
+        //Title video
         if (currentScene.name == "Intro Screen")
         {
             videoPlayer.url = System.IO.Path.Combine(Application.streamingAssetsPath, "Gigachad_Title_Animation_Final.mp4");
         }
+        //Game over video
         else if (currentScene.name == "Game Over")
         {
             videoPlayer.url = System.IO.Path.Combine(Application.streamingAssetsPath, "Death Scene.mp4");
         }
+        //Subway background video
         else if (currentScene.name == "On Subway")
         {
             videoPlayer.url = System.IO.Path.Combine(Application.streamingAssetsPath, "Gigachad_Subway_Interior_Placeholder_Animated.mp4");

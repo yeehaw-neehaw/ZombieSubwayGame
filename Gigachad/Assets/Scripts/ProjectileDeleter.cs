@@ -20,17 +20,20 @@ public class ProjectileDeleter : MonoBehaviour
     void Start()
     {
         myRb = GetComponent<Rigidbody2D>();
+        //Tells the SubwayOffSubway script to reset deletion
         SubwayOffSubway.hasDeleted = false;
         ricochetPower = PlayerStats.RicochetLevel;
     }
 
     void Update()
     {
+        //Setting the velocity of the projectile
         gameObject.GetComponent<Rigidbody2D>().linearVelocity = new Vector2(Mathf.Clamp(myRb.linearVelocity.x, -10, 10), Mathf.Clamp(myRb.linearVelocity.y, -10, 10));
         gameObject.transform.Rotate(0f, 0f, rotationSpeed * Time.deltaTime);
     }
     void OnCollisionEnter2D(Collision2D collision)
     {
+        //When colliding with anything, start a particle effect and decrement ricochet power
         if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Wall") || collision.gameObject.CompareTag("Player"))
         {
             ParticleSystem OnHitParticles = Instantiate(particleSystem, gameObject.transform.position, Quaternion.Euler(0,0,0));

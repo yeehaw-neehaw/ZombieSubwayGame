@@ -34,6 +34,7 @@ public class SubwayTimer : MonoBehaviour
             TicketSpawner.TicketSpawned = false;
             EnemySpawning.NoMoreTickets = false;
             EnemyManager.validLevel = true;
+            //Depending on which level you are going into, change the music
             if (PlayerStats.CurrentLevel == 1)
             {
                 AudioManager.Instance.Music[6].Stop();
