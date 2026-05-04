@@ -14,7 +14,7 @@ using TMPro;
 
 public class ObjectiveText : MonoBehaviour
 {
-    public TMP_Text WrittenObjectives;
+    public TMP_Text WrittenObjectives; // the textbox
 
     // Start is called before the first frame update
     void Start()
