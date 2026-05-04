@@ -39,14 +39,16 @@ public class PlayerFire : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Setting ammo text
         ammoVisual.text = "Ammo: " + currentbullets.ToString() + "/" + maxbullets.ToString();
-
+        //If pressing r, do a manual reload
         if (Input.GetKeyDown(KeyCode.R) && currentbullets > 0 && currentbullets < 20)
         {
             AudioManager.Instance.SFX[1].Play();
             currentbullets = 0;
             reloadElapsedTime += Time.deltaTime;
-        }    
+        }
+        //Reload the magazine if player has no bullets
         else if (currentbullets <= 0)
         {
             reloadElapsedTime += Time.deltaTime;
@@ -56,12 +58,14 @@ public class PlayerFire : MonoBehaviour
                 reloadElapsedTime = 0;
             }
         }
+        //Handling fire rate
         else if (timer < cooldown)
         {
             timer += Time.deltaTime;
         }
         else if (Input.GetMouseButton(0))
         {
+            //Shoot the gun by calling the shoot function
             AudioManager.Instance.SFX[2].Play();
             anim.SetBool("Shooting", true);
             startShootTimer = true;
@@ -73,6 +77,7 @@ public class PlayerFire : MonoBehaviour
             timer = 0;
             currentbullets--;
         }
+        //Pauses the game on pressing escape
         if (Input.GetKeyDown(KeyCode.Escape) && !pauseOn)
         {
             Time.timeScale = 0;
@@ -85,6 +90,7 @@ public class PlayerFire : MonoBehaviour
             pauseOn = false;
             pauseText.gameObject.SetActive(false);
         }
+        //Handling shooting animation times
         if (startShootTimer && shootAnimTimer < shootAnimCooldown)
         {
             shootAnimTimer += Time.deltaTime;
@@ -99,7 +105,7 @@ public class PlayerFire : MonoBehaviour
 
     void Fire(Vector3 direction)
     {
-        //create a clone of the prefab and set values
+        //fire a projectile in the direction of the mouse
         Vector3 spawnPos = transform.position + direction;
         GameObject bullet = Instantiate(bulletPrefab, spawnPos, Quaternion.LookRotation(Vector3.forward, direction));
         bullet.GetComponent<Rigidbody2D>().linearVelocity = direction * bulletSpeed;

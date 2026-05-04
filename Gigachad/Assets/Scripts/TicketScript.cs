@@ -25,6 +25,7 @@ public class TicketScript : MonoBehaviour
     }
     void Update()
     {
+        //If there should be no more tickets, make sure there are none
         if (EnemySpawning.NoMoreTickets)
         {
             AudioManager.Instance.SFX[9].Play();

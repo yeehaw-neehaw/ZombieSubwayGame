@@ -1,5 +1,5 @@
 /****************************************************************************
-* File Name: PassengerClicked.c
+* File Name: PassengerClicked.cs
 * Author: Michael Chiodo
 * DigiPen Email: michael.chiodo@digipen.edu
 * Course: Game Projects
@@ -33,7 +33,7 @@ public class PassengerClicked : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        //Checks for each different passenger in the case they are clicked
+        //Checks for each different passenger in the case they are clicked, and if they are set all of the proper things active
         if (gameObject.name == "Passenger1" && !clicked)
         {
             AudioManager.Instance.SFX[13].Play();
@@ -87,7 +87,7 @@ public class PassengerClicked : MonoBehaviour
     }
     void OnButtonClick()
     {
-        /*if (gameObject.name == "Passenger whatever")"
+        /*if (gameObject.name == "Passenger whatever" && have enough money)"
         {
             increment/decrement one of the upgrade variables
         }*/

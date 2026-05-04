@@ -16,8 +16,8 @@ using UnityEngine.SceneManagement;
 
 public class EnemySpawning : MonoBehaviour
 {
-    private float timer = 2.2f;
-    private float countdown = 0f;
+    private float timer = 2.2f; //for enemy spawning
+    private float countdown = 0f; //for enemy spawning
     private int spawnX;
     private float spawnY;
     public GameObject enemyPrefab;
@@ -36,6 +36,7 @@ public class EnemySpawning : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Setting the spawn coordinates for enemies
         levelCountdown += Time.deltaTime;
         if (Random.Range(1, 3) == 1 && PlayerStats.CurrentLevel != 5)
         {
@@ -56,7 +57,6 @@ public class EnemySpawning : MonoBehaviour
             }
             
         }
-        
         if (countdown >= timer && levelCountdown < levelTimer && EnemiesAlive <= 15)
         {
             //Instantiates a new enemy at a set y coordinate

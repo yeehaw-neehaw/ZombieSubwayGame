@@ -1,3 +1,13 @@
+/****************************************************************************
+* File Name: CursorSetter.c
+* Author: Michael Chiodo
+* DigiPen Email: michael.chiodo@digipen.edu
+* Course: Game Projects
+*
+* Description: Sets the type of cursor such that it is consistently sized
+*
+****************************************************************************/
+
 using UnityEngine;
 
 public class CursorSetter : MonoBehaviour

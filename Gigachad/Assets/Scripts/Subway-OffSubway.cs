@@ -17,12 +17,12 @@ public class SubwayOffSubway : MonoBehaviour
     public GameObject winText;
     public GameObject[] gameObjects;
     public static bool hasDeleted = false;
-    //private int passengerDecrementer = 0;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (gameObject.name == "ToSubway" && TimerText.subwayDoorsOpen && collision.gameObject.CompareTag("Player"))
         {
+            //Stopping level music
             for (int i = 0; i < 5; i++)
             {
                 if (PlayerStats.CurrentLevel - 1 == i)
@@ -30,12 +30,14 @@ public class SubwayOffSubway : MonoBehaviour
                     AudioManager.Instance.Music[i].Stop();
                 }
             }
+            //If they are on level 5, send to winscreen instead of subway
             AudioManager.Instance.Music[0].Stop();
             if (PlayerStats.CurrentLevel == 5)
             {
                 SceneManager.LoadScene("WinScreen");
                 EnemyManager.validLevel = false;
             }
+            //Regularly send them to subway and make sure to stop zombie sounds
             else
             {
                 SceneManager.LoadScene("On Subway");
@@ -56,6 +58,7 @@ public class SubwayOffSubway : MonoBehaviour
             TimerText.subwayDoorsOpen = false;
             TicketSpawner.TicketSpawned = false;
             EnemySpawning.NoMoreTickets = false;
+            //Depending on the level, play different musics
             if (PlayerStats.CurrentLevel == 1)
             {
                 AudioManager.Instance.Music[6].Stop();
@@ -90,33 +93,7 @@ public class SubwayOffSubway : MonoBehaviour
     }
     void Update()
     {
-        /*
-        if (gameObject.name == "ToStation1" && !hasDeleted && PlayerStats.CurrentLevel > 1)
-        {
-            if (PlayerStats.PassengerCount < 5)
-            {
-                Debug.Log("Passenger count is " + PlayerStats.PassengerCount);
-                int amountOfPassengersToDelete = 5 - PlayerStats.PassengerCount;
-                for (int j = 0; j < amountOfPassengersToDelete; j++) 
-                {
-                    Debug.Log("Passenger has been redeleted");
-                    Destroy(gameObjects[j]);
-                }
-            }
-            if ((PlayerStats.TicketsCollected - 1) < PlayerStats.PassengerCount)
-            {
-                for (int i = 0; i < 5 - (PlayerStats.TicketsCollected - 1); i++)
-                {
-                    Debug.Log("Passenger" + (i));
-                    Destroy(gameObjects[i]);
-                    passengerDecrementer++;
-                }
-                PlayerStats.PassengerCount -= passengerDecrementer;
-                Debug.Log("Passenger Count: " + PlayerStats.PassengerCount);
-                hasDeleted = true;
-            }
-        }
-        */
+        //Make sure to destroy all passengers that should be destroyed
         if (gameObject.name == "ToStation1" && !hasDeleted && PlayerStats.CurrentLevel > 1)
         {
             PlayerStats.PassengerCount = PlayerStats.TicketsCollected - 1;

@@ -34,15 +34,17 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        //As long as its not paused, initiate animation protocols
         if (!PlayerFire.pauseOn)
         {
+            //Setting movement if not dead
             if (!PlayerHealthBar.playerDead)
             {
                 MovementInput.x = Input.GetAxisRaw("Horizontal");
                 MovementInput.y = Input.GetAxisRaw("Vertical");
             }
             
-
+            //Setting anim floats and flipping sprite into correct positions for animation
             anim.SetFloat("xVelocity", MovementInput.x);
             anim.SetBool("updown", updown);
             anim.SetFloat("yVelocity", MovementInput.y);
@@ -75,6 +77,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 anim.SetBool("Moving", false);
             }
+            //Animating player death
             if (PlayerHealthBar.playerDead)
             {
                 anim.SetBool("playerDead", true);

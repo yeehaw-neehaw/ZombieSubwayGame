@@ -1,3 +1,14 @@
+/****************************************************************************
+* File Name: SubwayMovement.cs
+* Author: Neha Sankarkumar
+* DigiPen Email: neha.sankarkumar@digipen.edu
+* Course: Game Projects
+*
+* Description: Controls the movement of the (invisible) gameobject on the 
+* subway which the camera follows.
+*
+****************************************************************************/
+
 using UnityEngine;
 
 public class SubwayMovement : MonoBehaviour

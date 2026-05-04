@@ -1,7 +1,7 @@
 /****************************************************************************
 * File Name: EnemyManager.c
-* Author: Michael Chiodo
-* DigiPen Email: michael.chiodo@digipen.edu
+* Author: Michael Chiodo, Neha Sankarkumar
+* DigiPen Email: michael.chiodo@digipen.edu, neha.sankarkumar@digipen.edu
 * Course: Game Projects
 *
 * Description: Instructs anything this script is attached to to follow after
@@ -29,6 +29,7 @@ public class EnemyManager : MonoBehaviour
 
     void Start()
     {
+        //Dictating enemy health scaling based on the level
         if (PlayerStats.CurrentLevel == 1)
         {
             enemyHealth = 4f;
@@ -56,6 +57,7 @@ public class EnemyManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Zombie voice noise timing, classical timer system
         if (voiceTimer < voiceCooldown && validLevel)
         {
             voiceTimer += Time.deltaTime;
@@ -64,16 +66,18 @@ public class EnemyManager : MonoBehaviour
         {
             voiceTimer = 0;
             AudioManager.Instance.SFX[17].Play();
-            Debug.Log("Zombie voice played");
         }
+        //If the target is not set for the enemy to follow, find the players transform again
         if (playerPos == null)
         {
             playerPos = GameObject.FindAnyObjectByType<PlayerMovement>().gameObject.transform;
         }
+        //Moving the enemy towards the player
         myRb = gameObject.GetComponent<Rigidbody2D>();
         direction = playerPos.position - transform.position;
         myRb.linearVelocity = direction * followSpeed;
         anim.SetFloat("xVelocity",myRb.linearVelocity.x);
+        //Animation purposes of flipping the sprite
         if (myRb.linearVelocity.x < 0)
         {
             sr.flipX = true;
