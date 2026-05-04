@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: 129dff2ce4d14ba4ab7242c48eeb2bc0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3946302328290422050
+    second: Gigachad_Tutorial4_0
+  - first:
+      213: -806426411515665225
+    second: Gigachad_Tutorial4_1
+  - first:
+      213: -7591825641483057219
+    second: Gigachad_Tutorial4_2
+  - first:
+      213: 8984772704430533017
+    second: Gigachad_Tutorial4_3
+  - first:
+      213: 1049819814790383330
+    second: Gigachad_Tutorial4_4
+  - first:
+      213: 203553274632894741
+    second: Gigachad_Tutorial4_5
+  - first:
+      213: 199905153061157812
+    second: Gigachad_Tutorial4_6
+  - first:
+      213: -7970162763929887486
+    second: Gigachad_Tutorial4_7
+  - first:
+      213: -6801538887756446962
+    second: Gigachad_Tutorial4_8
+  - first:
+      213: -6045284160220815173
+    second: Gigachad_Tutorial4_9
+  - first:
+      213: 6287548869569121013
+    second: Gigachad_Tutorial4_10
+  - first:
+      213: 7470942143645661594
+    second: Gigachad_Tutorial4_11
+  - first:
+      213: -6284360246236325860
+    second: Gigachad_Tutorial4_12
+  - first:
+      213: -7758549559646081495
+    second: Gigachad_Tutorial4_13
+  - first:
+      213: -7752617434807416394
+    second: Gigachad_Tutorial4_14
+  - first:
+      213: -217182598519578052
+    second: Gigachad_Tutorial4_15
+  - first:
+      213: -5860879151753650889
+    second: Gigachad_Tutorial4_16
+  - first:
+      213: 500597021488479724
+    second: Gigachad_Tutorial4_17
+  - first:
+      213: -5222057000241058504
+    second: Gigachad_Tutorial4_18
+  - first:
+      213: 5706012463683638371
+    second: Gigachad_Tutorial4_19
+  - first:
+      213: -5584162497005348974
+    second: Gigachad_Tutorial4_20
+  - first:
+      213: 7321403315706317287
+    second: Gigachad_Tutorial4_21
+  - first:
+      213: -8029353507756011240
+    second: Gigachad_Tutorial4_22
+  - first:
+      213: 5667526316711649697
+    second: Gigachad_Tutorial4_23
+  - first:
+      213: -2569510716252941222
+    second: Gigachad_Tutorial4_24
+  - first:
+      213: -2037169924292145331
+    second: Gigachad_Tutorial4_25
+  - first:
+      213: -6870815242349118695
+    second: Gigachad_Tutorial4_26
+  - first:
+      213: -8210574871587240891
+    second: Gigachad_Tutorial4_27
+  - first:
+      213: 1144335003645665129
+    second: Gigachad_Tutorial4_28
+  - first:
+      213: 9158814492533926399
+    second: Gigachad_Tutorial4_29
+  - first:
+      213: -7436476016704802975
+    second: Gigachad_Tutorial4_30
+  - first:
+      213: 5936765435988692585
+    second: Gigachad_Tutorial4_31
+  - first:
+      213: -680818403007834508
+    second: Gigachad_Tutorial4_32
+  - first:
+      213: -539945764509371595
+    second: Gigachad_Tutorial4_33
+  - first:
+      213: -5718561936399574744
+    second: Gigachad_Tutorial4_34
+  - first:
+      213: 399223783842725996
+    second: Gigachad_Tutorial4_35
+  - first:
+      213: -7012760248025096962
+    second: Gigachad_Tutorial4_36
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 337
+        width: 188
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d2c062f0514c630800000000000000
+      internalID: 3946302328290422050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_1
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 324
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4ad1c837ffec4f0800000000000000
+      internalID: -806426411515665225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_2
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 343
+        width: 199
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db743b26dca64a690800000000000000
+      internalID: -7591825641483057219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_3
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 334
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999253bdb2350bc70800000000000000
+      internalID: 8984772704430533017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_4
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 323
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e64fb23f85b19e00800000000000000
+      internalID: 1049819814790383330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_5
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 244
+        width: 93
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5197c53ff9a23d200800000000000000
+      internalID: 203553274632894741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_6
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 266
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbfaf47da436c200800000000000000
+      internalID: 199905153061157812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_7
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 315
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20dd9e5a13b446190800000000000000
+      internalID: -7970162763929887486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_8
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 270
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e03854dea641c91a0800000000000000
+      internalID: -6801538887756446962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_9
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 263
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb02eb7e516da1ca0800000000000000
+      internalID: -6045284160220815173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_10
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 191
+        width: 84
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa839e426cd14750800000000000000
+      internalID: 6287548869569121013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_11
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 174
+        width: 128
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99be710c4e1ea760800000000000000
+      internalID: 7470942143645661594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_12
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 276
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c185f7ae6a779c8a0800000000000000
+      internalID: -6284360246236325860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_13
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 265
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e28053848145490800000000000000
+      internalID: -7758549559646081495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_14
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 228
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9cdc6a48b296490800000000000000
+      internalID: -7752617434807416394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 257
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3228dbc3996cfcf0800000000000000
+      internalID: -217182598519578052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_16
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 256
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d1b38b679f9aea0800000000000000
+      internalID: -5860879151753650889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_17
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 234
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced7079b65a72f600800000000000000
+      internalID: 500597021488479724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_18
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 227
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d2acf63d68787b0800000000000000
+      internalID: -5222057000241058504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_19
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 224
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36490dd9a14df2f40800000000000000
+      internalID: 5706012463683638371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_20
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 226
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29710fd8bc11182b0800000000000000
+      internalID: -5584162497005348974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_21
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 241
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9ca027689da9560800000000000000
+      internalID: 7321403315706317287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_22
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 195
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8119a2aa681029090800000000000000
+      internalID: -8029353507756011240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_23
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 196
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1a6ce382917ae40800000000000000
+      internalID: 5667526316711649697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_24
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 196
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a541f2f0e93475cd0800000000000000
+      internalID: -2569510716252941222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_25
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 81
+        width: 152
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f057b4fb48ab3e0800000000000000
+      internalID: -2037169924292145331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_26
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 212
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91bf072b0f5f5a0a0800000000000000
+      internalID: -6870815242349118695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_27
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 194
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5444b41e7ad2e0e80800000000000000
+      internalID: -8210574871587240891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_28
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 66
+        width: 151
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f58547f9e71ef00800000000000000
+      internalID: 1144335003645665129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_29
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 93
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff92f276145aa1f70800000000000000
+      internalID: 9158814492533926399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_30
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 156
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f299386745cc890800000000000000
+      internalID: -7436476016704802975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_31
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 163
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e4ceea5b0a36250800000000000000
+      internalID: 5936765435988692585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_32
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 125
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4765b24054f3d86f0800000000000000
+      internalID: -680818403007834508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_33
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 114
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533317c103ab188f0800000000000000
+      internalID: -539945764509371595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_34
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 56
+        width: 65
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82955d2973693a0b0800000000000000
+      internalID: -5718561936399574744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_35
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 78
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6045dd8ae35a8500800000000000000
+      internalID: 399223783842725996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gigachad_Tutorial4_36
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 46
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efcdb79a5bbadae90800000000000000
+      internalID: -7012760248025096962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gigachad_Tutorial4_0: 3946302328290422050
+      Gigachad_Tutorial4_1: -806426411515665225
+      Gigachad_Tutorial4_10: 6287548869569121013
+      Gigachad_Tutorial4_11: 7470942143645661594
+      Gigachad_Tutorial4_12: -6284360246236325860
+      Gigachad_Tutorial4_13: -7758549559646081495
+      Gigachad_Tutorial4_14: -7752617434807416394
+      Gigachad_Tutorial4_15: -217182598519578052
+      Gigachad_Tutorial4_16: -5860879151753650889
+      Gigachad_Tutorial4_17: 500597021488479724
+      Gigachad_Tutorial4_18: -5222057000241058504
+      Gigachad_Tutorial4_19: 5706012463683638371
+      Gigachad_Tutorial4_2: -7591825641483057219
+      Gigachad_Tutorial4_20: -5584162497005348974
+      Gigachad_Tutorial4_21: 7321403315706317287
+      Gigachad_Tutorial4_22: -8029353507756011240
+      Gigachad_Tutorial4_23: 5667526316711649697
+      Gigachad_Tutorial4_24: -2569510716252941222
+      Gigachad_Tutorial4_25: -2037169924292145331
+      Gigachad_Tutorial4_26: -6870815242349118695
+      Gigachad_Tutorial4_27: -8210574871587240891
+      Gigachad_Tutorial4_28: 1144335003645665129
+      Gigachad_Tutorial4_29: 9158814492533926399
+      Gigachad_Tutorial4_3: 8984772704430533017
+      Gigachad_Tutorial4_30: -7436476016704802975
+      Gigachad_Tutorial4_31: 5936765435988692585
+      Gigachad_Tutorial4_32: -680818403007834508
+      Gigachad_Tutorial4_33: -539945764509371595
+      Gigachad_Tutorial4_34: -5718561936399574744
+      Gigachad_Tutorial4_35: 399223783842725996
+      Gigachad_Tutorial4_36: -7012760248025096962
+      Gigachad_Tutorial4_4: 1049819814790383330
+      Gigachad_Tutorial4_5: 203553274632894741
+      Gigachad_Tutorial4_6: 199905153061157812
+      Gigachad_Tutorial4_7: -7970162763929887486
+      Gigachad_Tutorial4_8: -6801538887756446962
+      Gigachad_Tutorial4_9: -6045284160220815173
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
